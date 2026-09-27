@@ -1,0 +1,3001 @@
+food_type,temperature_c,humidity_percent,days_since_packaging,packaging_material,storage_condition,expected_shelf_life_days,spoilage_risk,remaining_shelf_life_days
+Milk,20.2,35.2,6,Kraft Paper,Refrigerated,7,Warning,0
+Paneer,13.5,94.7,9,Glass Container,Refrigerated,7,High Risk,0
+Yogurt,8.9,45.7,19,Vacuum Pack,Room Temperature,14,High Risk,0
+Curd,8.0,83.5,14,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Milk,34.9,77.3,10,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,23.7,83.4,3,Glass Container,Refrigerated,10,Warning,5.8
+Cheese,28.2,86.1,4,Kraft Paper,Refrigerated,30,High Risk,24.2
+Butter,4.3,50.6,34,Cellulose Film,Room Temperature,60,High Risk,24.2
+Curd,28.7,47.6,14,Cellulose Film,Refrigerated,10,High Risk,0
+Curd,26.5,81.5,7,Vacuum Pack,Room Temperature,10,High Risk,1.2
+Butter,5.4,57.1,59,PLA Film,Room Temperature,60,High Risk,0
+Paneer,34.5,82.2,7,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Milk,33.5,91.7,8,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Milk,3.2,35.0,4,PLA Film,Room Temperature,7,Warning,1.8
+Butter,33.3,63.6,55,Cellulose Film,Refrigerated,60,High Risk,3.2
+Curd,19.0,44.0,9,Cellulose Film,Room Temperature,10,High Risk,0
+Paneer,15.4,35.1,8,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,9.8,39.3,4,Cellulose Film,Room Temperature,14,Warning,8.5
+Curd,13.8,46.8,8,PLA Film,Room Temperature,10,High Risk,0
+Butter,6.6,58.9,21,Glass Container,Room Temperature,60,Warning,38.1
+Paneer,3.7,46.2,12,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,7.3,57.9,9,PLA Film,Refrigerated,7,High Risk,0
+Yogurt,34.1,82.2,3,Glass Container,Refrigerated,14,Warning,9.8
+Butter,5.7,80.5,30,Moulded Bagasse Pulp,Refrigerated,60,Warning,28.8
+Yogurt,34.5,42.3,17,Glass Container,Refrigerated,14,High Risk,0
+Paneer,21.5,68.6,12,Cellulose Film,Refrigerated,7,High Risk,0
+Cheese,12.1,92.8,10,Moulded Bagasse Pulp,Refrigerated,30,Warning,18.5
+Paneer,11.0,78.6,7,PLA Film,Room Temperature,7,High Risk,0
+Cheese,25.2,38.5,12,Vacuum Pack,Room Temperature,30,Warning,17.1
+Butter,3.6,82.5,45,Kraft Paper,Refrigerated,60,Warning,13.8
+Paneer,13.0,38.9,9,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,12.0,81.1,34,Glass Container,Room Temperature,60,Warning,24.5
+Butter,12.9,37.0,12,Kraft Paper,Refrigerated,60,Safe,47.4
+Cheese,28.5,67.4,20,Moulded Bagasse Pulp,Refrigerated,30,Warning,8.8
+Milk,19.7,74.2,10,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Curd,7.2,36.9,5,PLA Film,Room Temperature,10,Warning,3.5
+Cheese,25.3,41.8,17,Cellulose Film,Room Temperature,30,Warning,11.5
+Paneer,29.4,66.1,7,PLA Film,Refrigerated,7,High Risk,0
+Butter,27.7,36.1,42,PLA Film,Room Temperature,60,Warning,16.8
+Yogurt,33.6,37.9,17,Vacuum Pack,Refrigerated,14,High Risk,0
+Butter,7.0,94.4,43,Vacuum Pack,Room Temperature,60,High Risk,14.9
+Milk,7.2,38.5,2,PLA Film,Room Temperature,7,Warning,3.8
+Milk,18.9,54.1,6,Kraft Paper,Refrigerated,7,Warning,0
+Curd,11.2,64.7,3,Glass Container,Refrigerated,10,Safe,6.4
+Yogurt,14.5,61.4,6,Cellulose Film,Room Temperature,14,Warning,6.5
+Paneer,20.3,63.2,5,Moulded Bagasse Pulp,Refrigerated,7,Warning,1.1
+Milk,7.5,82.5,8,PLA Film,Room Temperature,7,High Risk,0
+Yogurt,20.1,84.4,18,Kraft Paper,Room Temperature,14,High Risk,0
+Curd,12.5,52.7,5,Moulded Bagasse Pulp,Refrigerated,10,Warning,3.8
+Milk,26.1,89.2,4,Moulded Bagasse Pulp,Refrigerated,7,Warning,1.5
+Curd,24.0,79.2,2,Glass Container,Room Temperature,10,Warning,7.1
+Milk,23.5,89.4,7,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,30.8,36.8,2,Cellulose Film,Room Temperature,7,Warning,3.8
+Milk,32.9,82.8,11,Cellulose Film,Room Temperature,7,High Risk,0
+Cheese,17.0,79.7,7,PLA Film,Room Temperature,30,Warning,21.5
+Yogurt,34.8,88.6,14,Glass Container,Room Temperature,14,High Risk,0
+Yogurt,6.7,72.1,15,Glass Container,Refrigerated,14,Warning,0
+Paneer,4.8,48.0,2,Kraft Paper,Refrigerated,7,Safe,4.7
+Butter,33.5,81.0,50,Kraft Paper,Room Temperature,60,High Risk,7.3
+Paneer,5.3,72.7,12,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,12.0,55.0,38,Cellulose Film,Room Temperature,60,Warning,20.8
+Yogurt,33.4,58.4,14,PLA Film,Room Temperature,14,High Risk,0
+Cheese,32.5,70.7,6,Vacuum Pack,Refrigerated,30,Warning,23.1
+Curd,27.6,75.4,2,Vacuum Pack,Refrigerated,10,Warning,6.8
+Cheese,7.6,35.0,17,PLA Film,Room Temperature,30,Warning,11.8
+Cheese,28.6,61.9,0,Cellulose Film,Refrigerated,30,Warning,29.1
+Yogurt,31.6,39.1,11,Glass Container,Room Temperature,14,High Risk,1.2
+Cheese,4.3,40.3,15,Cellulose Film,Room Temperature,30,Warning,13.5
+Milk,2.5,46.1,5,Kraft Paper,Refrigerated,7,Safe,1.7
+Paneer,30.0,85.0,12,Cellulose Film,Refrigerated,7,High Risk,0
+Cheese,22.2,36.1,29,Glass Container,Room Temperature,30,Warning,0
+Yogurt,7.4,72.1,6,PLA Film,Refrigerated,14,Safe,7.4
+Milk,8.2,42.4,12,Vacuum Pack,Room Temperature,7,High Risk,0
+Curd,34.7,53.9,5,Glass Container,Room Temperature,10,Warning,4.1
+Butter,24.4,64.0,28,Vacuum Pack,Refrigerated,60,Safe,31.4
+Yogurt,9.6,72.3,9,Kraft Paper,Room Temperature,14,High Risk,3.2
+Curd,18.6,47.9,11,Kraft Paper,Room Temperature,10,High Risk,0
+Yogurt,22.9,90.3,6,Cellulose Film,Refrigerated,14,Warning,6.8
+Yogurt,4.9,69.9,3,Vacuum Pack,Refrigerated,14,Safe,11.3
+Cheese,28.8,48.8,33,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Cheese,23.2,93.3,9,Moulded Bagasse Pulp,Refrigerated,30,Warning,19.5
+Curd,24.1,62.6,12,Vacuum Pack,Refrigerated,10,High Risk,0
+Paneer,18.2,54.4,1,Vacuum Pack,Refrigerated,7,Safe,5.4
+Paneer,12.1,62.7,4,Moulded Bagasse Pulp,Refrigerated,7,Warning,1.8
+Yogurt,6.3,49.9,4,Moulded Bagasse Pulp,Refrigerated,14,Safe,9.4
+Cheese,12.7,36.3,30,Cellulose Film,Room Temperature,30,High Risk,0
+Milk,15.1,62.4,8,Cellulose Film,Refrigerated,7,High Risk,0
+Paneer,17.7,71.6,8,Vacuum Pack,Refrigerated,7,High Risk,0
+Curd,28.7,78.1,4,PLA Film,Room Temperature,10,High Risk,4.2
+Curd,2.7,89.9,8,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Butter,19.2,70.0,2,Moulded Bagasse Pulp,Room Temperature,60,Warning,56.5
+Paneer,2.9,91.3,1,Kraft Paper,Room Temperature,7,High Risk,4.2
+Curd,13.3,78.3,10,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Cheese,3.3,44.7,3,Moulded Bagasse Pulp,Refrigerated,30,Safe,27.0
+Yogurt,15.2,38.1,14,Cellulose Film,Room Temperature,14,High Risk,0
+Milk,18.0,64.6,0,Vacuum Pack,Refrigerated,7,Safe,6.7
+Paneer,24.4,67.6,5,Cellulose Film,Room Temperature,7,High Risk,0
+Butter,31.0,62.8,8,Moulded Bagasse Pulp,Room Temperature,60,Warning,50.8
+Paneer,9.0,93.0,5,Kraft Paper,Refrigerated,7,Warning,0.5
+Cheese,20.6,78.3,15,Vacuum Pack,Room Temperature,30,Warning,13.5
+Cheese,3.6,76.8,4,Kraft Paper,Room Temperature,30,Warning,24.5
+Curd,8.0,60.3,7,Glass Container,Refrigerated,10,Safe,3.0
+Butter,25.6,94.2,8,PLA Film,Room Temperature,60,High Risk,50.2
+Curd,19.3,43.2,5,Kraft Paper,Room Temperature,10,Warning,3.5
+Curd,30.0,38.3,5,Glass Container,Refrigerated,10,Safe,4.4
+Yogurt,29.5,42.7,19,PLA Film,Refrigerated,14,High Risk,0
+Milk,17.6,40.5,10,PLA Film,Refrigerated,7,High Risk,0
+Paneer,26.2,72.6,0,Moulded Bagasse Pulp,Room Temperature,7,Warning,5.5
+Milk,5.9,80.6,4,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0.6
+Curd,28.9,84.6,9,Cellulose Film,Refrigerated,10,High Risk,0
+Curd,12.2,63.7,1,PLA Film,Refrigerated,10,Warning,8.1
+Paneer,9.0,48.7,0,PLA Film,Room Temperature,7,Warning,5.8
+Paneer,13.7,52.1,4,PLA Film,Room Temperature,7,High Risk,1.2
+Yogurt,9.3,37.8,7,Cellulose Film,Refrigerated,14,Warning,5.8
+Cheese,10.6,59.0,32,PLA Film,Room Temperature,30,High Risk,0
+Milk,14.7,93.7,7,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,8.0,57.0,10,Kraft Paper,Refrigerated,30,Safe,19.7
+Milk,25.6,69.9,1,Vacuum Pack,Refrigerated,7,Safe,5.4
+Paneer,22.5,64.7,11,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,4.5,94.6,6,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,7.9,92.4,4,Glass Container,Refrigerated,7,Warning,1.8
+Cheese,11.6,55.8,28,Kraft Paper,Room Temperature,30,High Risk,0.2
+Butter,26.7,82.4,65,Vacuum Pack,Refrigerated,60,High Risk,0
+Paneer,28.2,49.0,8,Cellulose Film,Refrigerated,7,High Risk,0
+Paneer,28.0,36.9,3,PLA Film,Room Temperature,7,Warning,2.8
+Paneer,28.9,88.3,5,PLA Film,Refrigerated,7,Warning,0.5
+Paneer,10.0,75.7,9,Glass Container,Refrigerated,7,High Risk,0
+Butter,3.2,44.5,15,Vacuum Pack,Refrigerated,60,Safe,45.3
+Butter,18.7,40.2,63,Cellulose Film,Room Temperature,60,High Risk,0
+Cheese,2.6,85.5,30,Glass Container,Room Temperature,30,High Risk,0
+Butter,17.1,47.1,61,Cellulose Film,Refrigerated,60,High Risk,0
+Cheese,3.4,68.1,20,Glass Container,Refrigerated,30,Safe,9.7
+Cheese,24.8,56.8,13,Glass Container,Refrigerated,30,Safe,16.4
+Yogurt,12.0,62.1,8,Cellulose Film,Room Temperature,14,Warning,4.8
+Paneer,5.0,76.8,11,Glass Container,Refrigerated,7,High Risk,0
+Cheese,19.5,48.2,28,Glass Container,Refrigerated,30,Warning,0.8
+Curd,25.9,54.3,6,Moulded Bagasse Pulp,Room Temperature,10,Warning,2.5
+Butter,28.3,73.0,62,Glass Container,Refrigerated,60,High Risk,0
+Cheese,3.9,69.6,30,Kraft Paper,Room Temperature,30,High Risk,0
+Curd,27.7,37.0,4,PLA Film,Refrigerated,10,Safe,5.4
+Milk,6.0,72.5,7,Kraft Paper,Room Temperature,7,High Risk,0
+Curd,9.6,70.6,2,Cellulose Film,Room Temperature,10,Warning,6.5
+Cheese,24.5,49.3,19,Kraft Paper,Refrigerated,30,Warning,9.5
+Cheese,13.0,87.3,7,PLA Film,Room Temperature,30,High Risk,21.2
+Cheese,26.9,79.4,22,PLA Film,Refrigerated,30,Warning,6.8
+Curd,10.9,73.3,11,Kraft Paper,Refrigerated,10,High Risk,0
+Butter,7.8,39.1,24,Glass Container,Room Temperature,60,Safe,35.4
+Cheese,15.7,92.6,9,Vacuum Pack,Refrigerated,30,Warning,19.8
+Milk,33.9,59.9,6,Vacuum Pack,Refrigerated,7,Warning,0
+Milk,12.4,61.6,2,Cellulose Film,Refrigerated,7,Warning,4.1
+Butter,22.1,72.0,60,Kraft Paper,Room Temperature,60,High Risk,0
+Cheese,34.1,86.1,34,Kraft Paper,Refrigerated,30,High Risk,0
+Curd,17.8,84.6,1,Glass Container,Room Temperature,10,Warning,7.5
+Curd,8.8,92.7,7,Cellulose Film,Room Temperature,10,High Risk,0.9
+Yogurt,33.7,67.9,2,Kraft Paper,Room Temperature,14,Warning,10.5
+Butter,17.0,47.8,65,Cellulose Film,Refrigerated,60,High Risk,0
+Curd,26.9,39.9,5,Glass Container,Refrigerated,10,Warning,4.1
+Curd,23.3,56.0,6,Glass Container,Refrigerated,10,Warning,3.1
+Curd,28.8,86.1,5,Cellulose Film,Refrigerated,10,Warning,3.5
+Cheese,2.6,75.6,34,Kraft Paper,Refrigerated,30,High Risk,0
+Paneer,18.9,37.7,12,Kraft Paper,Refrigerated,7,High Risk,0
+Yogurt,31.4,45.3,9,Glass Container,Room Temperature,14,Warning,3.8
+Cheese,4.2,53.8,7,Glass Container,Room Temperature,30,Safe,22.4
+Yogurt,3.1,88.8,16,PLA Film,Refrigerated,14,High Risk,0
+Butter,32.8,93.3,38,Vacuum Pack,Room Temperature,60,High Risk,20.2
+Cheese,23.1,59.1,28,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0.2
+Paneer,6.0,65.3,10,Cellulose Film,Room Temperature,7,High Risk,0
+Butter,34.0,76.9,65,PLA Film,Room Temperature,60,High Risk,0
+Milk,28.3,43.5,10,Kraft Paper,Refrigerated,7,High Risk,0
+Paneer,30.8,58.1,6,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Cheese,20.5,69.8,2,Vacuum Pack,Room Temperature,30,Warning,26.8
+Paneer,17.4,65.8,5,Glass Container,Room Temperature,7,Warning,0.5
+Yogurt,30.1,85.0,10,PLA Film,Refrigerated,14,High Risk,2.2
+Butter,10.3,39.9,40,Moulded Bagasse Pulp,Refrigerated,60,Warning,18.8
+Yogurt,19.6,76.9,4,Moulded Bagasse Pulp,Room Temperature,14,High Risk,8.2
+Paneer,9.4,57.9,4,Cellulose Film,Refrigerated,7,Warning,1.8
+Cheese,21.8,51.5,24,Moulded Bagasse Pulp,Refrigerated,30,High Risk,4.2
+Curd,24.1,86.6,13,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Yogurt,10.0,54.7,12,Cellulose Film,Refrigerated,14,High Risk,0.2
+Milk,30.7,55.4,3,Kraft Paper,Room Temperature,7,Warning,3.1
+Paneer,24.0,41.3,0,Kraft Paper,Refrigerated,7,Warning,5.8
+Milk,29.5,66.5,9,Cellulose Film,Refrigerated,7,High Risk,0
+Milk,12.8,48.4,5,Cellulose Film,Room Temperature,7,Warning,0.5
+Curd,3.1,93.9,15,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Yogurt,14.3,88.0,6,Cellulose Film,Room Temperature,14,Warning,6.5
+Milk,30.4,70.3,12,Glass Container,Refrigerated,7,High Risk,0
+Yogurt,6.5,72.4,12,Cellulose Film,Room Temperature,14,High Risk,0
+Yogurt,15.4,78.3,0,Kraft Paper,Refrigerated,14,Warning,13.1
+Cheese,13.2,88.2,22,Vacuum Pack,Refrigerated,30,Warning,6.5
+Yogurt,32.1,55.9,19,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Curd,31.9,39.1,10,PLA Film,Refrigerated,10,High Risk,0
+Butter,32.9,88.1,8,Vacuum Pack,Refrigerated,60,Warning,50.8
+Yogurt,6.7,52.7,5,Glass Container,Room Temperature,14,Warning,7.8
+Butter,8.9,46.0,56,Vacuum Pack,Room Temperature,60,High Risk,2.2
+Butter,3.7,54.8,40,Kraft Paper,Refrigerated,60,Safe,19.7
+Paneer,21.0,90.0,8,Vacuum Pack,Refrigerated,7,High Risk,0
+Cheese,19.0,87.5,22,Vacuum Pack,Refrigerated,30,Warning,6.8
+Yogurt,26.2,63.5,2,Glass Container,Room Temperature,14,Warning,11.1
+Paneer,18.9,38.7,3,Cellulose Film,Refrigerated,7,Warning,3.1
+Paneer,25.0,74.8,9,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Yogurt,12.5,63.3,16,Glass Container,Refrigerated,14,High Risk,0
+Paneer,33.5,60.7,8,Cellulose Film,Refrigerated,7,High Risk,0
+Curd,4.5,63.6,11,Kraft Paper,Room Temperature,10,High Risk,0
+Butter,30.7,82.1,14,Moulded Bagasse Pulp,Refrigerated,60,Warning,44.5
+Paneer,19.4,59.5,8,PLA Film,Room Temperature,7,High Risk,0
+Paneer,5.8,50.3,0,Glass Container,Refrigerated,7,Safe,7.3
+Butter,4.8,79.1,53,Glass Container,Refrigerated,60,Warning,6.1
+Paneer,28.7,47.9,7,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,28.7,37.5,15,Vacuum Pack,Room Temperature,14,High Risk,0
+Yogurt,26.7,48.7,12,Vacuum Pack,Room Temperature,14,High Risk,0
+Yogurt,27.6,94.0,19,Glass Container,Refrigerated,14,High Risk,0
+Cheese,16.5,76.2,33,PLA Film,Room Temperature,30,High Risk,0
+Yogurt,22.8,40.3,16,PLA Film,Refrigerated,14,High Risk,0
+Curd,28.8,72.5,11,Kraft Paper,Room Temperature,10,High Risk,0
+Paneer,18.0,55.2,7,PLA Film,Room Temperature,7,High Risk,0
+Butter,24.5,87.8,50,Glass Container,Refrigerated,60,High Risk,7.6
+Curd,3.3,77.0,3,Kraft Paper,Room Temperature,10,Warning,5.5
+Milk,2.2,68.8,9,Cellulose Film,Refrigerated,7,High Risk,0
+Cheese,27.3,47.1,21,Glass Container,Room Temperature,30,Warning,8.1
+Milk,27.9,49.9,7,Cellulose Film,Room Temperature,7,High Risk,0
+Butter,11.8,59.8,41,PLA Film,Refrigerated,60,Warning,18.1
+Yogurt,5.7,53.0,12,Vacuum Pack,Room Temperature,14,High Risk,0.2
+Butter,31.9,86.5,44,Cellulose Film,Room Temperature,60,High Risk,13.9
+Curd,24.7,53.3,8,Cellulose Film,Room Temperature,10,High Risk,0
+Milk,30.7,90.8,7,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Yogurt,28.3,52.7,1,Cellulose Film,Refrigerated,14,Warning,11.8
+Curd,20.0,37.1,8,Vacuum Pack,Room Temperature,10,High Risk,0.2
+Yogurt,31.6,93.5,12,Kraft Paper,Room Temperature,14,High Risk,0
+Butter,34.7,79.1,51,Kraft Paper,Room Temperature,60,High Risk,6.9
+Curd,2.9,71.4,10,Cellulose Film,Refrigerated,10,High Risk,0
+Milk,16.1,36.6,10,PLA Film,Refrigerated,7,High Risk,0
+Butter,30.2,56.7,8,Cellulose Film,Refrigerated,60,Warning,51.1
+Curd,19.5,39.7,5,Kraft Paper,Room Temperature,10,Warning,3.5
+Paneer,8.1,49.3,12,Cellulose Film,Room Temperature,7,High Risk,0
+Paneer,7.7,91.1,3,Glass Container,Refrigerated,7,Warning,3.1
+Butter,16.0,77.2,29,Moulded Bagasse Pulp,Room Temperature,60,Warning,29.5
+Milk,8.0,59.7,10,Cellulose Film,Room Temperature,7,High Risk,0
+Butter,33.3,74.7,33,Kraft Paper,Room Temperature,60,High Risk,25.2
+Cheese,30.9,47.9,15,Cellulose Film,Room Temperature,30,Warning,13.5
+Paneer,32.0,91.3,12,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,12.6,52.1,9,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,18.0,61.4,6,PLA Film,Refrigerated,7,High Risk,0
+Milk,5.7,55.5,9,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,30.4,48.9,3,PLA Film,Refrigerated,60,Warning,56.1
+Paneer,18.0,76.6,11,Cellulose Film,Room Temperature,7,High Risk,0
+Paneer,34.7,88.5,11,Cellulose Film,Refrigerated,7,High Risk,0
+Cheese,11.1,82.8,6,Moulded Bagasse Pulp,Room Temperature,30,High Risk,22.2
+Paneer,29.0,51.0,4,Cellulose Film,Refrigerated,7,Warning,1.8
+Curd,7.9,80.1,1,PLA Film,Room Temperature,10,High Risk,7.2
+Paneer,25.9,45.5,2,Vacuum Pack,Room Temperature,7,Warning,4.1
+Cheese,23.8,92.9,16,PLA Film,Room Temperature,30,High Risk,11.9
+Yogurt,19.5,37.1,5,Vacuum Pack,Refrigerated,14,Safe,8.4
+Milk,29.8,84.3,5,Kraft Paper,Room Temperature,7,High Risk,0.2
+Butter,26.9,70.7,25,Glass Container,Room Temperature,60,Warning,33.8
+Butter,8.3,40.5,42,PLA Film,Room Temperature,60,Warning,16.5
+Paneer,26.9,91.1,0,Vacuum Pack,Refrigerated,7,Warning,6.1
+Paneer,27.6,73.9,3,Moulded Bagasse Pulp,Room Temperature,7,Warning,2.5
+Butter,18.5,80.5,48,Vacuum Pack,Room Temperature,60,High Risk,9.3
+Paneer,13.8,87.1,0,Cellulose Film,Room Temperature,7,High Risk,5.2
+Cheese,3.6,77.6,35,Cellulose Film,Room Temperature,30,High Risk,0
+Milk,13.4,36.4,9,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,11.8,81.8,1,Cellulose Film,Refrigerated,10,Warning,7.5
+Paneer,9.1,56.2,10,Cellulose Film,Room Temperature,7,High Risk,0
+Paneer,18.5,44.7,9,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,26.9,43.9,10,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Butter,17.3,51.2,35,Kraft Paper,Refrigerated,60,Warning,23.5
+Butter,12.2,58.0,48,PLA Film,Room Temperature,60,High Risk,9.9
+Curd,14.5,91.7,9,Glass Container,Room Temperature,10,High Risk,0
+Cheese,34.6,86.9,7,Cellulose Film,Room Temperature,30,High Risk,21.2
+Cheese,9.5,76.6,25,Kraft Paper,Room Temperature,30,High Risk,2.3
+Yogurt,32.6,38.3,0,Moulded Bagasse Pulp,Room Temperature,14,Warning,12.8
+Paneer,22.6,57.0,3,Moulded Bagasse Pulp,Room Temperature,7,Warning,2.8
+Butter,29.5,86.1,19,Glass Container,Room Temperature,60,Warning,39.5
+Yogurt,31.5,59.1,0,Cellulose Film,Room Temperature,14,Warning,12.5
+Curd,8.3,77.6,8,Vacuum Pack,Refrigerated,10,High Risk,0
+Butter,31.5,51.9,35,Cellulose Film,Room Temperature,60,High Risk,23.2
+Butter,20.7,77.1,59,Kraft Paper,Room Temperature,60,High Risk,0
+Yogurt,3.3,54.2,13,Glass Container,Room Temperature,14,High Risk,0
+Yogurt,4.2,39.3,3,Vacuum Pack,Refrigerated,14,Safe,11.3
+Butter,20.0,48.3,14,Cellulose Film,Refrigerated,60,Safe,45.4
+Cheese,11.6,87.8,21,Kraft Paper,Refrigerated,30,High Risk,7.2
+Paneer,3.3,78.5,2,PLA Film,Room Temperature,7,High Risk,3.2
+Cheese,4.5,54.5,25,Glass Container,Refrigerated,30,Warning,4.1
+Curd,10.1,69.7,11,PLA Film,Refrigerated,10,High Risk,0
+Paneer,6.5,93.7,2,Moulded Bagasse Pulp,Room Temperature,7,High Risk,3.2
+Yogurt,3.8,59.6,1,Kraft Paper,Room Temperature,14,Warning,11.8
+Curd,33.4,72.1,11,Kraft Paper,Room Temperature,10,High Risk,0
+Paneer,14.8,38.9,8,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Paneer,18.7,85.1,3,PLA Film,Refrigerated,7,Warning,2.5
+Butter,30.5,39.4,53,PLA Film,Refrigerated,60,High Risk,5.2
+Butter,4.9,64.1,47,Moulded Bagasse Pulp,Room Temperature,60,High Risk,11.2
+Butter,15.2,85.9,25,Kraft Paper,Room Temperature,60,High Risk,33.2
+Curd,7.2,66.2,2,Vacuum Pack,Refrigerated,10,Safe,7.4
+Cheese,25.4,57.2,8,Moulded Bagasse Pulp,Refrigerated,30,Safe,21.4
+Curd,13.9,78.4,6,Kraft Paper,Refrigerated,10,Warning,2.8
+Paneer,26.5,89.3,6,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,12.4,55.0,8,Kraft Paper,Refrigerated,60,Warning,51.1
+Cheese,10.3,58.7,30,Glass Container,Room Temperature,30,High Risk,0
+Yogurt,33.0,44.7,14,PLA Film,Room Temperature,14,High Risk,0
+Cheese,24.9,40.0,19,PLA Film,Room Temperature,30,Warning,9.5
+Cheese,3.9,90.5,13,Moulded Bagasse Pulp,Refrigerated,30,Safe,16.4
+Yogurt,14.5,83.6,13,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Butter,19.0,66.1,52,Moulded Bagasse Pulp,Refrigerated,60,High Risk,5.9
+Paneer,33.2,86.3,11,Cellulose Film,Refrigerated,7,High Risk,0
+Curd,35.0,39.2,12,Glass Container,Refrigerated,10,High Risk,0
+Butter,32.9,77.0,25,Vacuum Pack,Room Temperature,60,Warning,34.1
+Curd,22.4,65.4,7,Glass Container,Refrigerated,10,Warning,2.1
+Butter,27.2,43.4,52,Cellulose Film,Room Temperature,60,High Risk,5.9
+Curd,2.7,85.2,7,Cellulose Film,Room Temperature,10,High Risk,0.9
+Butter,12.9,65.4,52,Vacuum Pack,Refrigerated,60,High Risk,5.9
+Cheese,2.6,36.8,15,PLA Film,Refrigerated,30,Safe,15.0
+Yogurt,25.6,51.2,19,Vacuum Pack,Room Temperature,14,High Risk,0
+Paneer,14.9,47.7,12,Glass Container,Room Temperature,7,High Risk,0
+Yogurt,28.4,57.7,4,Cellulose Film,Refrigerated,14,Warning,9.1
+Curd,33.3,84.0,11,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Yogurt,10.6,66.9,18,Cellulose Film,Refrigerated,14,High Risk,0
+Yogurt,13.0,89.1,19,Glass Container,Room Temperature,14,High Risk,0
+Cheese,2.9,53.6,15,PLA Film,Room Temperature,30,High Risk,13.2
+Butter,16.5,74.7,33,Kraft Paper,Room Temperature,60,High Risk,25.2
+Milk,7.0,47.7,3,Glass Container,Refrigerated,7,Safe,4.3
+Butter,7.8,78.1,19,Vacuum Pack,Refrigerated,60,Safe,40.7
+Cheese,7.6,59.2,15,Kraft Paper,Refrigerated,30,Safe,14.4
+Milk,22.6,63.0,11,Cellulose Film,Refrigerated,7,High Risk,0
+Paneer,27.0,50.3,0,PLA Film,Refrigerated,7,Warning,5.8
+Butter,17.4,53.0,39,Kraft Paper,Refrigerated,60,Warning,19.5
+Cheese,21.9,49.3,18,Glass Container,Room Temperature,30,Warning,10.8
+Paneer,2.4,45.7,10,Vacuum Pack,Room Temperature,7,High Risk,0
+Yogurt,24.1,64.6,3,Cellulose Film,Room Temperature,14,Warning,9.8
+Milk,18.7,84.9,6,Cellulose Film,Refrigerated,7,High Risk,0
+Milk,4.8,89.4,5,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Cheese,15.3,90.9,31,Kraft Paper,Room Temperature,30,High Risk,0
+Yogurt,30.8,45.7,2,Cellulose Film,Refrigerated,14,Safe,11.4
+Butter,13.8,53.2,60,Vacuum Pack,Room Temperature,60,High Risk,0
+Paneer,25.2,43.4,0,Kraft Paper,Refrigerated,7,Warning,6.1
+Curd,9.9,68.1,9,PLA Film,Room Temperature,10,High Risk,0
+Cheese,14.0,53.9,4,Moulded Bagasse Pulp,Refrigerated,30,Safe,25.4
+Milk,2.5,44.4,6,Vacuum Pack,Room Temperature,7,High Risk,0
+Paneer,23.8,64.4,9,Kraft Paper,Refrigerated,7,High Risk,0
+Cheese,12.0,40.1,28,PLA Film,Refrigerated,30,High Risk,0.2
+Cheese,14.2,71.4,24,Moulded Bagasse Pulp,Room Temperature,30,High Risk,3.3
+Butter,23.8,87.6,38,Moulded Bagasse Pulp,Refrigerated,60,Warning,20.5
+Paneer,29.1,88.1,8,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,10.0,81.7,14,Vacuum Pack,Refrigerated,30,Warning,14.8
+Butter,21.3,92.3,50,Glass Container,Room Temperature,60,High Risk,7.9
+Cheese,29.0,93.2,4,Cellulose Film,Room Temperature,30,High Risk,24.2
+Curd,18.7,54.9,1,Kraft Paper,Room Temperature,10,Warning,7.8
+Paneer,27.9,54.8,4,Vacuum Pack,Refrigerated,7,Warning,1.8
+Yogurt,28.8,39.6,12,Kraft Paper,Room Temperature,14,High Risk,0
+Butter,27.4,62.7,4,Glass Container,Refrigerated,60,Safe,55.4
+Yogurt,7.6,56.1,12,PLA Film,Refrigerated,14,Warning,0.8
+Yogurt,22.2,56.0,9,Glass Container,Room Temperature,14,Warning,3.8
+Milk,21.8,93.6,2,PLA Film,Refrigerated,7,Warning,3.8
+Cheese,27.4,81.3,28,Glass Container,Refrigerated,30,High Risk,0
+Cheese,18.4,38.3,2,PLA Film,Refrigerated,30,Warning,27.1
+Curd,10.3,38.1,10,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Butter,14.9,79.8,11,PLA Film,Room Temperature,60,Warning,47.5
+Yogurt,34.8,40.8,6,Glass Container,Room Temperature,14,Warning,6.8
+Butter,9.8,56.6,48,Cellulose Film,Refrigerated,60,Warning,10.5
+Butter,23.8,46.6,36,Kraft Paper,Refrigerated,60,Warning,22.8
+Paneer,28.1,78.6,6,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,3.0,68.4,6,Kraft Paper,Refrigerated,10,Safe,3.4
+Cheese,10.8,78.1,20,PLA Film,Refrigerated,30,Warning,8.8
+Curd,30.2,40.0,13,Kraft Paper,Room Temperature,10,High Risk,0
+Curd,32.7,56.6,9,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Curd,32.5,93.7,15,Cellulose Film,Refrigerated,10,High Risk,0
+Paneer,16.0,71.2,2,Kraft Paper,Room Temperature,7,Warning,3.8
+Yogurt,20.0,43.0,18,Kraft Paper,Refrigerated,14,High Risk,0
+Cheese,8.4,58.1,1,Cellulose Film,Room Temperature,30,Warning,27.8
+Paneer,11.4,73.3,2,Cellulose Film,Room Temperature,7,High Risk,3.2
+Milk,25.6,35.9,4,Glass Container,Refrigerated,7,Warning,1.8
+Yogurt,24.8,90.0,9,Cellulose Film,Room Temperature,14,High Risk,2.6
+Curd,28.4,79.8,6,Moulded Bagasse Pulp,Refrigerated,10,Warning,2.8
+Cheese,24.1,47.8,13,Kraft Paper,Refrigerated,30,Warning,16.1
+Milk,6.3,63.6,10,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,13.5,45.0,30,Glass Container,Refrigerated,60,Warning,29.1
+Curd,13.0,44.7,12,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Yogurt,25.3,67.6,0,Glass Container,Refrigerated,14,Warning,13.1
+Yogurt,30.8,81.7,6,Vacuum Pack,Refrigerated,14,Warning,6.5
+Butter,11.3,86.8,52,Cellulose Film,Refrigerated,60,High Risk,5.3
+Cheese,9.4,35.9,17,Moulded Bagasse Pulp,Room Temperature,30,Warning,11.5
+Paneer,2.5,57.7,6,Vacuum Pack,Refrigerated,7,Safe,0.4
+Paneer,17.0,45.4,0,Vacuum Pack,Room Temperature,7,Warning,5.8
+Yogurt,14.2,55.5,6,Cellulose Film,Room Temperature,14,Warning,6.8
+Milk,28.0,78.6,3,PLA Film,Room Temperature,7,Warning,2.5
+Paneer,18.7,54.5,5,Vacuum Pack,Room Temperature,7,Warning,0.8
+Paneer,4.7,77.7,7,Vacuum Pack,Refrigerated,7,Warning,0
+Milk,15.2,46.6,12,PLA Film,Refrigerated,7,High Risk,0
+Milk,33.7,59.4,7,PLA Film,Room Temperature,7,High Risk,0
+Cheese,30.7,62.2,27,Vacuum Pack,Refrigerated,30,Warning,1.8
+Paneer,16.1,87.6,1,Kraft Paper,Refrigerated,7,Warning,4.5
+Curd,20.5,45.6,1,PLA Film,Room Temperature,10,Warning,7.8
+Curd,18.4,78.5,8,Vacuum Pack,Refrigerated,10,High Risk,0.2
+Cheese,3.6,73.4,23,PLA Film,Room Temperature,30,High Risk,4.6
+Yogurt,16.7,86.6,12,PLA Film,Refrigerated,14,High Risk,0
+Milk,23.4,48.8,7,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,11.5,58.8,39,PLA Film,Room Temperature,60,Warning,19.8
+Cheese,3.3,52.2,16,Kraft Paper,Room Temperature,30,Warning,12.5
+Milk,24.6,54.6,3,Cellulose Film,Room Temperature,7,Warning,2.8
+Milk,34.2,83.0,2,Vacuum Pack,Room Temperature,7,Warning,3.8
+Milk,9.5,66.8,6,PLA Film,Room Temperature,7,High Risk,0
+Butter,15.7,49.6,29,PLA Film,Room Temperature,60,Warning,29.5
+Yogurt,26.3,90.0,19,PLA Film,Room Temperature,14,High Risk,0
+Yogurt,15.2,67.1,7,Cellulose Film,Room Temperature,14,High Risk,4.9
+Paneer,17.4,81.2,1,Vacuum Pack,Room Temperature,7,Warning,4.5
+Yogurt,12.8,36.4,6,PLA Film,Refrigerated,14,Warning,6.8
+Butter,2.7,60.4,32,Glass Container,Refrigerated,60,Safe,27.7
+Curd,29.2,91.7,15,PLA Film,Room Temperature,10,High Risk,0
+Yogurt,34.9,39.2,11,Kraft Paper,Room Temperature,14,High Risk,0.9
+Paneer,9.3,67.5,8,Cellulose Film,Room Temperature,7,High Risk,0
+Cheese,33.1,42.3,22,PLA Film,Room Temperature,30,High Risk,6.2
+Yogurt,10.3,37.4,14,PLA Film,Refrigerated,14,High Risk,0
+Paneer,10.1,58.7,9,PLA Film,Refrigerated,7,High Risk,0
+Milk,28.2,39.2,0,Vacuum Pack,Refrigerated,7,Safe,6.7
+Milk,32.8,66.5,12,Kraft Paper,Refrigerated,7,High Risk,0
+Curd,12.3,86.9,14,Glass Container,Refrigerated,10,High Risk,0
+Milk,3.1,88.5,10,Glass Container,Refrigerated,7,High Risk,0
+Yogurt,28.2,53.2,14,Vacuum Pack,Refrigerated,14,High Risk,0
+Milk,9.4,39.4,11,PLA Film,Refrigerated,7,High Risk,0
+Milk,23.6,74.1,11,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,5.7,88.2,32,PLA Film,Refrigerated,60,Warning,26.8
+Paneer,3.5,88.7,3,Vacuum Pack,Refrigerated,7,Safe,3.7
+Yogurt,21.2,84.3,17,Cellulose Film,Room Temperature,14,High Risk,0
+Butter,13.6,77.5,60,Cellulose Film,Room Temperature,60,High Risk,0
+Milk,30.6,61.4,0,Vacuum Pack,Room Temperature,7,Warning,6.1
+Cheese,14.1,50.1,34,Glass Container,Refrigerated,30,High Risk,0
+Cheese,22.2,82.2,9,PLA Film,Refrigerated,30,Warning,19.5
+Milk,22.3,51.2,7,Glass Container,Room Temperature,7,High Risk,0
+Butter,8.4,51.1,57,Kraft Paper,Room Temperature,60,High Risk,0.9
+Curd,19.7,51.5,0,Glass Container,Refrigerated,10,Safe,9.4
+Curd,13.0,64.4,14,PLA Film,Room Temperature,10,High Risk,0
+Curd,21.7,89.3,5,Vacuum Pack,Refrigerated,10,Warning,3.8
+Curd,7.5,42.6,13,Cellulose Film,Room Temperature,10,High Risk,0
+Paneer,2.6,91.2,0,Kraft Paper,Room Temperature,7,High Risk,5.2
+Butter,8.3,67.6,22,Vacuum Pack,Refrigerated,60,Warning,36.8
+Butter,31.4,91.1,16,Moulded Bagasse Pulp,Refrigerated,60,High Risk,42.2
+Cheese,19.3,52.6,1,Vacuum Pack,Room Temperature,30,Warning,28.1
+Paneer,30.8,81.2,9,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,14.7,51.7,62,Glass Container,Room Temperature,60,High Risk,0
+Butter,9.3,61.2,57,Vacuum Pack,Room Temperature,60,High Risk,1.2
+Paneer,7.3,73.2,11,PLA Film,Refrigerated,7,High Risk,0
+Yogurt,14.2,68.4,10,Kraft Paper,Room Temperature,14,Warning,2.5
+Milk,26.1,82.6,11,Glass Container,Refrigerated,7,High Risk,0
+Paneer,25.9,50.6,5,Glass Container,Refrigerated,7,Warning,1.1
+Yogurt,12.7,40.3,17,Kraft Paper,Room Temperature,14,High Risk,0
+Yogurt,9.1,48.9,5,PLA Film,Room Temperature,14,Warning,7.8
+Milk,16.2,53.2,6,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Cheese,10.4,62.1,2,Cellulose Film,Room Temperature,30,Warning,26.8
+Paneer,29.8,51.9,0,Cellulose Film,Room Temperature,7,Warning,5.5
+Yogurt,23.6,78.8,15,Vacuum Pack,Room Temperature,14,High Risk,0
+Curd,10.7,81.1,6,Glass Container,Refrigerated,10,Warning,2.5
+Paneer,12.5,51.2,9,PLA Film,Room Temperature,7,High Risk,0
+Milk,22.2,69.7,6,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,29.2,37.3,0,Vacuum Pack,Refrigerated,10,Warning,9.1
+Curd,30.0,82.6,13,Kraft Paper,Refrigerated,10,High Risk,0
+Yogurt,24.3,92.3,10,Vacuum Pack,Room Temperature,14,High Risk,1.9
+Curd,26.6,50.6,12,Kraft Paper,Refrigerated,10,High Risk,0
+Butter,9.6,79.7,37,Cellulose Film,Refrigerated,60,High Risk,21.2
+Butter,33.6,36.8,44,PLA Film,Refrigerated,60,Warning,14.8
+Butter,26.1,85.0,27,Glass Container,Refrigerated,60,Warning,31.5
+Curd,25.0,92.3,5,Glass Container,Room Temperature,10,High Risk,2.9
+Paneer,21.5,69.3,1,Vacuum Pack,Refrigerated,7,Warning,5.1
+Butter,21.9,92.9,36,Moulded Bagasse Pulp,Refrigerated,60,High Risk,22.2
+Curd,28.0,67.8,6,Vacuum Pack,Room Temperature,10,Warning,2.5
+Paneer,8.5,77.8,5,Vacuum Pack,Refrigerated,7,Warning,0.8
+Yogurt,19.7,55.4,17,Vacuum Pack,Room Temperature,14,High Risk,0
+Curd,26.4,52.3,10,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Paneer,27.2,43.5,9,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Butter,18.1,53.9,30,Cellulose Film,Room Temperature,60,High Risk,28.2
+Yogurt,28.6,83.8,9,Moulded Bagasse Pulp,Room Temperature,14,High Risk,2.9
+Butter,26.7,77.2,19,Moulded Bagasse Pulp,Room Temperature,60,Warning,39.5
+Paneer,4.8,62.2,8,Kraft Paper,Refrigerated,7,Warning,0
+Cheese,16.3,71.2,28,Cellulose Film,Refrigerated,30,High Risk,0
+Curd,27.2,78.2,14,PLA Film,Refrigerated,10,High Risk,0
+Milk,26.6,69.9,9,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Paneer,30.5,40.2,10,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Yogurt,24.4,42.9,17,Cellulose Film,Room Temperature,14,High Risk,0
+Butter,34.1,42.3,38,Vacuum Pack,Room Temperature,60,Warning,20.8
+Cheese,12.7,43.7,3,PLA Film,Refrigerated,30,Warning,26.1
+Cheese,27.5,70.2,11,Kraft Paper,Refrigerated,30,Warning,17.5
+Yogurt,32.3,65.8,13,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Curd,9.7,84.3,5,Moulded Bagasse Pulp,Room Temperature,10,High Risk,3.2
+Butter,22.7,71.0,10,Kraft Paper,Refrigerated,60,Warning,49.1
+Butter,11.9,78.7,48,Vacuum Pack,Refrigerated,60,High Risk,9.9
+Milk,16.6,69.2,1,Vacuum Pack,Refrigerated,7,Warning,5.1
+Milk,26.5,35.6,11,Cellulose Film,Refrigerated,7,High Risk,0
+Curd,7.1,56.3,5,PLA Film,Refrigerated,10,Warning,4.1
+Curd,26.7,71.8,14,Cellulose Film,Refrigerated,10,High Risk,0
+Cheese,6.9,88.0,4,Cellulose Film,Room Temperature,30,High Risk,24.2
+Yogurt,27.2,79.1,8,Kraft Paper,Refrigerated,14,Warning,4.5
+Butter,19.7,89.8,1,Cellulose Film,Room Temperature,60,High Risk,57.2
+Paneer,14.4,56.6,3,Cellulose Film,Room Temperature,7,Warning,2.8
+Yogurt,4.8,76.3,14,Kraft Paper,Refrigerated,14,High Risk,0
+Yogurt,12.4,66.8,4,Vacuum Pack,Refrigerated,14,Warning,8.8
+Cheese,33.5,65.2,34,Vacuum Pack,Refrigerated,30,High Risk,0
+Yogurt,15.9,78.5,3,Moulded Bagasse Pulp,Room Temperature,14,Warning,9.5
+Milk,2.2,36.2,7,Cellulose Film,Refrigerated,7,Warning,0
+Curd,18.6,53.4,5,Kraft Paper,Refrigerated,10,Warning,4.1
+Curd,6.3,55.2,8,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Cheese,22.5,70.8,19,PLA Film,Room Temperature,30,High Risk,8.9
+Milk,28.5,40.6,10,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,24.2,79.0,33,Kraft Paper,Refrigerated,60,High Risk,25.2
+Curd,22.2,40.8,4,Moulded Bagasse Pulp,Room Temperature,10,Warning,4.8
+Cheese,20.4,38.3,9,Kraft Paper,Refrigerated,30,Safe,20.4
+Paneer,33.5,45.7,1,Moulded Bagasse Pulp,Refrigerated,7,Warning,5.1
+Paneer,17.2,91.0,12,Glass Container,Refrigerated,7,High Risk,0
+Yogurt,33.5,78.1,19,Kraft Paper,Room Temperature,14,High Risk,0
+Curd,34.4,41.6,8,Vacuum Pack,Refrigerated,10,Warning,0.8
+Butter,24.3,82.5,3,Moulded Bagasse Pulp,Refrigerated,60,Warning,55.5
+Butter,3.9,55.5,16,PLA Film,Refrigerated,60,Safe,44.0
+Paneer,17.2,66.5,12,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Butter,21.7,84.4,58,Moulded Bagasse Pulp,Room Temperature,60,High Risk,0
+Yogurt,16.7,40.8,13,Glass Container,Refrigerated,14,High Risk,0
+Milk,11.9,93.3,12,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,31.1,66.6,4,Glass Container,Refrigerated,30,Safe,25.4
+Cheese,20.1,84.8,18,Glass Container,Room Temperature,30,High Risk,9.9
+Butter,11.0,87.8,32,Moulded Bagasse Pulp,Refrigerated,60,High Risk,25.9
+Curd,34.3,86.5,8,Kraft Paper,Refrigerated,10,High Risk,0
+Butter,34.9,59.0,65,Cellulose Film,Room Temperature,60,High Risk,0
+Cheese,15.2,69.0,20,PLA Film,Refrigerated,30,Warning,8.5
+Yogurt,25.3,41.0,9,Vacuum Pack,Refrigerated,14,Warning,4.1
+Milk,26.9,84.1,1,Moulded Bagasse Pulp,Refrigerated,7,Warning,4.8
+Butter,30.7,48.2,18,Glass Container,Refrigerated,60,Warning,41.1
+Milk,7.1,43.6,4,Vacuum Pack,Refrigerated,7,Safe,2.4
+Butter,7.2,53.8,13,Kraft Paper,Refrigerated,60,Safe,47.0
+Cheese,5.5,58.4,1,Moulded Bagasse Pulp,Room Temperature,30,Warning,27.8
+Paneer,21.9,37.1,3,Moulded Bagasse Pulp,Room Temperature,7,Warning,2.8
+Paneer,20.9,69.2,7,PLA Film,Refrigerated,7,High Risk,0
+Paneer,34.0,39.4,2,Vacuum Pack,Refrigerated,7,Safe,4.4
+Butter,13.0,81.6,52,Cellulose Film,Room Temperature,60,High Risk,5.3
+Milk,11.9,58.8,1,Cellulose Film,Room Temperature,7,Warning,5.1
+Butter,25.9,40.6,5,PLA Film,Refrigerated,60,Warning,54.1
+Curd,2.4,86.5,0,Kraft Paper,Refrigerated,10,Safe,9.4
+Butter,21.6,36.3,45,Glass Container,Room Temperature,60,High Risk,13.2
+Milk,4.3,45.1,4,Cellulose Film,Refrigerated,7,Safe,2.7
+Paneer,2.9,82.9,4,Kraft Paper,Refrigerated,7,Warning,2.1
+Milk,29.9,79.4,1,Cellulose Film,Room Temperature,7,High Risk,4.2
+Milk,25.8,42.6,6,Kraft Paper,Room Temperature,7,High Risk,0
+Paneer,21.1,56.2,3,Kraft Paper,Room Temperature,7,Warning,2.8
+Paneer,17.8,81.8,0,Kraft Paper,Refrigerated,7,Warning,5.5
+Yogurt,25.7,82.9,15,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Cheese,29.5,49.2,14,Moulded Bagasse Pulp,Room Temperature,30,Warning,14.5
+Butter,32.0,39.3,42,PLA Film,Room Temperature,60,Warning,16.5
+Milk,19.5,63.5,5,Moulded Bagasse Pulp,Refrigerated,7,Warning,0.5
+Yogurt,27.8,48.1,16,PLA Film,Refrigerated,14,High Risk,0
+Milk,29.6,76.3,12,Vacuum Pack,Refrigerated,7,High Risk,0
+Milk,21.2,63.6,1,Cellulose Film,Room Temperature,7,Warning,4.5
+Butter,28.7,39.4,20,Moulded Bagasse Pulp,Refrigerated,60,Warning,39.1
+Milk,8.6,74.6,12,Glass Container,Refrigerated,7,High Risk,0
+Curd,4.4,73.4,6,PLA Film,Room Temperature,10,High Risk,1.9
+Curd,9.4,50.0,5,Kraft Paper,Room Temperature,10,Warning,3.5
+Paneer,8.7,58.3,7,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Cheese,3.6,92.8,12,Kraft Paper,Refrigerated,30,Safe,17.4
+Cheese,2.8,59.8,28,Cellulose Film,Room Temperature,30,High Risk,0
+Yogurt,3.1,44.3,15,PLA Film,Refrigerated,14,Warning,0
+Cheese,16.9,55.7,27,Moulded Bagasse Pulp,Refrigerated,30,High Risk,1.2
+Cheese,31.0,47.2,15,PLA Film,Room Temperature,30,Warning,13.8
+Curd,9.4,55.4,13,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Yogurt,33.2,95.0,14,Vacuum Pack,Refrigerated,14,High Risk,0
+Paneer,27.1,37.2,1,Vacuum Pack,Refrigerated,7,Safe,5.7
+Cheese,15.6,89.3,12,PLA Film,Refrigerated,30,Warning,16.5
+Milk,24.7,72.1,4,PLA Film,Room Temperature,7,High Risk,1.2
+Paneer,2.6,63.0,1,PLA Film,Refrigerated,7,Safe,6.0
+Cheese,2.9,78.8,1,PLA Film,Refrigerated,30,Safe,28.4
+Milk,21.0,75.4,0,PLA Film,Room Temperature,7,Warning,5.8
+Cheese,20.9,90.0,7,Moulded Bagasse Pulp,Refrigerated,30,Warning,21.5
+Curd,17.8,91.0,12,Glass Container,Room Temperature,10,High Risk,0
+Curd,26.4,85.9,2,Vacuum Pack,Refrigerated,10,Warning,6.5
+Paneer,17.8,51.4,0,Moulded Bagasse Pulp,Room Temperature,7,Warning,5.8
+Cheese,27.7,84.0,4,Vacuum Pack,Room Temperature,30,Warning,24.8
+Paneer,21.1,85.2,11,Cellulose Film,Room Temperature,7,High Risk,0
+Paneer,27.9,82.6,3,Cellulose Film,Room Temperature,7,High Risk,2.2
+Cheese,6.7,93.3,2,Moulded Bagasse Pulp,Refrigerated,30,Warning,27.1
+Yogurt,20.3,56.6,0,PLA Film,Room Temperature,14,Warning,12.8
+Milk,7.2,38.8,0,Cellulose Film,Room Temperature,7,Warning,6.1
+Butter,20.6,40.4,53,Kraft Paper,Refrigerated,60,High Risk,5.2
+Milk,14.3,55.4,12,PLA Film,Refrigerated,7,High Risk,0
+Milk,11.6,48.5,0,Moulded Bagasse Pulp,Refrigerated,7,Warning,5.8
+Paneer,28.9,82.5,0,PLA Film,Refrigerated,7,Warning,5.5
+Butter,31.5,38.9,65,PLA Film,Refrigerated,60,High Risk,0
+Paneer,34.2,58.9,3,Vacuum Pack,Room Temperature,7,Warning,3.1
+Yogurt,25.5,68.7,13,Vacuum Pack,Refrigerated,14,Warning,0
+Curd,10.8,49.9,9,Glass Container,Refrigerated,10,Warning,0
+Curd,19.2,89.8,4,Cellulose Film,Room Temperature,10,High Risk,4.2
+Paneer,8.7,87.6,0,Kraft Paper,Room Temperature,7,Warning,5.5
+Butter,4.0,66.1,29,Moulded Bagasse Pulp,Room Temperature,60,Warning,29.5
+Cheese,6.8,70.4,35,Vacuum Pack,Room Temperature,30,High Risk,0
+Curd,31.7,92.2,8,Kraft Paper,Room Temperature,10,High Risk,0
+Butter,25.4,59.2,4,Vacuum Pack,Refrigerated,60,Safe,55.4
+Butter,4.0,57.3,8,Glass Container,Room Temperature,60,Warning,51.1
+Milk,31.3,55.3,4,PLA Film,Room Temperature,7,High Risk,1.2
+Curd,9.4,69.6,10,Vacuum Pack,Refrigerated,10,High Risk,0
+Curd,4.0,75.4,9,Cellulose Film,Refrigerated,10,Warning,0
+Curd,22.7,91.5,6,Vacuum Pack,Refrigerated,10,High Risk,2.2
+Milk,29.6,63.3,2,Vacuum Pack,Refrigerated,7,Safe,4.4
+Butter,24.4,57.8,45,PLA Film,Room Temperature,60,High Risk,13.2
+Butter,33.2,50.9,46,Cellulose Film,Refrigerated,60,High Risk,12.2
+Milk,16.0,88.5,12,Kraft Paper,Refrigerated,7,High Risk,0
+Paneer,12.2,60.6,9,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Paneer,23.9,39.2,5,Glass Container,Room Temperature,7,Warning,0.8
+Cheese,8.6,69.7,6,Glass Container,Room Temperature,30,Warning,22.5
+Butter,28.4,47.1,63,Cellulose Film,Room Temperature,60,High Risk,0
+Curd,24.5,63.9,10,PLA Film,Room Temperature,10,High Risk,0
+Paneer,28.7,41.8,3,Kraft Paper,Refrigerated,7,Warning,3.1
+Curd,15.9,59.1,1,Kraft Paper,Room Temperature,10,Warning,7.5
+Yogurt,29.3,86.1,12,Vacuum Pack,Refrigerated,14,High Risk,0
+Curd,22.0,42.3,2,Glass Container,Refrigerated,10,Safe,7.4
+Paneer,4.9,83.9,3,Vacuum Pack,Room Temperature,7,Warning,2.5
+Cheese,2.1,62.0,25,Kraft Paper,Room Temperature,30,High Risk,2.9
+Butter,33.9,38.5,28,Moulded Bagasse Pulp,Refrigerated,60,Warning,31.1
+Yogurt,34.8,35.7,3,Kraft Paper,Refrigerated,14,Warning,9.8
+Yogurt,31.2,37.7,15,Kraft Paper,Refrigerated,14,High Risk,0
+Butter,27.0,86.0,37,Glass Container,Refrigerated,60,High Risk,21.2
+Butter,20.2,95.0,22,PLA Film,Refrigerated,60,Warning,36.8
+Cheese,18.6,41.4,34,Vacuum Pack,Room Temperature,30,High Risk,0
+Paneer,23.7,70.5,3,Glass Container,Room Temperature,7,Warning,3.1
+Yogurt,22.8,81.1,0,Glass Container,Refrigerated,14,Warning,12.5
+Milk,11.0,94.1,4,Glass Container,Refrigerated,7,Warning,1.5
+Paneer,24.7,88.2,1,Moulded Bagasse Pulp,Refrigerated,7,Warning,4.5
+Paneer,10.8,60.0,7,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Curd,10.6,91.0,6,PLA Film,Room Temperature,10,High Risk,2.2
+Milk,31.9,76.0,1,Kraft Paper,Refrigerated,7,Warning,4.5
+Milk,5.2,73.8,8,Glass Container,Room Temperature,7,High Risk,0
+Butter,21.5,52.3,56,Moulded Bagasse Pulp,Refrigerated,60,Warning,2.5
+Curd,4.5,71.2,1,PLA Film,Room Temperature,10,Warning,7.8
+Milk,15.6,88.3,0,Cellulose Film,Room Temperature,7,High Risk,5.2
+Curd,23.4,83.1,3,PLA Film,Room Temperature,10,High Risk,4.9
+Paneer,17.5,72.4,2,Cellulose Film,Room Temperature,7,Warning,3.5
+Milk,4.4,68.7,4,Cellulose Film,Refrigerated,7,Safe,2.4
+Cheese,4.4,58.5,2,Moulded Bagasse Pulp,Refrigerated,30,Safe,27.7
+Curd,22.4,89.6,3,Moulded Bagasse Pulp,Room Temperature,10,High Risk,5.2
+Cheese,27.5,56.0,9,Vacuum Pack,Room Temperature,30,Warning,20.1
+Yogurt,12.6,55.8,7,PLA Film,Room Temperature,14,Warning,5.8
+Paneer,5.4,84.1,1,PLA Film,Room Temperature,7,High Risk,4.2
+Cheese,3.9,64.7,24,Kraft Paper,Refrigerated,30,Safe,5.4
+Paneer,21.0,54.1,4,Glass Container,Room Temperature,7,Warning,1.5
+Cheese,15.3,53.9,15,Cellulose Film,Refrigerated,30,Warning,13.8
+Curd,31.7,93.2,11,PLA Film,Refrigerated,10,High Risk,0
+Cheese,24.1,86.3,33,Moulded Bagasse Pulp,Refrigerated,30,High Risk,0
+Yogurt,25.0,78.0,12,Vacuum Pack,Room Temperature,14,High Risk,0.2
+Butter,28.3,87.7,46,Kraft Paper,Refrigerated,60,High Risk,11.9
+Paneer,21.1,66.9,9,Vacuum Pack,Refrigerated,7,High Risk,0
+Cheese,26.2,71.0,9,Vacuum Pack,Refrigerated,30,Warning,20.1
+Cheese,13.2,37.8,17,Cellulose Film,Refrigerated,30,Warning,11.5
+Butter,9.7,45.7,27,Kraft Paper,Refrigerated,60,Warning,32.1
+Milk,9.7,67.2,11,Glass Container,Refrigerated,7,High Risk,0
+Milk,9.0,63.5,0,Cellulose Film,Room Temperature,7,Warning,5.8
+Yogurt,23.8,60.2,19,Glass Container,Refrigerated,14,High Risk,0
+Paneer,20.9,44.1,8,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,22.3,76.8,28,Vacuum Pack,Refrigerated,60,Warning,31.1
+Milk,23.7,56.1,10,PLA Film,Room Temperature,7,High Risk,0
+Butter,20.6,91.0,57,Vacuum Pack,Refrigerated,60,High Risk,0.9
+Cheese,28.1,57.7,26,Cellulose Film,Room Temperature,30,High Risk,1.6
+Paneer,4.2,59.7,4,Moulded Bagasse Pulp,Refrigerated,7,Safe,2.7
+Cheese,5.6,60.4,5,PLA Film,Room Temperature,30,Warning,23.8
+Milk,33.2,79.6,11,Vacuum Pack,Room Temperature,7,High Risk,0
+Curd,26.9,64.3,13,Vacuum Pack,Refrigerated,10,High Risk,0
+Curd,15.6,92.6,4,Glass Container,Refrigerated,10,Warning,5.1
+Curd,10.6,50.3,7,Moulded Bagasse Pulp,Room Temperature,10,Warning,1.8
+Curd,17.5,43.3,3,Vacuum Pack,Refrigerated,10,Safe,6.7
+Cheese,24.1,74.0,3,Cellulose Film,Room Temperature,30,Warning,25.8
+Butter,34.5,70.0,34,Kraft Paper,Refrigerated,60,Warning,24.5
+Butter,2.6,64.3,13,Cellulose Film,Room Temperature,60,Warning,45.8
+Paneer,15.8,78.9,10,Kraft Paper,Refrigerated,7,High Risk,0
+Cheese,12.6,43.0,26,Vacuum Pack,Room Temperature,30,High Risk,2.2
+Yogurt,16.0,79.0,10,Vacuum Pack,Refrigerated,14,Warning,2.8
+Paneer,33.4,76.9,3,Glass Container,Refrigerated,7,Warning,2.8
+Cheese,34.6,37.3,22,Kraft Paper,Room Temperature,30,Warning,6.5
+Butter,8.2,78.3,52,Moulded Bagasse Pulp,Refrigerated,60,High Risk,5.6
+Curd,33.0,67.6,3,Moulded Bagasse Pulp,Room Temperature,10,Warning,5.5
+Cheese,5.2,81.1,28,Glass Container,Room Temperature,30,High Risk,0
+Curd,20.7,64.8,15,PLA Film,Refrigerated,10,High Risk,0
+Cheese,20.9,40.8,6,PLA Film,Refrigerated,30,Safe,23.4
+Butter,27.5,54.4,23,PLA Film,Refrigerated,60,Warning,35.8
+Curd,18.8,47.9,10,Vacuum Pack,Refrigerated,10,High Risk,0
+Paneer,16.3,72.9,12,Glass Container,Room Temperature,7,High Risk,0
+Cheese,29.1,68.6,33,Glass Container,Room Temperature,30,High Risk,0
+Curd,12.6,49.2,11,Glass Container,Refrigerated,10,High Risk,0
+Cheese,31.2,50.1,5,Kraft Paper,Refrigerated,30,Warning,24.1
+Yogurt,17.5,47.5,12,Kraft Paper,Room Temperature,14,High Risk,0
+Paneer,22.5,78.7,3,PLA Film,Refrigerated,7,Warning,2.8
+Yogurt,9.7,94.0,5,PLA Film,Refrigerated,14,Warning,7.8
+Curd,24.1,91.5,6,Cellulose Film,Room Temperature,10,High Risk,1.9
+Curd,12.2,93.8,9,Vacuum Pack,Refrigerated,10,High Risk,0
+Cheese,8.8,50.9,33,Kraft Paper,Refrigerated,30,High Risk,0
+Paneer,22.9,68.2,2,PLA Film,Room Temperature,7,High Risk,3.2
+Paneer,9.2,92.0,9,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,16.4,56.4,2,Moulded Bagasse Pulp,Room Temperature,7,Warning,3.8
+Yogurt,20.6,60.4,4,Glass Container,Room Temperature,14,Warning,8.8
+Milk,34.8,47.2,1,Glass Container,Refrigerated,7,Safe,5.4
+Curd,18.0,54.5,14,Vacuum Pack,Room Temperature,10,High Risk,0
+Paneer,23.4,49.9,3,Glass Container,Room Temperature,7,Warning,2.8
+Curd,27.2,66.7,1,PLA Film,Room Temperature,10,Warning,7.5
+Cheese,11.7,37.6,31,PLA Film,Room Temperature,30,High Risk,0
+Paneer,10.4,91.0,5,Glass Container,Refrigerated,7,Warning,0.5
+Milk,2.7,73.6,12,Glass Container,Room Temperature,7,High Risk,0
+Milk,12.7,61.8,3,Cellulose Film,Refrigerated,7,Warning,3.1
+Milk,3.2,81.6,10,Glass Container,Room Temperature,7,High Risk,0
+Yogurt,33.2,82.0,14,PLA Film,Refrigerated,14,High Risk,0
+Milk,17.0,44.2,10,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,23.5,73.2,5,Glass Container,Room Temperature,10,Warning,3.8
+Paneer,11.9,51.9,7,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,5.1,78.7,14,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Cheese,13.0,85.2,15,Vacuum Pack,Room Temperature,30,High Risk,13.2
+Yogurt,11.4,46.2,1,Vacuum Pack,Room Temperature,14,Warning,12.1
+Butter,21.4,75.0,49,Moulded Bagasse Pulp,Refrigerated,60,High Risk,8.6
+Paneer,12.9,82.0,12,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Curd,33.1,88.2,5,Glass Container,Refrigerated,10,Warning,3.8
+Paneer,27.5,77.0,1,Cellulose Film,Refrigerated,7,Warning,5.1
+Curd,16.1,86.8,10,Kraft Paper,Refrigerated,10,High Risk,0
+Paneer,18.2,87.1,12,Cellulose Film,Refrigerated,7,High Risk,0
+Paneer,31.7,55.8,8,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,28.2,76.6,11,Vacuum Pack,Refrigerated,10,High Risk,0
+Yogurt,7.6,60.7,3,Cellulose Film,Refrigerated,14,Safe,10.7
+Curd,9.1,41.1,2,Vacuum Pack,Room Temperature,10,Warning,7.1
+Milk,22.6,43.6,2,Moulded Bagasse Pulp,Refrigerated,7,Warning,4.1
+Butter,31.0,89.7,37,Moulded Bagasse Pulp,Refrigerated,60,High Risk,20.9
+Butter,19.6,42.2,55,Cellulose Film,Refrigerated,60,High Risk,2.9
+Paneer,25.5,66.5,2,Glass Container,Refrigerated,7,Warning,4.1
+Paneer,18.0,37.7,6,Glass Container,Room Temperature,7,Warning,0
+Paneer,34.4,80.3,7,Kraft Paper,Room Temperature,7,High Risk,0
+Paneer,33.3,87.6,7,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,5.5,76.7,7,Kraft Paper,Room Temperature,14,Warning,5.5
+Paneer,24.1,38.8,10,PLA Film,Room Temperature,7,High Risk,0
+Paneer,15.7,44.0,5,Cellulose Film,Refrigerated,7,Warning,0.5
+Milk,21.0,48.4,6,Vacuum Pack,Refrigerated,7,Warning,0
+Butter,11.0,36.0,45,Moulded Bagasse Pulp,Room Temperature,60,High Risk,12.9
+Paneer,23.6,93.0,10,Vacuum Pack,Refrigerated,7,High Risk,0
+Butter,33.5,79.9,23,Glass Container,Room Temperature,60,Warning,35.5
+Milk,3.8,68.6,9,Glass Container,Refrigerated,7,Warning,0
+Yogurt,32.5,67.0,8,Moulded Bagasse Pulp,Room Temperature,14,Warning,4.5
+Yogurt,8.1,93.3,13,Glass Container,Refrigerated,14,High Risk,0
+Cheese,12.5,63.8,8,Vacuum Pack,Room Temperature,30,Warning,21.1
+Paneer,34.4,75.5,11,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,23.9,78.8,6,Kraft Paper,Room Temperature,10,Warning,2.5
+Yogurt,32.5,75.2,6,Cellulose Film,Refrigerated,14,Warning,7.1
+Curd,5.1,72.8,15,Glass Container,Room Temperature,10,High Risk,0
+Yogurt,13.8,38.6,11,PLA Film,Room Temperature,14,High Risk,1.2
+Milk,23.2,74.2,10,Kraft Paper,Room Temperature,7,High Risk,0
+Curd,15.0,75.0,1,Kraft Paper,Refrigerated,10,Warning,7.8
+Paneer,27.5,85.7,5,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,27.2,54.9,59,Vacuum Pack,Refrigerated,60,Warning,0
+Cheese,2.9,82.3,28,Vacuum Pack,Refrigerated,30,Warning,0.8
+Curd,31.0,49.7,12,Vacuum Pack,Refrigerated,10,High Risk,0
+Curd,6.4,38.1,11,Glass Container,Room Temperature,10,High Risk,0
+Milk,23.1,78.3,3,Moulded Bagasse Pulp,Room Temperature,7,Warning,2.5
+Yogurt,4.6,73.5,13,PLA Film,Refrigerated,14,Warning,0
+Butter,32.7,43.7,26,Vacuum Pack,Room Temperature,60,Warning,33.1
+Paneer,30.1,39.6,5,Vacuum Pack,Room Temperature,7,Warning,0.8
+Yogurt,7.5,63.2,17,PLA Film,Room Temperature,14,High Risk,0
+Milk,18.7,81.7,5,PLA Film,Room Temperature,7,High Risk,0.2
+Butter,7.6,52.2,51,Cellulose Film,Refrigerated,60,Warning,7.8
+Yogurt,24.7,84.0,7,Glass Container,Room Temperature,14,High Risk,5.2
+Paneer,24.2,63.9,1,Glass Container,Refrigerated,7,Safe,5.7
+Cheese,18.4,57.9,26,Cellulose Film,Refrigerated,30,Warning,2.5
+Paneer,6.4,42.6,5,Cellulose Film,Room Temperature,7,Warning,0.5
+Cheese,2.5,74.8,30,Vacuum Pack,Room Temperature,30,High Risk,0
+Milk,29.0,45.1,1,Cellulose Film,Room Temperature,7,Warning,4.8
+Curd,2.5,48.8,4,Moulded Bagasse Pulp,Room Temperature,10,Warning,5.1
+Milk,9.5,51.6,3,Cellulose Film,Room Temperature,7,Warning,3.1
+Curd,32.9,84.1,1,Cellulose Film,Room Temperature,10,High Risk,7.2
+Milk,14.0,48.5,7,Glass Container,Room Temperature,7,High Risk,0
+Milk,19.1,74.8,6,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,5.5,58.0,10,PLA Film,Room Temperature,10,High Risk,0
+Cheese,3.6,63.5,30,Vacuum Pack,Refrigerated,30,Warning,0
+Paneer,19.8,39.2,8,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,10.8,53.1,1,Cellulose Film,Refrigerated,14,Warning,11.8
+Butter,4.2,47.2,15,Glass Container,Room Temperature,60,Safe,44.4
+Milk,33.2,64.2,0,Kraft Paper,Room Temperature,7,Warning,5.8
+Milk,16.4,87.9,10,Glass Container,Room Temperature,7,High Risk,0
+Milk,4.6,36.9,2,Moulded Bagasse Pulp,Room Temperature,7,Warning,3.5
+Paneer,23.6,81.2,7,PLA Film,Room Temperature,7,High Risk,0
+Curd,34.1,86.7,14,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Paneer,32.0,40.3,10,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,25.9,41.1,11,Glass Container,Refrigerated,7,High Risk,0
+Curd,9.5,91.2,13,Cellulose Film,Room Temperature,10,High Risk,0
+Yogurt,33.2,65.1,4,Kraft Paper,Room Temperature,14,High Risk,8.2
+Milk,21.8,55.0,3,Kraft Paper,Refrigerated,7,Safe,3.4
+Yogurt,25.9,43.5,17,Kraft Paper,Refrigerated,14,High Risk,0
+Paneer,32.8,56.8,5,Glass Container,Room Temperature,7,Warning,0.8
+Milk,21.6,73.3,12,Kraft Paper,Refrigerated,7,High Risk,0
+Butter,30.2,45.2,40,Cellulose Film,Room Temperature,60,Warning,18.5
+Butter,23.3,40.5,4,Cellulose Film,Refrigerated,60,Warning,54.8
+Cheese,27.0,61.9,17,Vacuum Pack,Room Temperature,30,Warning,11.8
+Paneer,34.7,37.2,5,PLA Film,Room Temperature,7,Warning,0.5
+Yogurt,31.6,79.6,8,Vacuum Pack,Refrigerated,14,Warning,4.8
+Curd,18.5,51.2,1,Kraft Paper,Room Temperature,10,Warning,8.1
+Butter,20.2,50.0,44,Cellulose Film,Room Temperature,60,Warning,14.5
+Butter,3.8,73.1,6,PLA Film,Refrigerated,60,Safe,53.7
+Paneer,22.4,46.1,9,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,14.4,47.4,9,Kraft Paper,Refrigerated,10,Warning,0
+Butter,26.2,90.6,2,Glass Container,Room Temperature,60,Warning,56.8
+Paneer,17.7,69.9,1,Cellulose Film,Refrigerated,7,Warning,5.1
+Yogurt,16.3,74.4,6,PLA Film,Refrigerated,14,Warning,6.8
+Curd,16.2,59.8,12,Kraft Paper,Room Temperature,10,High Risk,0
+Butter,34.9,92.3,16,Moulded Bagasse Pulp,Refrigerated,60,High Risk,42.2
+Milk,16.5,83.7,7,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Paneer,13.8,85.1,7,PLA Film,Refrigerated,7,High Risk,0
+Yogurt,23.4,80.4,16,Cellulose Film,Room Temperature,14,High Risk,0
+Paneer,24.6,73.7,10,PLA Film,Refrigerated,7,High Risk,0
+Milk,6.7,46.3,4,PLA Film,Refrigerated,7,Safe,2.4
+Curd,24.5,55.5,12,PLA Film,Room Temperature,10,High Risk,0
+Paneer,19.1,36.7,2,Vacuum Pack,Room Temperature,7,Warning,4.1
+Milk,26.4,72.9,3,Vacuum Pack,Room Temperature,7,Warning,2.8
+Yogurt,2.3,37.9,14,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Butter,24.1,80.8,40,Moulded Bagasse Pulp,Refrigerated,60,High Risk,18.2
+Cheese,18.0,91.4,22,Vacuum Pack,Refrigerated,30,Warning,6.5
+Milk,31.0,38.7,9,Glass Container,Refrigerated,7,High Risk,0
+Cheese,32.6,39.0,7,Kraft Paper,Refrigerated,30,Warning,22.1
+Cheese,32.0,36.3,15,Vacuum Pack,Room Temperature,30,Warning,13.8
+Yogurt,12.4,62.8,12,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Yogurt,34.0,61.9,8,Moulded Bagasse Pulp,Room Temperature,14,Warning,4.8
+Yogurt,24.4,67.1,2,Vacuum Pack,Refrigerated,14,Warning,11.1
+Yogurt,31.1,71.6,6,Kraft Paper,Room Temperature,14,High Risk,6.2
+Yogurt,12.2,86.8,11,PLA Film,Room Temperature,14,High Risk,0.3
+Yogurt,27.6,89.0,13,Kraft Paper,Refrigerated,14,High Risk,0
+Yogurt,2.8,74.7,15,Kraft Paper,Room Temperature,14,High Risk,0
+Butter,16.5,78.2,37,Cellulose Film,Refrigerated,60,Warning,21.5
+Curd,13.8,73.6,0,Cellulose Film,Refrigerated,10,Warning,8.5
+Yogurt,21.7,93.2,16,PLA Film,Room Temperature,14,High Risk,0
+Cheese,5.3,94.0,5,Vacuum Pack,Room Temperature,30,Warning,23.5
+Milk,16.3,49.8,8,PLA Film,Room Temperature,7,High Risk,0
+Butter,30.9,89.3,47,PLA Film,Room Temperature,60,High Risk,10.3
+Yogurt,16.3,41.9,0,Moulded Bagasse Pulp,Room Temperature,14,Warning,12.8
+Butter,5.6,66.6,65,Cellulose Film,Refrigerated,60,High Risk,0
+Yogurt,7.5,59.6,13,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Cheese,32.3,66.3,17,Kraft Paper,Room Temperature,30,High Risk,11.2
+Cheese,26.5,78.8,8,Kraft Paper,Room Temperature,30,Warning,20.5
+Yogurt,16.8,68.9,12,Glass Container,Refrigerated,14,High Risk,0
+Butter,4.5,60.3,9,Vacuum Pack,Room Temperature,60,Warning,50.1
+Milk,28.9,82.3,9,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Milk,16.5,70.1,3,PLA Film,Room Temperature,7,High Risk,2.2
+Butter,3.0,66.3,57,Moulded Bagasse Pulp,Room Temperature,60,High Risk,0.6
+Milk,6.5,70.1,11,Vacuum Pack,Refrigerated,7,High Risk,0
+Curd,33.5,40.2,3,PLA Film,Refrigerated,10,Warning,5.8
+Butter,3.5,37.2,35,Glass Container,Refrigerated,60,Safe,25.3
+Milk,12.2,50.6,9,Kraft Paper,Refrigerated,7,High Risk,0
+Curd,13.3,54.6,1,PLA Film,Room Temperature,10,Warning,7.5
+Yogurt,33.1,59.7,2,Kraft Paper,Refrigerated,14,Safe,11.4
+Paneer,15.9,71.3,2,Moulded Bagasse Pulp,Refrigerated,7,Warning,3.5
+Paneer,22.4,67.4,3,Moulded Bagasse Pulp,Refrigerated,7,Warning,2.5
+Paneer,24.2,77.3,2,PLA Film,Room Temperature,7,Warning,3.8
+Butter,34.2,53.2,10,Moulded Bagasse Pulp,Refrigerated,60,Warning,49.1
+Cheese,10.9,64.3,23,Cellulose Film,Room Temperature,30,High Risk,4.9
+Yogurt,9.9,66.2,13,Glass Container,Room Temperature,14,High Risk,0
+Yogurt,5.7,79.4,4,Kraft Paper,Refrigerated,14,Safe,9.4
+Cheese,3.8,93.5,10,Cellulose Film,Room Temperature,30,High Risk,17.9
+Paneer,4.9,68.7,6,Kraft Paper,Refrigerated,7,Warning,0
+Paneer,20.1,58.1,12,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Butter,28.1,91.4,58,PLA Film,Room Temperature,60,High Risk,0
+Butter,26.8,74.1,0,Kraft Paper,Room Temperature,60,Warning,58.5
+Yogurt,25.8,93.4,12,Glass Container,Room Temperature,14,High Risk,0
+Milk,10.5,83.8,3,PLA Film,Room Temperature,7,High Risk,1.9
+Curd,3.4,85.7,7,PLA Film,Room Temperature,10,High Risk,0.9
+Butter,33.3,93.1,43,Cellulose Film,Refrigerated,60,High Risk,15.2
+Yogurt,21.1,78.8,16,Vacuum Pack,Refrigerated,14,High Risk,0
+Yogurt,19.8,66.7,8,Moulded Bagasse Pulp,Refrigerated,14,Warning,4.5
+Curd,17.4,80.8,4,Vacuum Pack,Refrigerated,10,Warning,4.5
+Yogurt,4.2,37.7,0,Glass Container,Room Temperature,14,Warning,12.8
+Milk,4.0,48.0,3,Glass Container,Room Temperature,7,Warning,3.1
+Curd,34.3,50.3,1,Vacuum Pack,Room Temperature,10,Warning,7.8
+Paneer,19.2,64.1,3,Moulded Bagasse Pulp,Refrigerated,7,Warning,2.8
+Cheese,26.5,75.3,26,Vacuum Pack,Room Temperature,30,High Risk,1.9
+Yogurt,26.6,92.0,4,Glass Container,Room Temperature,14,High Risk,8.2
+Paneer,3.8,91.2,9,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,10.0,64.2,0,Glass Container,Refrigerated,7,Warning,6.1
+Butter,8.5,73.1,21,Vacuum Pack,Refrigerated,60,Warning,37.8
+Milk,28.9,45.1,1,Kraft Paper,Refrigerated,7,Warning,5.1
+Curd,30.5,70.9,15,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Cheese,13.6,85.6,13,Glass Container,Refrigerated,30,Warning,15.8
+Yogurt,22.7,50.2,3,PLA Film,Refrigerated,14,Warning,10.1
+Paneer,12.9,61.4,5,Kraft Paper,Room Temperature,7,Warning,0.5
+Curd,24.8,90.2,5,Cellulose Film,Room Temperature,10,High Risk,2.9
+Yogurt,29.1,71.5,17,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Curd,24.3,41.7,9,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Yogurt,4.6,42.5,8,Kraft Paper,Refrigerated,14,Safe,6.0
+Curd,11.1,42.8,6,Moulded Bagasse Pulp,Refrigerated,10,Warning,2.8
+Butter,3.3,89.6,40,Glass Container,Room Temperature,60,High Risk,18.2
+Paneer,25.9,84.0,2,Moulded Bagasse Pulp,Refrigerated,7,Warning,3.5
+Milk,14.8,57.6,11,Cellulose Film,Room Temperature,7,High Risk,0
+Cheese,11.1,45.2,21,Glass Container,Refrigerated,30,Safe,8.4
+Milk,34.7,41.5,12,Glass Container,Refrigerated,7,High Risk,0
+Cheese,18.2,40.1,9,Vacuum Pack,Room Temperature,30,Warning,19.8
+Yogurt,9.4,94.0,19,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Butter,22.5,63.7,23,Moulded Bagasse Pulp,Room Temperature,60,Warning,35.8
+Milk,15.9,49.3,3,PLA Film,Refrigerated,7,Warning,3.1
+Yogurt,13.2,89.1,0,PLA Film,Room Temperature,14,High Risk,12.2
+Cheese,29.0,44.2,3,Moulded Bagasse Pulp,Refrigerated,30,Warning,26.1
+Butter,13.7,39.0,53,Cellulose Film,Room Temperature,60,High Risk,4.6
+Butter,8.5,64.3,0,Vacuum Pack,Room Temperature,60,Warning,58.8
+Butter,21.1,90.9,18,Cellulose Film,Refrigerated,60,Warning,40.5
+Paneer,24.0,55.4,7,Kraft Paper,Room Temperature,7,High Risk,0
+Paneer,11.8,44.2,0,Vacuum Pack,Room Temperature,7,Safe,6.4
+Yogurt,3.6,85.3,13,Cellulose Film,Room Temperature,14,High Risk,0
+Yogurt,26.4,54.5,19,Glass Container,Refrigerated,14,High Risk,0
+Milk,8.6,36.9,7,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,22.5,83.9,6,PLA Film,Refrigerated,7,High Risk,0
+Milk,20.1,44.8,12,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Cheese,10.3,46.8,7,Cellulose Film,Refrigerated,30,Safe,22.4
+Milk,34.2,83.7,8,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,27.4,62.1,26,Moulded Bagasse Pulp,Refrigerated,30,High Risk,2.2
+Paneer,20.6,89.7,10,Vacuum Pack,Refrigerated,7,High Risk,0
+Curd,14.2,60.1,6,Cellulose Film,Refrigerated,10,Warning,2.8
+Cheese,3.9,88.6,25,Vacuum Pack,Room Temperature,30,High Risk,2.3
+Yogurt,30.9,62.1,10,Kraft Paper,Room Temperature,14,Warning,2.5
+Paneer,2.4,80.4,4,Vacuum Pack,Refrigerated,7,Safe,2.4
+Milk,4.1,36.9,9,Moulded Bagasse Pulp,Refrigerated,7,Warning,0
+Curd,15.4,35.2,15,Glass Container,Refrigerated,10,High Risk,0
+Yogurt,10.6,38.9,3,Glass Container,Refrigerated,14,Safe,10.4
+Curd,4.7,61.0,1,Kraft Paper,Refrigerated,10,Safe,9.0
+Paneer,12.2,52.2,10,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,17.0,42.0,1,Glass Container,Refrigerated,7,Safe,5.7
+Curd,26.8,58.2,4,Glass Container,Refrigerated,10,Safe,5.7
+Milk,11.2,80.8,11,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Milk,4.6,49.0,10,Moulded Bagasse Pulp,Refrigerated,7,Warning,0
+Milk,25.5,86.4,0,PLA Film,Room Temperature,7,High Risk,5.2
+Curd,27.9,74.6,0,Cellulose Film,Refrigerated,10,Warning,8.5
+Curd,7.6,85.3,10,PLA Film,Room Temperature,10,High Risk,0
+Cheese,4.7,94.2,5,Cellulose Film,Room Temperature,30,Warning,23.5
+Butter,4.3,76.5,64,Vacuum Pack,Refrigerated,60,Warning,0
+Cheese,28.6,90.6,33,Glass Container,Refrigerated,30,High Risk,0
+Yogurt,15.6,63.1,12,Glass Container,Refrigerated,14,Warning,0.8
+Paneer,14.5,64.7,7,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Milk,10.6,54.2,5,Glass Container,Refrigerated,7,Warning,1.1
+Cheese,10.2,86.3,23,Glass Container,Room Temperature,30,High Risk,4.9
+Yogurt,10.0,87.3,16,Glass Container,Room Temperature,14,High Risk,0
+Paneer,3.3,54.5,9,Cellulose Film,Refrigerated,7,High Risk,0
+Curd,7.2,66.3,15,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Cheese,11.3,80.0,3,Kraft Paper,Room Temperature,30,Warning,25.5
+Milk,6.2,68.5,4,Kraft Paper,Room Temperature,7,High Risk,1.2
+Cheese,5.7,83.8,9,Kraft Paper,Refrigerated,30,Warning,20.1
+Curd,3.5,38.8,2,Kraft Paper,Refrigerated,10,Safe,8.0
+Milk,16.5,67.3,0,Glass Container,Refrigerated,7,Warning,6.1
+Paneer,8.0,55.1,4,Glass Container,Refrigerated,7,Safe,2.7
+Paneer,14.2,75.6,1,Glass Container,Room Temperature,7,Warning,4.8
+Butter,11.9,35.9,5,Glass Container,Refrigerated,60,Safe,54.4
+Milk,9.2,40.8,7,Glass Container,Refrigerated,7,High Risk,0
+Milk,9.8,37.2,6,Kraft Paper,Room Temperature,7,High Risk,0
+Milk,8.9,57.5,5,Glass Container,Room Temperature,7,Warning,0.5
+Cheese,20.9,88.5,5,Moulded Bagasse Pulp,Refrigerated,30,High Risk,23.2
+Yogurt,32.9,56.3,14,Kraft Paper,Room Temperature,14,High Risk,0
+Cheese,28.3,59.1,21,Kraft Paper,Room Temperature,30,High Risk,7.2
+Paneer,18.7,77.1,5,Vacuum Pack,Room Temperature,7,High Risk,0.2
+Paneer,19.6,55.7,7,Glass Container,Refrigerated,7,High Risk,0
+Curd,31.4,85.3,12,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Yogurt,15.3,59.1,6,Glass Container,Room Temperature,14,Safe,7.4
+Curd,23.5,66.7,3,Vacuum Pack,Room Temperature,10,Warning,6.1
+Milk,6.6,73.2,2,Vacuum Pack,Refrigerated,7,Safe,4.7
+Yogurt,9.0,50.8,7,Kraft Paper,Refrigerated,14,Warning,5.8
+Yogurt,21.6,55.7,1,Glass Container,Refrigerated,14,Safe,12.4
+Yogurt,7.4,93.2,15,Glass Container,Room Temperature,14,High Risk,0
+Curd,17.4,44.3,14,Vacuum Pack,Room Temperature,10,High Risk,0
+Cheese,25.7,45.5,18,Moulded Bagasse Pulp,Refrigerated,30,Warning,10.8
+Yogurt,21.6,85.3,17,Vacuum Pack,Room Temperature,14,High Risk,0
+Cheese,14.5,94.2,34,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Yogurt,20.4,44.4,13,Glass Container,Room Temperature,14,High Risk,0
+Milk,7.8,64.1,3,Kraft Paper,Refrigerated,7,Safe,3.7
+Butter,24.0,58.3,22,Vacuum Pack,Room Temperature,60,Warning,37.1
+Curd,4.1,49.9,10,Vacuum Pack,Room Temperature,10,High Risk,0
+Cheese,25.6,94.1,32,PLA Film,Refrigerated,30,High Risk,0
+Curd,13.1,85.0,0,Cellulose Film,Refrigerated,10,Warning,8.5
+Yogurt,7.2,54.4,7,Moulded Bagasse Pulp,Room Temperature,14,Warning,5.8
+Milk,9.8,90.9,0,Moulded Bagasse Pulp,Room Temperature,7,High Risk,5.2
+Butter,20.0,68.5,37,Cellulose Film,Refrigerated,60,Warning,21.5
+Milk,2.6,56.2,10,Glass Container,Refrigerated,7,Warning,0
+Yogurt,29.3,82.4,0,Moulded Bagasse Pulp,Refrigerated,14,High Risk,12.2
+Curd,8.0,59.2,5,PLA Film,Refrigerated,10,Safe,4.7
+Curd,16.7,69.0,2,Cellulose Film,Refrigerated,10,Warning,6.5
+Paneer,24.1,40.8,10,Vacuum Pack,Refrigerated,7,High Risk,0
+Paneer,11.0,91.3,4,Kraft Paper,Room Temperature,7,High Risk,0.9
+Cheese,3.7,66.8,20,Glass Container,Room Temperature,30,Warning,8.5
+Paneer,12.8,61.7,11,Kraft Paper,Refrigerated,7,High Risk,0
+Paneer,6.6,47.9,12,Kraft Paper,Refrigerated,7,High Risk,0
+Butter,4.4,73.2,52,PLA Film,Room Temperature,60,High Risk,5.3
+Milk,29.4,54.6,1,Vacuum Pack,Refrigerated,7,Warning,5.1
+Cheese,26.7,74.7,9,Kraft Paper,Room Temperature,30,Warning,19.5
+Butter,25.0,65.4,62,Cellulose Film,Room Temperature,60,High Risk,0
+Milk,21.6,75.9,12,Kraft Paper,Refrigerated,7,High Risk,0
+Paneer,7.3,50.4,8,PLA Film,Refrigerated,7,High Risk,0
+Milk,16.6,40.3,12,Cellulose Film,Refrigerated,7,High Risk,0
+Paneer,11.4,81.0,9,Glass Container,Room Temperature,7,High Risk,0
+Milk,28.5,74.1,2,Vacuum Pack,Refrigerated,7,Safe,4.4
+Yogurt,15.1,54.4,12,Glass Container,Room Temperature,14,High Risk,0.2
+Cheese,17.1,87.9,7,Cellulose Film,Refrigerated,30,High Risk,21.2
+Cheese,5.1,46.8,10,Moulded Bagasse Pulp,Refrigerated,30,Safe,19.7
+Paneer,11.1,43.4,2,PLA Film,Refrigerated,7,Warning,4.1
+Yogurt,10.3,57.8,13,Cellulose Film,Room Temperature,14,High Risk,0
+Yogurt,26.9,46.1,14,Vacuum Pack,Refrigerated,14,High Risk,0
+Paneer,26.4,74.1,0,Vacuum Pack,Room Temperature,7,Warning,5.8
+Milk,31.8,88.0,6,PLA Film,Refrigerated,7,High Risk,0
+Butter,12.8,89.1,35,Moulded Bagasse Pulp,Room Temperature,60,High Risk,23.2
+Cheese,5.9,78.3,27,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0.6
+Cheese,4.3,73.8,31,Vacuum Pack,Room Temperature,30,High Risk,0
+Cheese,27.0,75.8,1,PLA Film,Room Temperature,30,Warning,27.8
+Cheese,29.7,56.8,19,Kraft Paper,Room Temperature,30,Warning,9.8
+Cheese,11.7,71.9,10,Moulded Bagasse Pulp,Refrigerated,30,Warning,18.8
+Paneer,3.8,46.2,1,Kraft Paper,Refrigerated,7,Safe,5.7
+Butter,6.9,94.9,0,Kraft Paper,Refrigerated,60,Safe,59.4
+Paneer,23.2,44.7,2,PLA Film,Refrigerated,7,Warning,3.8
+Butter,33.2,78.9,19,Kraft Paper,Room Temperature,60,High Risk,39.2
+Cheese,32.7,41.8,28,Glass Container,Refrigerated,30,Warning,0.8
+Milk,34.7,51.7,11,Glass Container,Refrigerated,7,High Risk,0
+Milk,33.5,76.4,10,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,29.1,52.9,5,Kraft Paper,Room Temperature,7,Warning,0.8
+Paneer,21.6,61.6,8,PLA Film,Refrigerated,7,High Risk,0
+Curd,20.4,63.8,2,Cellulose Film,Refrigerated,10,Warning,7.1
+Curd,11.0,46.9,2,Vacuum Pack,Refrigerated,10,Safe,7.4
+Cheese,32.5,45.6,24,Moulded Bagasse Pulp,Room Temperature,30,High Risk,3.6
+Milk,16.5,92.2,1,Moulded Bagasse Pulp,Refrigerated,7,Warning,4.5
+Milk,15.8,45.3,11,Glass Container,Refrigerated,7,High Risk,0
+Milk,2.1,56.3,5,Glass Container,Room Temperature,7,Warning,0.8
+Paneer,34.7,79.9,6,Kraft Paper,Refrigerated,7,High Risk,0
+Butter,11.7,73.0,7,Cellulose Film,Refrigerated,60,Warning,51.5
+Cheese,2.1,53.4,17,Moulded Bagasse Pulp,Room Temperature,30,Warning,11.8
+Yogurt,25.4,63.7,10,Vacuum Pack,Refrigerated,14,Warning,3.1
+Milk,4.9,77.3,6,PLA Film,Room Temperature,7,High Risk,0
+Paneer,13.8,78.4,10,Vacuum Pack,Room Temperature,7,High Risk,0
+Paneer,10.5,72.0,9,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,19.5,66.7,12,Glass Container,Room Temperature,10,High Risk,0
+Paneer,31.4,94.8,7,Vacuum Pack,Refrigerated,7,High Risk,0
+Yogurt,28.1,74.7,19,PLA Film,Room Temperature,14,High Risk,0
+Milk,15.3,45.5,11,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,23.9,47.7,5,Moulded Bagasse Pulp,Room Temperature,10,Warning,3.5
+Yogurt,31.0,71.0,14,Vacuum Pack,Refrigerated,14,High Risk,0
+Paneer,27.4,86.3,10,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Cheese,21.8,61.7,16,PLA Film,Room Temperature,30,Warning,12.5
+Yogurt,34.1,59.7,16,PLA Film,Refrigerated,14,High Risk,0
+Milk,15.0,55.9,4,Vacuum Pack,Room Temperature,7,Warning,1.5
+Curd,7.7,40.3,4,Glass Container,Refrigerated,10,Safe,6.3
+Milk,6.4,40.5,8,PLA Film,Room Temperature,7,High Risk,0
+Yogurt,31.5,39.4,1,Glass Container,Refrigerated,14,Safe,12.7
+Curd,19.1,64.3,13,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Butter,15.4,49.8,58,Glass Container,Room Temperature,60,High Risk,0.2
+Butter,12.7,41.3,59,Glass Container,Refrigerated,60,High Risk,0
+Milk,12.0,50.6,6,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,35.0,67.4,8,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Butter,6.6,73.8,3,Glass Container,Refrigerated,60,Safe,56.7
+Yogurt,8.7,87.4,3,Cellulose Film,Refrigerated,14,High Risk,9.2
+Cheese,16.7,66.8,27,Cellulose Film,Room Temperature,30,High Risk,0.6
+Curd,31.1,42.3,12,PLA Film,Room Temperature,10,High Risk,0
+Butter,8.8,90.3,24,PLA Film,Room Temperature,60,High Risk,34.2
+Yogurt,33.8,70.6,0,PLA Film,Refrigerated,14,Warning,12.8
+Paneer,31.8,74.4,10,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,6.6,66.1,6,Moulded Bagasse Pulp,Refrigerated,7,Warning,0
+Yogurt,6.5,70.8,3,Cellulose Film,Room Temperature,14,Warning,9.5
+Paneer,21.3,76.4,4,Moulded Bagasse Pulp,Room Temperature,7,High Risk,1.2
+Milk,27.6,79.6,1,Moulded Bagasse Pulp,Room Temperature,7,Warning,4.5
+Milk,17.6,75.2,8,Glass Container,Room Temperature,7,High Risk,0
+Milk,30.4,58.9,1,Glass Container,Refrigerated,7,Safe,5.4
+Yogurt,5.6,69.8,0,Moulded Bagasse Pulp,Room Temperature,14,High Risk,12.2
+Butter,30.3,53.2,33,Glass Container,Room Temperature,60,Warning,25.8
+Butter,19.1,84.3,8,Vacuum Pack,Room Temperature,60,Warning,50.5
+Milk,17.5,37.6,9,Cellulose Film,Refrigerated,7,High Risk,0
+Paneer,18.2,52.0,10,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Yogurt,10.3,65.9,4,Kraft Paper,Refrigerated,14,Warning,8.5
+Butter,5.2,54.3,25,PLA Film,Refrigerated,60,Safe,34.7
+Curd,28.8,79.2,3,Glass Container,Refrigerated,10,Warning,6.1
+Yogurt,21.5,81.6,19,Cellulose Film,Room Temperature,14,High Risk,0
+Paneer,3.1,49.5,6,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,11.9,87.6,2,Vacuum Pack,Room Temperature,30,Warning,26.5
+Paneer,8.3,44.8,4,Kraft Paper,Refrigerated,7,Warning,1.5
+Cheese,12.2,94.3,31,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Milk,17.6,74.4,8,Vacuum Pack,Refrigerated,7,High Risk,0
+Cheese,18.0,94.3,13,Glass Container,Refrigerated,30,Warning,15.8
+Yogurt,13.1,68.4,9,Glass Container,Room Temperature,14,Warning,3.5
+Curd,22.8,67.6,14,Vacuum Pack,Refrigerated,10,High Risk,0
+Milk,3.7,78.5,4,Cellulose Film,Refrigerated,7,Safe,2.4
+Milk,28.0,44.4,0,Glass Container,Room Temperature,7,Safe,6.4
+Yogurt,30.5,35.5,7,Kraft Paper,Refrigerated,14,Warning,5.8
+Yogurt,28.7,37.5,3,Glass Container,Room Temperature,14,Warning,9.8
+Butter,26.3,78.7,12,Glass Container,Refrigerated,60,Warning,47.1
+Yogurt,20.8,66.5,3,Glass Container,Room Temperature,14,Warning,9.8
+Curd,6.5,66.5,3,Vacuum Pack,Room Temperature,10,Warning,5.8
+Milk,18.9,77.7,3,PLA Film,Room Temperature,7,Warning,2.5
+Cheese,19.8,48.3,30,Glass Container,Room Temperature,30,High Risk,0
+Milk,27.2,72.8,1,Moulded Bagasse Pulp,Room Temperature,7,Warning,4.5
+Milk,11.5,71.8,1,Glass Container,Room Temperature,7,Warning,4.8
+Butter,27.8,71.7,48,PLA Film,Room Temperature,60,High Risk,9.6
+Paneer,12.9,93.6,0,Moulded Bagasse Pulp,Refrigerated,7,Warning,5.5
+Curd,30.5,83.9,0,Vacuum Pack,Room Temperature,10,Warning,8.5
+Milk,30.3,75.8,8,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Paneer,15.8,35.4,9,Glass Container,Refrigerated,7,High Risk,0
+Paneer,3.8,46.4,5,Glass Container,Refrigerated,7,Safe,1.7
+Butter,6.4,55.5,30,Moulded Bagasse Pulp,Room Temperature,60,Warning,28.5
+Paneer,11.6,91.2,3,PLA Film,Refrigerated,7,High Risk,2.2
+Yogurt,15.3,66.9,1,Cellulose Film,Refrigerated,14,Warning,12.1
+Cheese,34.5,46.0,26,PLA Film,Refrigerated,30,High Risk,2.2
+Curd,28.2,42.7,13,Cellulose Film,Room Temperature,10,High Risk,0
+Curd,34.5,89.0,5,Glass Container,Room Temperature,10,High Risk,3.2
+Paneer,12.8,41.5,7,Vacuum Pack,Refrigerated,7,High Risk,0
+Cheese,10.5,66.3,30,Kraft Paper,Refrigerated,30,High Risk,0
+Milk,32.3,72.4,1,PLA Film,Refrigerated,7,Warning,4.5
+Curd,33.2,36.3,1,Moulded Bagasse Pulp,Room Temperature,10,Warning,7.8
+Milk,12.2,42.4,6,Cellulose Film,Refrigerated,7,High Risk,0
+Curd,9.6,80.8,3,Cellulose Film,Refrigerated,10,Warning,5.5
+Milk,8.4,77.9,5,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0.2
+Yogurt,26.7,47.7,11,Kraft Paper,Room Temperature,14,High Risk,1.2
+Curd,3.1,67.0,8,Kraft Paper,Room Temperature,10,High Risk,0
+Milk,26.7,62.2,4,Vacuum Pack,Refrigerated,7,Warning,2.1
+Yogurt,29.8,75.9,14,Vacuum Pack,Refrigerated,14,High Risk,0
+Yogurt,10.8,75.7,18,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Paneer,21.3,60.4,9,Vacuum Pack,Refrigerated,7,High Risk,0
+Butter,34.7,74.8,14,PLA Film,Refrigerated,60,Warning,44.8
+Milk,10.3,71.6,5,Vacuum Pack,Room Temperature,7,Warning,0.8
+Milk,18.9,71.8,3,Glass Container,Room Temperature,7,Warning,3.1
+Yogurt,32.7,76.7,15,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Cheese,25.0,82.1,10,Moulded Bagasse Pulp,Refrigerated,30,Warning,18.5
+Curd,31.0,81.5,3,Moulded Bagasse Pulp,Refrigerated,10,Warning,5.8
+Yogurt,6.5,57.5,14,Kraft Paper,Refrigerated,14,High Risk,0
+Yogurt,13.5,87.9,14,Cellulose Film,Refrigerated,14,High Risk,0
+Curd,26.5,69.3,13,Glass Container,Refrigerated,10,High Risk,0
+Butter,13.6,74.1,18,Moulded Bagasse Pulp,Room Temperature,60,Warning,40.5
+Butter,29.8,59.8,8,Glass Container,Room Temperature,60,Safe,51.4
+Paneer,29.4,81.9,11,PLA Film,Refrigerated,7,High Risk,0
+Yogurt,33.8,74.1,4,Glass Container,Room Temperature,14,Warning,8.5
+Butter,10.0,68.9,4,Glass Container,Refrigerated,60,Warning,55.1
+Paneer,15.3,38.5,5,Kraft Paper,Room Temperature,7,Warning,0.8
+Butter,20.8,73.0,54,Moulded Bagasse Pulp,Refrigerated,60,High Risk,3.6
+Yogurt,32.5,73.5,1,Vacuum Pack,Room Temperature,14,Warning,11.8
+Milk,33.1,80.1,9,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,32.1,94.1,52,Moulded Bagasse Pulp,Refrigerated,60,High Risk,5.6
+Yogurt,31.1,48.0,11,Kraft Paper,Room Temperature,14,High Risk,1.2
+Butter,30.4,47.4,21,Moulded Bagasse Pulp,Refrigerated,60,Warning,38.1
+Paneer,12.3,41.6,9,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,3.4,44.3,36,Moulded Bagasse Pulp,Refrigerated,60,Safe,23.4
+Milk,28.5,38.2,10,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Milk,13.0,36.0,4,Kraft Paper,Refrigerated,7,Warning,2.1
+Milk,4.9,52.5,11,Glass Container,Refrigerated,7,Warning,0
+Curd,18.0,58.8,1,Vacuum Pack,Room Temperature,10,Warning,8.1
+Milk,24.5,69.9,9,Glass Container,Refrigerated,7,High Risk,0
+Milk,19.3,80.1,10,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Paneer,33.7,39.9,3,Vacuum Pack,Room Temperature,7,Warning,3.1
+Yogurt,31.0,43.7,0,Vacuum Pack,Room Temperature,14,Warning,13.1
+Milk,9.1,81.8,8,Kraft Paper,Room Temperature,7,High Risk,0
+Paneer,31.5,51.1,4,Moulded Bagasse Pulp,Refrigerated,7,Warning,1.8
+Butter,5.9,58.0,42,Cellulose Film,Room Temperature,60,Warning,16.8
+Paneer,35.0,71.5,2,PLA Film,Room Temperature,7,High Risk,3.2
+Paneer,18.5,85.0,0,Moulded Bagasse Pulp,Room Temperature,7,High Risk,5.2
+Butter,14.3,66.8,4,Cellulose Film,Refrigerated,60,Warning,54.8
+Milk,27.1,54.5,12,Kraft Paper,Refrigerated,7,High Risk,0
+Cheese,26.1,74.4,22,Glass Container,Room Temperature,30,High Risk,6.2
+Yogurt,11.3,66.9,14,Kraft Paper,Room Temperature,14,High Risk,0
+Milk,32.3,93.5,9,Kraft Paper,Refrigerated,7,High Risk,0
+Butter,11.1,50.3,45,Glass Container,Refrigerated,60,Warning,13.5
+Butter,19.7,78.3,40,Vacuum Pack,Room Temperature,60,Warning,18.5
+Yogurt,17.6,82.6,0,Cellulose Film,Refrigerated,14,Warning,12.5
+Paneer,33.6,51.4,11,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Butter,20.2,57.9,52,PLA Film,Room Temperature,60,High Risk,6.2
+Butter,8.3,80.7,20,Vacuum Pack,Room Temperature,60,Warning,38.5
+Curd,11.7,51.0,11,Cellulose Film,Room Temperature,10,High Risk,0
+Cheese,18.8,69.3,10,Moulded Bagasse Pulp,Room Temperature,30,Warning,18.5
+Curd,3.9,46.3,5,Cellulose Film,Room Temperature,10,Warning,3.5
+Butter,27.7,73.0,11,Glass Container,Refrigerated,60,Safe,48.4
+Milk,23.9,68.3,11,Kraft Paper,Room Temperature,7,High Risk,0
+Curd,26.0,93.5,5,Kraft Paper,Refrigerated,10,High Risk,2.9
+Cheese,19.2,71.0,0,Kraft Paper,Room Temperature,30,Warning,28.5
+Curd,18.4,78.3,5,Moulded Bagasse Pulp,Refrigerated,10,Warning,3.8
+Cheese,15.7,72.6,28,Glass Container,Room Temperature,30,High Risk,0
+Yogurt,31.3,41.7,10,Glass Container,Room Temperature,14,Warning,2.8
+Butter,25.4,76.8,62,Glass Container,Refrigerated,60,High Risk,0
+Butter,18.9,92.3,19,Moulded Bagasse Pulp,Refrigerated,60,Warning,39.8
+Curd,21.2,63.2,7,PLA Film,Refrigerated,10,Warning,1.5
+Milk,12.6,38.8,2,Vacuum Pack,Refrigerated,7,Safe,4.4
+Milk,10.8,36.1,10,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,31.7,62.7,53,Vacuum Pack,Refrigerated,60,Warning,5.5
+Curd,7.9,92.7,15,PLA Film,Room Temperature,10,High Risk,0
+Yogurt,31.2,71.4,14,Vacuum Pack,Refrigerated,14,High Risk,0
+Paneer,29.5,92.5,6,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Milk,12.3,84.6,11,Glass Container,Room Temperature,7,High Risk,0
+Milk,24.5,36.5,1,Moulded Bagasse Pulp,Room Temperature,7,Warning,4.8
+Yogurt,28.0,94.3,18,Cellulose Film,Room Temperature,14,High Risk,0
+Milk,7.4,55.6,2,Glass Container,Room Temperature,7,Warning,3.8
+Yogurt,15.9,43.2,4,PLA Film,Refrigerated,14,Warning,8.8
+Milk,20.1,46.1,7,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,28.4,94.3,12,Glass Container,Room Temperature,10,High Risk,0
+Curd,2.9,82.6,14,Cellulose Film,Room Temperature,10,High Risk,0
+Milk,25.4,63.1,12,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,18.5,55.0,12,Moulded Bagasse Pulp,Refrigerated,60,Warning,46.8
+Yogurt,11.6,54.8,17,Kraft Paper,Refrigerated,14,High Risk,0
+Butter,15.5,35.2,53,Moulded Bagasse Pulp,Refrigerated,60,High Risk,5.2
+Cheese,9.7,55.6,4,Vacuum Pack,Room Temperature,30,Warning,25.1
+Cheese,13.2,53.9,4,Cellulose Film,Room Temperature,30,Warning,24.8
+Paneer,28.7,62.7,1,Cellulose Film,Room Temperature,7,Warning,4.8
+Cheese,31.6,63.9,33,Glass Container,Refrigerated,30,High Risk,0
+Curd,15.2,43.2,9,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Curd,26.0,66.7,5,Vacuum Pack,Room Temperature,10,Warning,3.5
+Cheese,33.0,47.4,18,PLA Film,Room Temperature,30,High Risk,10.2
+Butter,29.3,48.1,51,Moulded Bagasse Pulp,Room Temperature,60,High Risk,6.9
+Butter,33.6,76.4,12,Glass Container,Refrigerated,60,Warning,47.1
+Paneer,31.8,92.8,11,PLA Film,Room Temperature,7,High Risk,0
+Butter,30.8,58.7,4,Glass Container,Refrigerated,60,Safe,55.7
+Curd,28.8,45.7,12,PLA Film,Refrigerated,10,High Risk,0
+Milk,9.3,73.9,2,Moulded Bagasse Pulp,Room Temperature,7,Warning,3.5
+Cheese,24.2,44.1,32,Moulded Bagasse Pulp,Refrigerated,30,High Risk,0
+Milk,3.8,38.9,7,PLA Film,Refrigerated,7,Warning,0
+Paneer,28.2,59.3,4,Glass Container,Room Temperature,7,Warning,1.8
+Cheese,29.7,85.1,32,Cellulose Film,Refrigerated,30,High Risk,0
+Paneer,18.0,81.4,8,Glass Container,Room Temperature,7,High Risk,0
+Curd,29.7,45.5,5,PLA Film,Room Temperature,10,High Risk,3.2
+Butter,9.7,50.6,61,Vacuum Pack,Refrigerated,60,High Risk,0
+Yogurt,33.3,63.2,1,Kraft Paper,Room Temperature,14,Warning,11.8
+Butter,20.6,65.5,42,Kraft Paper,Refrigerated,60,Warning,16.8
+Paneer,34.6,62.7,0,Vacuum Pack,Room Temperature,7,Warning,6.1
+Curd,2.2,75.5,2,Glass Container,Room Temperature,10,Warning,7.1
+Cheese,27.4,65.8,2,Cellulose Film,Room Temperature,30,High Risk,26.2
+Cheese,15.3,39.4,12,Vacuum Pack,Room Temperature,30,Warning,17.1
+Butter,19.7,65.8,13,Glass Container,Room Temperature,60,Warning,45.8
+Paneer,23.8,72.3,0,PLA Film,Refrigerated,7,Warning,5.8
+Paneer,11.4,42.3,9,Vacuum Pack,Refrigerated,7,High Risk,0
+Paneer,16.3,38.6,5,PLA Film,Refrigerated,7,Warning,0.8
+Butter,21.7,69.3,35,Glass Container,Room Temperature,60,High Risk,23.2
+Paneer,26.1,89.6,1,PLA Film,Room Temperature,7,High Risk,4.2
+Curd,18.6,81.3,14,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Yogurt,10.4,69.5,18,Cellulose Film,Refrigerated,14,High Risk,0
+Yogurt,28.3,87.5,7,Vacuum Pack,Room Temperature,14,High Risk,5.2
+Butter,33.3,77.1,32,Cellulose Film,Refrigerated,60,Warning,26.5
+Butter,31.1,46.3,5,Moulded Bagasse Pulp,Room Temperature,60,Warning,54.1
+Butter,26.0,76.2,22,Moulded Bagasse Pulp,Refrigerated,60,Warning,37.1
+Paneer,15.6,41.2,8,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,17.3,94.0,5,Glass Container,Room Temperature,7,Warning,0.5
+Cheese,20.4,91.8,10,Kraft Paper,Room Temperature,30,High Risk,17.9
+Milk,30.2,93.5,5,PLA Film,Room Temperature,7,High Risk,0.2
+Paneer,24.1,50.5,7,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,18.6,92.8,18,Cellulose Film,Room Temperature,30,High Risk,9.9
+Curd,21.7,77.0,14,Kraft Paper,Refrigerated,10,High Risk,0
+Yogurt,12.6,84.6,18,PLA Film,Room Temperature,14,High Risk,0
+Yogurt,13.7,40.0,2,Cellulose Film,Room Temperature,14,Warning,10.8
+Milk,29.2,52.6,3,Cellulose Film,Room Temperature,7,Warning,2.8
+Cheese,18.0,40.0,17,Vacuum Pack,Refrigerated,30,Safe,12.4
+Cheese,11.6,93.4,3,PLA Film,Refrigerated,30,Warning,25.5
+Milk,4.1,94.8,1,PLA Film,Refrigerated,7,Warning,5.1
+Yogurt,14.9,49.0,2,Vacuum Pack,Room Temperature,14,Warning,11.1
+Curd,29.9,79.8,15,Cellulose Film,Room Temperature,10,High Risk,0
+Curd,16.5,43.4,15,Glass Container,Refrigerated,10,High Risk,0
+Butter,19.8,80.5,46,Vacuum Pack,Refrigerated,60,High Risk,11.9
+Curd,28.0,67.2,3,Cellulose Film,Refrigerated,10,Warning,5.8
+Paneer,25.7,72.0,6,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Cheese,25.1,91.4,20,Glass Container,Room Temperature,30,High Risk,8.2
+Butter,12.7,39.1,45,Cellulose Film,Room Temperature,60,High Risk,12.9
+Curd,22.2,80.8,1,Glass Container,Room Temperature,10,Warning,7.8
+Curd,29.0,64.4,4,Kraft Paper,Refrigerated,10,Warning,5.1
+Butter,31.6,51.3,31,Vacuum Pack,Refrigerated,60,Safe,28.4
+Paneer,13.3,49.7,2,Moulded Bagasse Pulp,Room Temperature,7,Warning,3.8
+Paneer,8.2,59.9,2,Vacuum Pack,Refrigerated,7,Safe,4.7
+Yogurt,4.3,86.7,12,Kraft Paper,Refrigerated,14,Warning,0.5
+Butter,12.4,88.1,54,Kraft Paper,Room Temperature,60,High Risk,3.6
+Milk,12.4,45.9,7,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Curd,21.4,36.7,1,Cellulose Film,Room Temperature,10,Warning,7.8
+Paneer,19.2,55.3,6,Cellulose Film,Room Temperature,7,High Risk,0
+Yogurt,18.3,61.6,7,Glass Container,Refrigerated,14,Warning,6.1
+Yogurt,6.7,71.9,13,Kraft Paper,Room Temperature,14,High Risk,0
+Cheese,16.1,72.8,15,Kraft Paper,Refrigerated,30,Warning,13.8
+Butter,27.5,87.2,55,PLA Film,Refrigerated,60,High Risk,2.3
+Butter,29.4,86.7,21,Vacuum Pack,Room Temperature,60,Warning,37.5
+Butter,26.3,81.9,5,Cellulose Film,Refrigerated,60,Warning,53.5
+Curd,28.3,37.8,15,Glass Container,Refrigerated,10,High Risk,0
+Yogurt,25.2,49.8,13,Vacuum Pack,Room Temperature,14,High Risk,0
+Milk,33.6,82.6,7,PLA Film,Refrigerated,7,High Risk,0
+Butter,4.8,69.1,59,Glass Container,Room Temperature,60,High Risk,0
+Yogurt,9.5,48.3,3,Vacuum Pack,Refrigerated,14,Safe,10.4
+Butter,24.2,91.6,38,Kraft Paper,Refrigerated,60,High Risk,20.2
+Yogurt,17.5,37.0,13,PLA Film,Refrigerated,14,High Risk,0
+Yogurt,11.7,77.4,14,Vacuum Pack,Room Temperature,14,High Risk,0
+Butter,27.3,54.3,25,Cellulose Film,Room Temperature,60,Warning,34.1
+Butter,4.1,64.4,64,Moulded Bagasse Pulp,Refrigerated,60,High Risk,0
+Milk,20.0,87.2,6,PLA Film,Room Temperature,7,High Risk,0
+Milk,2.0,49.5,8,Glass Container,Refrigerated,7,Warning,0
+Paneer,6.8,83.1,10,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,3.1,76.9,64,Moulded Bagasse Pulp,Refrigerated,60,High Risk,0
+Paneer,27.7,47.0,10,Cellulose Film,Room Temperature,7,High Risk,0
+Yogurt,10.5,60.2,19,Cellulose Film,Refrigerated,14,High Risk,0
+Milk,19.0,35.6,5,Cellulose Film,Refrigerated,7,Warning,0.5
+Paneer,25.5,80.6,7,Vacuum Pack,Refrigerated,7,High Risk,0
+Yogurt,10.6,49.6,15,Cellulose Film,Room Temperature,14,High Risk,0
+Curd,7.6,73.9,0,Moulded Bagasse Pulp,Room Temperature,10,High Risk,8.2
+Butter,11.6,73.0,34,Cellulose Film,Refrigerated,60,Warning,24.5
+Curd,32.7,41.4,13,Kraft Paper,Refrigerated,10,High Risk,0
+Butter,30.8,86.3,40,Vacuum Pack,Refrigerated,60,Warning,18.5
+Milk,3.5,40.7,1,Moulded Bagasse Pulp,Room Temperature,7,Warning,4.8
+Paneer,14.1,77.5,11,Vacuum Pack,Refrigerated,7,High Risk,0
+Paneer,10.5,69.5,3,PLA Film,Refrigerated,7,Warning,2.8
+Cheese,34.2,52.7,34,Glass Container,Refrigerated,30,High Risk,0
+Paneer,5.7,89.7,8,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,17.6,62.6,5,Glass Container,Room Temperature,7,Warning,0.8
+Cheese,19.8,70.8,23,Cellulose Film,Room Temperature,30,High Risk,4.3
+Cheese,31.6,78.3,19,Cellulose Film,Room Temperature,30,High Risk,9.2
+Cheese,24.3,67.4,35,Kraft Paper,Refrigerated,30,High Risk,0
+Butter,32.1,71.8,51,Vacuum Pack,Room Temperature,60,High Risk,6.9
+Cheese,27.8,58.6,10,Glass Container,Room Temperature,30,Warning,18.8
+Butter,10.7,82.2,38,Kraft Paper,Room Temperature,60,High Risk,19.9
+Paneer,23.2,72.6,0,Kraft Paper,Refrigerated,7,Warning,5.8
+Cheese,8.1,59.7,33,PLA Film,Refrigerated,30,High Risk,0
+Yogurt,18.1,94.8,6,Cellulose Film,Refrigerated,14,High Risk,6.2
+Butter,31.7,50.8,58,Cellulose Film,Refrigerated,60,High Risk,0
+Curd,9.0,59.1,13,Kraft Paper,Refrigerated,10,High Risk,0
+Butter,32.4,65.6,43,PLA Film,Refrigerated,60,Warning,15.5
+Milk,8.0,54.0,12,Vacuum Pack,Refrigerated,7,Warning,0
+Yogurt,25.1,43.3,3,PLA Film,Room Temperature,14,Warning,9.5
+Butter,24.0,87.1,29,Cellulose Film,Refrigerated,60,Warning,29.5
+Yogurt,29.2,47.4,0,Cellulose Film,Room Temperature,14,Warning,12.8
+Curd,9.7,82.2,8,Vacuum Pack,Refrigerated,10,High Risk,0
+Butter,5.9,48.4,10,Vacuum Pack,Room Temperature,60,Safe,49.4
+Curd,20.6,38.5,9,Kraft Paper,Room Temperature,10,High Risk,0
+Cheese,21.8,67.8,6,Vacuum Pack,Refrigerated,30,Warning,23.1
+Cheese,3.0,49.5,18,PLA Film,Room Temperature,30,Warning,10.8
+Yogurt,19.9,92.8,8,PLA Film,Refrigerated,14,High Risk,3.9
+Yogurt,19.5,46.3,0,Cellulose Film,Refrigerated,14,Warning,13.1
+Paneer,5.0,92.0,12,PLA Film,Refrigerated,7,High Risk,0
+Butter,28.5,71.5,45,Glass Container,Room Temperature,60,High Risk,12.9
+Cheese,4.3,63.8,0,Vacuum Pack,Refrigerated,30,Safe,30.3
+Curd,19.5,48.9,11,Kraft Paper,Refrigerated,10,High Risk,0
+Milk,34.1,38.7,4,Vacuum Pack,Room Temperature,7,Warning,1.8
+Paneer,27.9,69.3,5,Vacuum Pack,Refrigerated,7,Warning,0.8
+Paneer,11.9,62.7,8,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,33.4,50.5,22,Moulded Bagasse Pulp,Room Temperature,60,Warning,36.5
+Cheese,17.3,35.2,11,Moulded Bagasse Pulp,Refrigerated,30,Safe,18.4
+Yogurt,16.6,35.3,9,Moulded Bagasse Pulp,Refrigerated,14,Warning,4.1
+Yogurt,32.8,44.1,8,Vacuum Pack,Refrigerated,14,Warning,5.1
+Cheese,19.8,74.9,23,Cellulose Film,Refrigerated,30,High Risk,5.2
+Cheese,31.3,50.0,0,Moulded Bagasse Pulp,Room Temperature,30,Warning,28.8
+Cheese,13.4,66.7,35,Cellulose Film,Refrigerated,30,High Risk,0
+Paneer,30.8,83.2,2,Moulded Bagasse Pulp,Refrigerated,7,Warning,3.5
+Paneer,22.0,72.6,4,PLA Film,Room Temperature,7,High Risk,1.2
+Paneer,8.3,54.5,2,Cellulose Film,Refrigerated,7,Warning,4.1
+Milk,28.0,45.7,12,Glass Container,Refrigerated,7,High Risk,0
+Butter,30.3,56.6,62,Cellulose Film,Refrigerated,60,High Risk,0
+Butter,16.6,82.8,2,PLA Film,Room Temperature,60,Warning,56.5
+Cheese,34.4,56.6,24,PLA Film,Room Temperature,30,High Risk,4.2
+Yogurt,11.4,67.1,2,Cellulose Film,Refrigerated,14,Warning,10.8
+Curd,3.3,64.6,1,Moulded Bagasse Pulp,Room Temperature,10,Warning,7.8
+Butter,33.6,70.1,42,PLA Film,Refrigerated,60,Warning,16.5
+Cheese,28.6,75.5,9,PLA Film,Room Temperature,30,Warning,19.5
+Paneer,27.2,35.1,1,Vacuum Pack,Refrigerated,7,Safe,5.4
+Curd,14.7,65.5,3,Glass Container,Refrigerated,10,Safe,6.4
+Butter,4.8,76.2,63,Vacuum Pack,Refrigerated,60,Warning,0
+Yogurt,34.7,72.5,19,PLA Film,Room Temperature,14,High Risk,0
+Curd,8.6,54.3,11,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Paneer,28.0,59.5,11,PLA Film,Room Temperature,7,High Risk,0
+Yogurt,22.9,59.9,8,Moulded Bagasse Pulp,Refrigerated,14,Warning,4.8
+Curd,9.9,39.6,12,Glass Container,Refrigerated,10,High Risk,0
+Cheese,32.5,83.4,8,PLA Film,Refrigerated,30,Warning,20.5
+Yogurt,33.7,47.2,4,Moulded Bagasse Pulp,Room Temperature,14,Warning,8.8
+Cheese,27.0,35.5,9,Glass Container,Room Temperature,30,Warning,19.8
+Curd,11.0,93.6,5,Cellulose Film,Refrigerated,10,High Risk,3.2
+Paneer,23.8,65.1,11,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,33.9,72.1,11,Glass Container,Refrigerated,14,High Risk,1.2
+Paneer,5.6,82.3,9,Glass Container,Refrigerated,7,High Risk,0
+Cheese,16.6,38.2,2,Moulded Bagasse Pulp,Refrigerated,30,Warning,27.1
+Curd,15.5,41.1,0,PLA Film,Refrigerated,10,Warning,8.8
+Milk,26.8,66.0,12,Vacuum Pack,Room Temperature,7,High Risk,0
+Curd,10.9,35.7,11,PLA Film,Room Temperature,10,High Risk,0
+Paneer,19.0,76.8,8,Cellulose Film,Refrigerated,7,High Risk,0
+Milk,2.6,83.5,12,Vacuum Pack,Refrigerated,7,High Risk,0
+Curd,26.7,79.5,11,PLA Film,Refrigerated,10,High Risk,0
+Butter,8.9,52.0,22,Cellulose Film,Room Temperature,60,Warning,37.1
+Paneer,17.1,41.5,2,Cellulose Film,Room Temperature,7,Warning,3.5
+Curd,14.3,47.0,0,Vacuum Pack,Room Temperature,10,Warning,9.1
+Paneer,33.7,64.7,1,PLA Film,Room Temperature,7,Warning,4.8
+Cheese,18.1,56.5,16,Kraft Paper,Refrigerated,30,Warning,12.8
+Milk,19.9,55.2,8,Cellulose Film,Refrigerated,7,High Risk,0
+Yogurt,3.7,53.2,10,Vacuum Pack,Room Temperature,14,Warning,3.1
+Cheese,28.6,84.3,34,Moulded Bagasse Pulp,Refrigerated,30,High Risk,0
+Butter,31.1,49.3,30,Kraft Paper,Room Temperature,60,Warning,28.5
+Curd,33.6,84.0,2,Moulded Bagasse Pulp,Room Temperature,10,Warning,6.5
+Paneer,11.8,67.9,4,Cellulose Film,Room Temperature,7,High Risk,0.9
+Yogurt,32.3,35.5,12,Cellulose Film,Refrigerated,14,High Risk,0.2
+Yogurt,4.2,64.4,5,PLA Film,Refrigerated,14,Safe,9.0
+Butter,8.8,71.3,9,Vacuum Pack,Refrigerated,60,Warning,50.1
+Yogurt,4.7,38.9,1,Moulded Bagasse Pulp,Refrigerated,14,Safe,13.0
+Cheese,15.8,39.5,14,Moulded Bagasse Pulp,Refrigerated,30,Warning,15.1
+Cheese,25.0,57.1,6,Cellulose Film,Refrigerated,30,Warning,23.1
+Milk,5.6,40.6,5,PLA Film,Refrigerated,7,Safe,1.4
+Butter,13.3,79.0,29,Glass Container,Refrigerated,60,Warning,30.1
+Cheese,10.8,39.1,30,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Milk,14.9,45.8,10,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Cheese,17.2,83.8,34,Vacuum Pack,Refrigerated,30,High Risk,0
+Butter,5.1,59.5,23,Vacuum Pack,Refrigerated,60,Safe,36.7
+Paneer,31.1,51.9,6,Glass Container,Room Temperature,7,Warning,0
+Paneer,5.2,92.9,3,Moulded Bagasse Pulp,Room Temperature,7,High Risk,2.2
+Cheese,24.1,81.0,35,Glass Container,Refrigerated,30,High Risk,0
+Paneer,19.7,43.0,6,Kraft Paper,Room Temperature,7,High Risk,0
+Milk,10.1,40.9,7,Kraft Paper,Refrigerated,7,High Risk,0
+Cheese,21.1,91.8,7,PLA Film,Room Temperature,30,High Risk,21.2
+Yogurt,21.7,40.0,1,PLA Film,Room Temperature,14,Warning,11.8
+Curd,30.8,80.5,1,PLA Film,Room Temperature,10,Warning,7.5
+Cheese,23.4,86.7,22,Glass Container,Room Temperature,30,High Risk,6.2
+Cheese,8.2,94.1,24,Glass Container,Refrigerated,30,High Risk,3.6
+Yogurt,7.2,45.4,14,PLA Film,Room Temperature,14,High Risk,0
+Curd,13.5,58.0,10,Cellulose Film,Room Temperature,10,High Risk,0
+Cheese,26.8,52.3,22,Cellulose Film,Refrigerated,30,Warning,7.1
+Milk,14.9,60.2,1,Glass Container,Refrigerated,7,Safe,5.4
+Milk,4.1,51.8,4,Cellulose Film,Refrigerated,7,Safe,3.0
+Milk,21.9,75.9,6,Vacuum Pack,Refrigerated,7,High Risk,0
+Cheese,24.6,80.9,35,Glass Container,Refrigerated,30,High Risk,0
+Butter,7.0,61.0,38,PLA Film,Room Temperature,60,Warning,20.5
+Cheese,25.4,61.3,33,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Cheese,19.4,48.1,8,Cellulose Film,Room Temperature,30,Warning,20.5
+Cheese,34.8,53.6,22,PLA Film,Refrigerated,30,Warning,6.8
+Yogurt,32.6,44.7,5,Kraft Paper,Refrigerated,14,Safe,8.4
+Paneer,26.6,84.5,8,PLA Film,Refrigerated,7,High Risk,0
+Paneer,34.3,37.8,12,Cellulose Film,Room Temperature,7,High Risk,0
+Butter,22.4,59.4,41,Glass Container,Room Temperature,60,Warning,17.8
+Cheese,4.1,87.6,14,PLA Film,Refrigerated,30,Safe,15.4
+Butter,30.0,82.0,10,PLA Film,Refrigerated,60,Warning,48.5
+Cheese,8.4,48.5,7,Cellulose Film,Room Temperature,30,Warning,21.8
+Cheese,14.9,90.8,26,Kraft Paper,Refrigerated,30,High Risk,1.6
+Paneer,4.7,70.3,11,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Paneer,9.6,76.9,9,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Curd,27.0,54.1,3,Glass Container,Refrigerated,10,Safe,6.4
+Paneer,20.2,75.9,7,Glass Container,Room Temperature,7,High Risk,0
+Curd,26.3,72.7,11,Kraft Paper,Room Temperature,10,High Risk,0
+Yogurt,17.0,80.9,16,Glass Container,Refrigerated,14,High Risk,0
+Cheese,24.4,59.0,13,PLA Film,Refrigerated,30,Warning,16.1
+Milk,27.9,77.2,7,Glass Container,Room Temperature,7,High Risk,0
+Cheese,26.3,70.7,15,Kraft Paper,Refrigerated,30,Warning,13.5
+Curd,31.5,36.0,13,PLA Film,Room Temperature,10,High Risk,0
+Yogurt,21.4,40.3,1,Glass Container,Room Temperature,14,Warning,11.8
+Cheese,14.1,60.5,16,Moulded Bagasse Pulp,Room Temperature,30,Warning,12.8
+Milk,19.8,80.9,1,Moulded Bagasse Pulp,Room Temperature,7,Warning,4.5
+Milk,30.2,93.0,1,Moulded Bagasse Pulp,Room Temperature,7,High Risk,4.2
+Cheese,20.9,73.1,9,Cellulose Film,Refrigerated,30,Warning,19.8
+Cheese,9.8,37.1,3,Vacuum Pack,Refrigerated,30,Safe,26.4
+Milk,2.0,63.1,7,Glass Container,Refrigerated,7,Warning,0
+Milk,24.7,42.3,1,PLA Film,Room Temperature,7,Warning,4.8
+Curd,12.9,77.3,3,Glass Container,Refrigerated,10,Warning,6.1
+Curd,10.6,57.0,0,Cellulose Film,Refrigerated,10,Warning,9.1
+Butter,17.6,56.4,58,Vacuum Pack,Room Temperature,60,High Risk,0.2
+Curd,11.2,54.5,2,Glass Container,Refrigerated,10,Safe,7.4
+Cheese,20.1,55.5,0,Vacuum Pack,Refrigerated,30,Safe,29.4
+Butter,33.9,50.6,12,Moulded Bagasse Pulp,Refrigerated,60,Warning,46.8
+Milk,3.5,91.4,1,Kraft Paper,Refrigerated,7,Safe,5.4
+Cheese,7.8,83.4,16,Cellulose Film,Refrigerated,30,Warning,12.8
+Curd,26.1,47.4,13,Vacuum Pack,Refrigerated,10,High Risk,0
+Milk,34.5,58.3,1,Kraft Paper,Room Temperature,7,Warning,4.5
+Yogurt,12.3,69.4,16,Vacuum Pack,Refrigerated,14,High Risk,0
+Yogurt,6.1,56.5,17,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Paneer,17.9,47.7,9,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Cheese,28.8,89.8,6,Cellulose Film,Room Temperature,30,Warning,22.5
+Butter,7.4,73.2,63,Moulded Bagasse Pulp,Refrigerated,60,High Risk,0
+Milk,19.5,93.8,9,Cellulose Film,Refrigerated,7,High Risk,0
+Yogurt,24.1,84.5,13,Kraft Paper,Room Temperature,14,High Risk,0
+Cheese,31.1,52.7,14,Kraft Paper,Room Temperature,30,Warning,14.8
+Butter,27.6,35.8,48,Kraft Paper,Room Temperature,60,High Risk,9.9
+Butter,25.3,82.9,38,Glass Container,Refrigerated,60,Warning,20.5
+Paneer,34.4,53.3,5,Glass Container,Refrigerated,7,Safe,1.4
+Milk,33.2,63.5,1,PLA Film,Refrigerated,7,Warning,5.1
+Curd,29.1,61.1,13,PLA Film,Room Temperature,10,High Risk,0
+Cheese,10.7,48.0,34,Glass Container,Room Temperature,30,High Risk,0
+Cheese,28.8,52.6,23,Cellulose Film,Refrigerated,30,High Risk,5.2
+Paneer,13.3,91.3,0,Vacuum Pack,Room Temperature,7,High Risk,5.2
+Butter,16.2,55.3,7,Glass Container,Refrigerated,60,Safe,52.4
+Milk,33.6,40.2,0,Glass Container,Refrigerated,7,Safe,6.4
+Curd,13.7,92.6,7,PLA Film,Room Temperature,10,High Risk,1.2
+Curd,4.1,56.7,10,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Milk,22.6,40.6,11,Glass Container,Refrigerated,7,High Risk,0
+Milk,20.8,61.5,8,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,16.0,37.7,9,Kraft Paper,Room Temperature,10,High Risk,0
+Curd,20.2,72.4,13,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Milk,18.9,76.2,6,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,6.2,65.4,7,Vacuum Pack,Refrigerated,7,High Risk,0
+Yogurt,17.5,70.6,3,Cellulose Film,Room Temperature,14,Warning,9.8
+Paneer,20.1,74.2,5,PLA Film,Refrigerated,7,Warning,0.5
+Butter,30.4,50.3,23,PLA Film,Room Temperature,60,Warning,35.8
+Yogurt,15.4,73.8,4,Kraft Paper,Refrigerated,14,Warning,8.8
+Butter,21.0,65.6,10,Glass Container,Refrigerated,60,Warning,49.1
+Paneer,5.8,93.2,6,Vacuum Pack,Refrigerated,7,Warning,0
+Curd,27.6,64.9,6,Cellulose Film,Refrigerated,10,Warning,2.8
+Paneer,6.9,35.3,9,Vacuum Pack,Refrigerated,7,Warning,0
+Butter,31.3,79.4,61,Glass Container,Refrigerated,60,High Risk,0
+Curd,32.7,62.5,4,PLA Film,Room Temperature,10,Warning,5.1
+Milk,33.8,40.3,3,Glass Container,Refrigerated,7,Safe,3.7
+Butter,13.3,44.4,33,Glass Container,Room Temperature,60,Warning,25.8
+Milk,31.8,87.2,4,Kraft Paper,Refrigerated,7,High Risk,0.9
+Curd,27.6,59.1,8,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Cheese,16.7,44.3,31,PLA Film,Room Temperature,30,High Risk,0
+Yogurt,19.3,78.5,9,Glass Container,Room Temperature,14,High Risk,3.2
+Curd,7.4,50.2,12,Cellulose Film,Room Temperature,10,High Risk,0
+Yogurt,14.8,61.4,9,Kraft Paper,Refrigerated,14,Warning,3.8
+Butter,34.5,69.4,37,Kraft Paper,Room Temperature,60,High Risk,21.2
+Cheese,4.1,93.0,18,PLA Film,Refrigerated,30,Warning,11.1
+Butter,17.4,65.7,26,Kraft Paper,Refrigerated,60,Warning,32.8
+Curd,11.3,67.5,8,Glass Container,Room Temperature,10,High Risk,0
+Paneer,33.6,45.4,10,Kraft Paper,Room Temperature,7,High Risk,0
+Paneer,26.8,83.4,12,Glass Container,Refrigerated,7,High Risk,0
+Butter,17.5,81.6,65,Glass Container,Refrigerated,60,High Risk,0
+Yogurt,3.0,90.3,3,Kraft Paper,Refrigerated,14,Warning,10.1
+Milk,20.6,77.4,6,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Butter,18.8,56.0,57,Vacuum Pack,Refrigerated,60,Warning,1.8
+Milk,24.8,76.3,7,PLA Film,Room Temperature,7,High Risk,0
+Cheese,9.5,39.7,12,Moulded Bagasse Pulp,Refrigerated,30,Warning,17.1
+Paneer,33.4,61.6,9,Glass Container,Room Temperature,7,High Risk,0
+Curd,30.5,91.4,11,Vacuum Pack,Refrigerated,10,High Risk,0
+Milk,31.1,36.8,10,PLA Film,Room Temperature,7,High Risk,0
+Milk,12.6,81.0,3,Moulded Bagasse Pulp,Refrigerated,7,High Risk,2.2
+Paneer,9.3,58.0,9,Cellulose Film,Refrigerated,7,High Risk,0
+Paneer,6.9,41.7,4,Vacuum Pack,Refrigerated,7,Safe,2.7
+Curd,30.5,49.3,1,PLA Film,Refrigerated,10,Warning,7.8
+Curd,5.7,64.7,14,Kraft Paper,Refrigerated,10,High Risk,0
+Butter,11.1,82.1,50,Vacuum Pack,Room Temperature,60,High Risk,7.6
+Milk,3.2,86.8,1,Cellulose Film,Refrigerated,7,Safe,5.4
+Butter,33.4,89.9,65,Glass Container,Refrigerated,60,High Risk,0
+Cheese,12.5,90.6,6,Cellulose Film,Room Temperature,30,High Risk,22.2
+Cheese,25.3,66.4,33,Cellulose Film,Refrigerated,30,High Risk,0
+Cheese,3.1,88.2,7,Cellulose Film,Room Temperature,30,High Risk,21.2
+Butter,33.6,43.3,6,Glass Container,Refrigerated,60,Safe,53.4
+Paneer,28.2,76.4,12,Kraft Paper,Refrigerated,7,High Risk,0
+Curd,34.1,92.9,1,Moulded Bagasse Pulp,Room Temperature,10,High Risk,6.9
+Cheese,19.8,92.3,11,PLA Film,Room Temperature,30,High Risk,17.2
+Butter,2.3,84.4,19,Moulded Bagasse Pulp,Refrigerated,60,Warning,40.1
+Butter,5.8,56.6,27,Moulded Bagasse Pulp,Room Temperature,60,Warning,32.1
+Paneer,33.8,88.6,11,Glass Container,Refrigerated,7,High Risk,0
+Milk,18.8,64.0,1,PLA Film,Refrigerated,7,Warning,5.1
+Curd,24.6,76.9,15,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Cheese,23.3,43.7,29,Vacuum Pack,Refrigerated,30,Warning,0
+Yogurt,16.9,47.7,11,Moulded Bagasse Pulp,Refrigerated,14,High Risk,1.2
+Yogurt,17.1,73.5,7,Cellulose Film,Refrigerated,14,Warning,5.8
+Cheese,26.4,48.2,0,Glass Container,Refrigerated,30,Safe,29.4
+Milk,29.8,52.6,4,Glass Container,Room Temperature,7,Warning,1.8
+Yogurt,28.9,68.6,6,PLA Film,Room Temperature,14,Warning,6.5
+Curd,20.8,58.8,14,Glass Container,Refrigerated,10,High Risk,0
+Butter,30.1,38.4,52,Kraft Paper,Refrigerated,60,High Risk,5.9
+Paneer,13.4,48.3,10,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Yogurt,33.6,40.7,2,Moulded Bagasse Pulp,Room Temperature,14,Warning,10.8
+Paneer,20.6,52.0,8,PLA Film,Refrigerated,7,High Risk,0
+Yogurt,22.6,41.7,11,Vacuum Pack,Room Temperature,14,Warning,1.5
+Paneer,16.1,86.9,6,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,24.8,63.7,7,Cellulose Film,Refrigerated,7,High Risk,0
+Milk,28.5,60.1,12,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Cheese,15.4,52.9,10,Cellulose Film,Refrigerated,30,Warning,19.1
+Yogurt,19.8,44.6,19,Cellulose Film,Refrigerated,14,High Risk,0
+Cheese,19.5,87.4,25,Cellulose Film,Room Temperature,30,High Risk,2.6
+Cheese,27.6,71.3,24,Vacuum Pack,Refrigerated,30,High Risk,4.2
+Butter,9.8,56.8,42,Moulded Bagasse Pulp,Refrigerated,60,Warning,16.8
+Curd,22.2,35.2,1,Glass Container,Refrigerated,10,Safe,8.4
+Curd,4.3,56.0,12,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Butter,21.5,56.7,34,Moulded Bagasse Pulp,Refrigerated,60,Warning,25.1
+Yogurt,16.3,43.7,1,Cellulose Film,Room Temperature,14,Warning,11.8
+Yogurt,4.2,49.6,10,Kraft Paper,Room Temperature,14,Warning,2.5
+Curd,2.9,81.7,2,Vacuum Pack,Refrigerated,10,Safe,7.7
+Butter,25.6,82.9,29,Glass Container,Room Temperature,60,Warning,29.5
+Curd,31.4,48.0,9,Cellulose Film,Room Temperature,10,High Risk,0
+Curd,33.5,59.3,1,Cellulose Film,Refrigerated,10,Warning,8.1
+Curd,19.6,63.7,5,Moulded Bagasse Pulp,Refrigerated,10,Warning,3.8
+Curd,3.4,39.5,14,Glass Container,Refrigerated,10,Warning,0
+Milk,28.7,53.6,12,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Cheese,33.0,78.2,7,Cellulose Film,Refrigerated,30,Warning,21.8
+Paneer,27.1,65.6,6,PLA Film,Refrigerated,7,High Risk,0
+Cheese,30.2,82.0,6,Moulded Bagasse Pulp,Refrigerated,30,Warning,22.5
+Yogurt,25.4,44.8,8,Vacuum Pack,Refrigerated,14,Warning,5.1
+Milk,15.5,77.3,2,Moulded Bagasse Pulp,Refrigerated,7,Warning,3.8
+Butter,33.0,44.1,51,Kraft Paper,Room Temperature,60,High Risk,7.2
+Yogurt,34.8,94.6,11,Kraft Paper,Refrigerated,14,High Risk,0.3
+Paneer,31.6,72.9,12,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Butter,3.2,45.1,39,Moulded Bagasse Pulp,Refrigerated,60,Safe,20.4
+Cheese,30.8,50.7,4,PLA Film,Room Temperature,30,Warning,25.1
+Milk,3.0,63.4,7,Vacuum Pack,Refrigerated,7,Warning,0
+Cheese,32.0,77.2,19,Kraft Paper,Room Temperature,30,High Risk,9.2
+Yogurt,6.8,41.0,9,Glass Container,Room Temperature,14,Warning,3.8
+Cheese,31.6,42.8,2,Vacuum Pack,Room Temperature,30,Warning,27.1
+Yogurt,28.2,65.0,7,PLA Film,Refrigerated,14,Warning,5.8
+Butter,15.4,79.4,47,Cellulose Film,Refrigerated,60,High Risk,10.6
+Paneer,17.9,51.0,1,Vacuum Pack,Refrigerated,7,Safe,5.7
+Butter,23.7,61.1,30,Glass Container,Room Temperature,60,Warning,28.5
+Paneer,29.0,73.3,10,Glass Container,Refrigerated,7,High Risk,0
+Curd,10.6,40.3,3,PLA Film,Room Temperature,10,Warning,5.8
+Cheese,3.9,69.2,32,Vacuum Pack,Refrigerated,30,Warning,0
+Yogurt,11.0,74.1,2,Moulded Bagasse Pulp,Room Temperature,14,Warning,10.5
+Yogurt,6.5,62.9,5,Kraft Paper,Room Temperature,14,Warning,7.8
+Butter,23.3,36.8,54,Kraft Paper,Room Temperature,60,High Risk,4.2
+Cheese,10.5,35.8,14,Cellulose Film,Refrigerated,30,Warning,15.1
+Cheese,21.3,77.9,0,Vacuum Pack,Refrigerated,30,Warning,29.1
+Yogurt,13.4,82.7,12,Kraft Paper,Refrigerated,14,High Risk,0
+Milk,32.7,56.7,9,PLA Film,Room Temperature,7,High Risk,0
+Paneer,29.5,85.1,4,Cellulose Film,Refrigerated,7,High Risk,1.2
+Butter,22.8,73.1,29,Cellulose Film,Refrigerated,60,Warning,29.8
+Butter,16.5,39.9,9,Moulded Bagasse Pulp,Room Temperature,60,Warning,49.8
+Butter,30.4,41.7,59,PLA Film,Room Temperature,60,High Risk,0
+Milk,11.5,72.0,10,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,30.5,83.0,11,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Milk,31.5,69.8,9,PLA Film,Refrigerated,7,High Risk,0
+Paneer,12.3,42.3,10,PLA Film,Room Temperature,7,High Risk,0
+Curd,8.6,75.8,12,Cellulose Film,Refrigerated,10,High Risk,0
+Cheese,25.7,79.3,17,Kraft Paper,Room Temperature,30,High Risk,10.9
+Paneer,17.8,37.7,5,Cellulose Film,Room Temperature,7,High Risk,0.2
+Milk,18.8,35.1,5,PLA Film,Room Temperature,7,Warning,0.5
+Paneer,24.2,79.4,4,PLA Film,Room Temperature,7,High Risk,1.2
+Paneer,30.2,49.7,9,Glass Container,Room Temperature,7,High Risk,0
+Paneer,12.3,81.6,7,Glass Container,Refrigerated,7,High Risk,0
+Milk,24.9,75.6,7,Cellulose Film,Room Temperature,7,High Risk,0
+Cheese,32.3,46.0,18,PLA Film,Room Temperature,30,Warning,10.5
+Curd,22.2,41.0,2,Kraft Paper,Refrigerated,10,Warning,7.1
+Milk,22.5,62.4,9,Vacuum Pack,Room Temperature,7,High Risk,0
+Curd,11.6,35.9,7,Cellulose Film,Refrigerated,10,Warning,1.5
+Yogurt,14.2,41.1,15,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Curd,28.2,54.4,2,Glass Container,Refrigerated,10,Safe,7.4
+Milk,23.8,73.7,1,Moulded Bagasse Pulp,Refrigerated,7,Warning,4.8
+Yogurt,21.0,70.2,17,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Milk,13.7,72.6,11,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,25.1,81.4,14,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Cheese,33.9,89.9,24,Glass Container,Room Temperature,30,High Risk,3.6
+Paneer,23.8,37.9,7,PLA Film,Refrigerated,7,High Risk,0
+Curd,29.0,47.8,13,PLA Film,Refrigerated,10,High Risk,0
+Butter,12.6,78.9,64,Moulded Bagasse Pulp,Refrigerated,60,High Risk,0
+Curd,26.7,62.7,11,Kraft Paper,Room Temperature,10,High Risk,0
+Yogurt,9.3,79.0,8,Kraft Paper,Refrigerated,14,Warning,4.5
+Butter,21.7,43.5,11,Moulded Bagasse Pulp,Refrigerated,60,Warning,48.1
+Milk,19.3,36.9,6,PLA Film,Refrigerated,7,High Risk,0
+Curd,21.7,65.5,7,Glass Container,Refrigerated,10,Warning,1.8
+Yogurt,19.0,79.8,10,Moulded Bagasse Pulp,Refrigerated,14,Warning,2.5
+Butter,24.6,76.6,21,Glass Container,Room Temperature,60,Warning,37.8
+Paneer,16.6,76.3,9,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,22.9,43.4,11,PLA Film,Refrigerated,10,High Risk,0
+Curd,10.8,84.7,2,Glass Container,Room Temperature,10,Warning,6.5
+Paneer,22.0,90.7,7,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Butter,2.8,43.7,4,Moulded Bagasse Pulp,Refrigerated,60,Safe,55.7
+Curd,30.7,55.3,6,Cellulose Film,Refrigerated,10,Warning,3.1
+Butter,9.5,77.6,60,PLA Film,Refrigerated,60,High Risk,0
+Paneer,7.4,51.2,1,Vacuum Pack,Room Temperature,7,Safe,5.4
+Curd,6.7,67.4,1,Kraft Paper,Refrigerated,10,Safe,8.7
+Milk,26.2,44.8,3,Kraft Paper,Refrigerated,7,Safe,3.4
+Paneer,6.8,86.8,12,Vacuum Pack,Refrigerated,7,High Risk,0
+Yogurt,15.9,87.1,10,Moulded Bagasse Pulp,Room Temperature,14,High Risk,1.9
+Paneer,5.7,59.8,4,Glass Container,Refrigerated,7,Safe,2.7
+Milk,3.3,49.5,7,Glass Container,Refrigerated,7,Warning,0
+Milk,14.6,75.3,2,Kraft Paper,Refrigerated,7,Warning,3.8
+Paneer,18.4,61.8,6,PLA Film,Refrigerated,7,Warning,0
+Butter,9.1,72.1,19,Cellulose Film,Room Temperature,60,Warning,39.5
+Butter,12.6,58.3,31,PLA Film,Refrigerated,60,Warning,28.1
+Paneer,19.9,55.5,3,PLA Film,Room Temperature,7,Warning,2.8
+Curd,25.6,92.8,11,Glass Container,Refrigerated,10,High Risk,0
+Milk,32.5,83.9,10,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,13.8,93.3,62,Glass Container,Refrigerated,60,High Risk,0
+Paneer,31.7,67.0,10,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Paneer,16.3,82.6,0,Vacuum Pack,Refrigerated,7,Warning,5.5
+Cheese,18.2,81.6,1,Moulded Bagasse Pulp,Refrigerated,30,High Risk,27.2
+Paneer,2.0,82.7,11,Glass Container,Refrigerated,7,High Risk,0
+Yogurt,19.6,55.7,11,Vacuum Pack,Room Temperature,14,High Risk,0.9
+Milk,2.8,79.8,7,Vacuum Pack,Room Temperature,7,High Risk,0
+Yogurt,8.2,85.9,7,Glass Container,Room Temperature,14,High Risk,5.2
+Cheese,19.9,88.4,12,Vacuum Pack,Refrigerated,30,Warning,16.5
+Yogurt,13.9,84.2,18,Cellulose Film,Room Temperature,14,High Risk,0
+Yogurt,26.8,91.2,12,Cellulose Film,Refrigerated,14,High Risk,0
+Milk,11.1,55.0,5,Glass Container,Room Temperature,7,Warning,0.5
+Butter,13.9,37.4,61,PLA Film,Refrigerated,60,High Risk,0
+Cheese,19.3,62.6,13,Moulded Bagasse Pulp,Refrigerated,30,Warning,15.8
+Curd,33.2,71.3,2,Vacuum Pack,Room Temperature,10,Warning,6.8
+Butter,23.9,82.9,14,Glass Container,Room Temperature,60,Warning,44.5
+Yogurt,34.7,69.7,18,PLA Film,Refrigerated,14,High Risk,0
+Cheese,18.1,54.2,12,Glass Container,Refrigerated,30,Safe,17.4
+Milk,31.7,67.8,4,Cellulose Film,Room Temperature,7,High Risk,1.2
+Cheese,10.8,72.6,20,Vacuum Pack,Room Temperature,30,Warning,8.5
+Yogurt,28.6,61.5,16,Cellulose Film,Room Temperature,14,High Risk,0
+Curd,31.2,89.6,9,Cellulose Film,Room Temperature,10,High Risk,0
+Curd,19.4,57.8,7,Cellulose Film,Refrigerated,10,Warning,1.8
+Cheese,6.6,74.6,4,Cellulose Film,Refrigerated,30,Safe,25.4
+Yogurt,3.8,75.7,1,Kraft Paper,Room Temperature,14,Warning,11.5
+Milk,2.4,85.6,9,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,33.0,92.3,2,Kraft Paper,Refrigerated,7,Warning,3.5
+Paneer,27.9,81.8,7,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,22.1,89.1,24,Cellulose Film,Refrigerated,60,Warning,34.5
+Curd,5.4,86.1,1,Vacuum Pack,Refrigerated,10,Safe,8.4
+Paneer,9.2,91.6,7,Glass Container,Room Temperature,7,High Risk,0
+Yogurt,2.5,80.5,18,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Yogurt,13.5,39.0,5,Cellulose Film,Refrigerated,14,Warning,8.1
+Milk,23.1,47.9,0,PLA Film,Room Temperature,7,Warning,5.5
+Milk,2.6,86.0,12,PLA Film,Room Temperature,7,High Risk,0
+Paneer,29.5,48.2,0,Cellulose Film,Refrigerated,7,Safe,6.4
+Butter,32.8,91.0,25,Cellulose Film,Refrigerated,60,High Risk,33.2
+Milk,29.1,41.9,3,Moulded Bagasse Pulp,Refrigerated,7,Warning,3.1
+Paneer,16.9,43.8,9,Glass Container,Refrigerated,7,High Risk,0
+Butter,6.0,89.0,42,Kraft Paper,Refrigerated,60,Warning,16.8
+Butter,21.6,50.7,56,Moulded Bagasse Pulp,Refrigerated,60,High Risk,1.9
+Yogurt,29.6,56.6,15,Vacuum Pack,Room Temperature,14,High Risk,0
+Curd,10.2,42.3,5,Kraft Paper,Refrigerated,10,Warning,3.8
+Butter,5.5,46.8,15,Vacuum Pack,Refrigerated,60,Safe,45.3
+Yogurt,2.2,81.0,0,Glass Container,Refrigerated,14,Safe,13.4
+Milk,34.9,87.2,6,Kraft Paper,Refrigerated,7,High Risk,0
+Yogurt,9.9,51.8,10,Glass Container,Refrigerated,14,Warning,3.1
+Butter,34.6,37.4,64,Cellulose Film,Room Temperature,60,High Risk,0
+Curd,10.3,52.4,14,Cellulose Film,Room Temperature,10,High Risk,0
+Paneer,3.7,52.6,2,Kraft Paper,Refrigerated,7,Safe,5.0
+Paneer,32.4,58.6,3,PLA Film,Refrigerated,7,Warning,2.8
+Paneer,12.0,76.5,0,Glass Container,Refrigerated,7,Warning,5.8
+Butter,32.1,77.7,31,Glass Container,Refrigerated,60,Warning,27.8
+Milk,32.1,48.1,1,Cellulose Film,Room Temperature,7,Warning,4.5
+Yogurt,22.2,54.8,7,Vacuum Pack,Room Temperature,14,Warning,5.8
+Milk,7.8,54.5,1,Moulded Bagasse Pulp,Refrigerated,7,Safe,5.4
+Curd,4.0,64.5,12,Glass Container,Room Temperature,10,High Risk,0
+Paneer,2.3,91.9,7,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Milk,28.3,58.3,11,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Milk,26.4,64.8,3,Glass Container,Room Temperature,7,Warning,2.8
+Butter,7.4,71.4,51,Moulded Bagasse Pulp,Refrigerated,60,Warning,7.8
+Paneer,31.7,82.5,3,Cellulose Film,Refrigerated,7,Warning,2.8
+Paneer,29.1,60.4,8,PLA Film,Room Temperature,7,High Risk,0
+Milk,3.9,36.8,2,Cellulose Film,Refrigerated,7,Safe,5.0
+Curd,13.7,59.7,10,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Butter,12.3,92.8,22,Cellulose Film,Refrigerated,60,Warning,36.5
+Milk,28.3,49.2,0,PLA Film,Room Temperature,7,Warning,5.5
+Curd,5.8,91.4,3,Cellulose Film,Room Temperature,10,High Risk,4.9
+Yogurt,18.8,65.7,1,Vacuum Pack,Refrigerated,14,Warning,12.1
+Paneer,19.0,49.2,11,Kraft Paper,Refrigerated,7,High Risk,0
+Butter,5.5,91.2,2,PLA Film,Room Temperature,60,High Risk,55.9
+Yogurt,27.9,67.8,5,Moulded Bagasse Pulp,Refrigerated,14,Warning,7.8
+Milk,9.8,74.7,2,Vacuum Pack,Refrigerated,7,Warning,4.1
+Butter,18.3,67.7,32,Kraft Paper,Refrigerated,60,Warning,26.5
+Milk,21.3,90.9,10,Glass Container,Refrigerated,7,High Risk,0
+Milk,28.6,60.3,2,PLA Film,Room Temperature,7,Warning,4.1
+Paneer,9.4,68.0,7,PLA Film,Refrigerated,7,High Risk,0
+Yogurt,31.5,42.5,10,Kraft Paper,Room Temperature,14,Warning,2.5
+Paneer,6.2,80.6,11,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,24.9,83.4,4,PLA Film,Room Temperature,10,High Risk,3.9
+Paneer,19.8,37.8,5,PLA Film,Room Temperature,7,Warning,0.5
+Paneer,17.0,93.6,11,Vacuum Pack,Room Temperature,7,High Risk,0
+Curd,16.7,46.0,9,PLA Film,Refrigerated,10,High Risk,0
+Yogurt,21.0,48.5,9,PLA Film,Refrigerated,14,Warning,3.8
+Butter,5.3,54.1,13,Kraft Paper,Refrigerated,60,Safe,46.7
+Paneer,20.3,56.3,8,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,16.1,90.2,18,PLA Film,Room Temperature,14,High Risk,0
+Butter,23.0,49.8,14,Kraft Paper,Room Temperature,60,Warning,45.1
+Yogurt,23.4,62.8,19,Vacuum Pack,Refrigerated,14,High Risk,0
+Cheese,22.1,36.8,8,PLA Film,Refrigerated,30,Warning,21.1
+Yogurt,2.6,38.6,13,Kraft Paper,Refrigerated,14,Warning,0.1
+Yogurt,7.0,50.9,15,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Yogurt,13.1,64.5,10,Vacuum Pack,Room Temperature,14,Warning,2.5
+Cheese,13.4,71.1,13,Kraft Paper,Refrigerated,30,Warning,15.8
+Butter,7.3,87.3,25,Vacuum Pack,Room Temperature,60,Warning,33.8
+Paneer,27.1,55.4,5,Cellulose Film,Refrigerated,7,Warning,0.8
+Paneer,24.5,92.0,3,Vacuum Pack,Refrigerated,7,Warning,2.8
+Butter,22.4,92.2,59,Kraft Paper,Refrigerated,60,High Risk,0
+Paneer,14.1,41.9,10,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Yogurt,24.7,66.9,1,PLA Film,Room Temperature,14,Warning,11.8
+Paneer,6.5,87.3,10,PLA Film,Refrigerated,7,High Risk,0
+Paneer,6.2,75.5,5,PLA Film,Room Temperature,7,High Risk,0
+Cheese,11.9,71.7,4,Cellulose Film,Refrigerated,30,Warning,24.8
+Curd,13.0,49.6,7,Glass Container,Room Temperature,10,Warning,1.8
+Cheese,27.9,44.1,2,Glass Container,Room Temperature,30,Warning,27.1
+Butter,29.1,73.9,43,Moulded Bagasse Pulp,Refrigerated,60,High Risk,15.2
+Milk,11.3,63.0,6,Vacuum Pack,Refrigerated,7,Warning,0
+Curd,28.4,83.9,2,Moulded Bagasse Pulp,Room Temperature,10,High Risk,6.2
+Yogurt,31.2,44.8,17,Glass Container,Room Temperature,14,High Risk,0
+Milk,12.8,40.8,10,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Butter,20.9,85.4,5,Cellulose Film,Room Temperature,60,Warning,53.5
+Milk,2.6,69.5,1,Moulded Bagasse Pulp,Room Temperature,7,Warning,4.5
+Paneer,23.3,39.1,6,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Milk,22.4,86.7,8,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,15.4,49.3,3,Kraft Paper,Room Temperature,7,Warning,3.1
+Butter,2.9,77.9,21,Moulded Bagasse Pulp,Room Temperature,60,Warning,37.5
+Curd,3.7,42.6,3,Vacuum Pack,Refrigerated,10,Safe,7.3
+Curd,4.1,84.1,8,PLA Film,Room Temperature,10,High Risk,0
+Cheese,33.8,81.5,35,Glass Container,Room Temperature,30,High Risk,0
+Butter,3.1,53.8,8,Moulded Bagasse Pulp,Refrigerated,60,Safe,52.0
+Yogurt,29.3,69.7,3,Glass Container,Room Temperature,14,Warning,10.1
+Curd,22.2,36.5,5,Moulded Bagasse Pulp,Room Temperature,10,Warning,3.8
+Paneer,8.6,76.4,6,Kraft Paper,Refrigerated,7,High Risk,0
+Cheese,8.6,55.3,25,PLA Film,Refrigerated,30,High Risk,2.9
+Milk,11.0,94.3,1,Vacuum Pack,Refrigerated,7,Warning,4.8
+Curd,10.4,81.7,6,PLA Film,Room Temperature,10,High Risk,1.6
+Milk,10.8,63.4,3,Moulded Bagasse Pulp,Room Temperature,7,Warning,2.8
+Yogurt,23.9,92.7,4,Moulded Bagasse Pulp,Room Temperature,14,High Risk,8.2
+Yogurt,9.1,52.5,14,Vacuum Pack,Room Temperature,14,High Risk,0
+Paneer,10.4,82.0,9,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Yogurt,19.7,35.4,5,Moulded Bagasse Pulp,Room Temperature,14,Warning,7.8
+Butter,17.2,55.7,7,Cellulose Film,Room Temperature,60,Warning,51.8
+Milk,6.2,94.6,1,Cellulose Film,Room Temperature,7,Warning,4.5
+Curd,34.4,76.5,9,PLA Film,Refrigerated,10,High Risk,0
+Milk,10.1,54.5,9,PLA Film,Refrigerated,7,High Risk,0
+Curd,9.1,58.3,13,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Curd,17.9,56.9,14,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Butter,26.5,91.5,48,Moulded Bagasse Pulp,Refrigerated,60,High Risk,9.6
+Milk,31.6,55.7,12,Vacuum Pack,Refrigerated,7,High Risk,0
+Cheese,4.4,36.5,27,Glass Container,Refrigerated,30,Safe,2.4
+Butter,21.2,90.3,20,Glass Container,Refrigerated,60,Warning,38.8
+Curd,15.2,63.5,10,Glass Container,Room Temperature,10,High Risk,0
+Milk,23.5,91.1,1,Cellulose Film,Room Temperature,7,Warning,4.5
+Paneer,20.5,66.7,9,Kraft Paper,Refrigerated,7,High Risk,0
+Yogurt,4.5,46.4,10,Moulded Bagasse Pulp,Refrigerated,14,Safe,3.7
+Milk,12.2,64.4,12,Cellulose Film,Refrigerated,7,High Risk,0
+Curd,23.6,74.2,3,Moulded Bagasse Pulp,Refrigerated,10,Warning,5.8
+Paneer,26.8,58.9,12,PLA Film,Refrigerated,7,High Risk,0
+Butter,28.9,59.0,15,PLA Film,Room Temperature,60,Warning,43.8
+Milk,30.4,46.1,3,Glass Container,Room Temperature,7,Warning,2.8
+Yogurt,29.7,92.8,2,Vacuum Pack,Room Temperature,14,Warning,10.5
+Yogurt,21.3,78.6,13,Kraft Paper,Refrigerated,14,High Risk,0
+Paneer,29.5,79.2,4,Glass Container,Refrigerated,7,Warning,1.5
+Cheese,13.3,47.7,32,Kraft Paper,Refrigerated,30,High Risk,0
+Curd,19.6,54.6,12,Kraft Paper,Room Temperature,10,High Risk,0
+Butter,11.9,41.7,31,PLA Film,Room Temperature,60,Warning,27.8
+Curd,27.0,91.1,6,Vacuum Pack,Room Temperature,10,High Risk,2.2
+Paneer,6.1,66.9,11,PLA Film,Refrigerated,7,High Risk,0
+Paneer,32.5,37.9,10,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Cheese,6.4,76.8,7,Moulded Bagasse Pulp,Refrigerated,30,Safe,22.4
+Paneer,11.6,57.2,11,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,5.4,44.3,64,PLA Film,Room Temperature,60,High Risk,0
+Milk,24.4,63.6,2,Kraft Paper,Refrigerated,7,Safe,4.4
+Curd,14.6,89.7,15,Vacuum Pack,Refrigerated,10,High Risk,0
+Curd,16.3,73.6,11,Glass Container,Room Temperature,10,High Risk,0
+Curd,30.0,53.4,0,Glass Container,Refrigerated,10,Safe,9.4
+Curd,3.0,49.3,1,Cellulose Film,Room Temperature,10,Warning,7.8
+Paneer,25.1,71.9,8,Cellulose Film,Room Temperature,7,High Risk,0
+Butter,2.5,44.4,31,Cellulose Film,Refrigerated,60,Safe,29.0
+Curd,15.4,68.0,13,Vacuum Pack,Room Temperature,10,High Risk,0
+Paneer,8.5,70.3,1,Moulded Bagasse Pulp,Room Temperature,7,Warning,4.5
+Curd,24.3,94.1,13,Vacuum Pack,Refrigerated,10,High Risk,0
+Paneer,29.9,91.7,9,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Curd,9.3,48.1,13,Kraft Paper,Room Temperature,10,High Risk,0
+Yogurt,30.0,57.8,2,Cellulose Film,Refrigerated,14,Warning,11.1
+Yogurt,29.9,36.3,13,Vacuum Pack,Refrigerated,14,High Risk,0
+Milk,3.5,69.1,6,Vacuum Pack,Room Temperature,7,High Risk,0
+Paneer,30.9,52.1,9,PLA Film,Refrigerated,7,High Risk,0
+Milk,30.6,88.5,9,Vacuum Pack,Room Temperature,7,High Risk,0
+Cheese,32.1,45.9,7,Moulded Bagasse Pulp,Refrigerated,30,Warning,22.1
+Cheese,21.0,57.5,30,Cellulose Film,Room Temperature,30,High Risk,0
+Yogurt,30.8,65.7,11,Kraft Paper,Room Temperature,14,High Risk,0.3
+Curd,11.9,84.0,4,Vacuum Pack,Room Temperature,10,Warning,4.5
+Milk,6.1,68.8,0,Cellulose Film,Refrigerated,7,Warning,6.1
+Paneer,20.6,87.2,11,PLA Film,Room Temperature,7,High Risk,0
+Paneer,30.9,58.9,6,Vacuum Pack,Room Temperature,7,High Risk,0
+Yogurt,5.8,69.5,17,Cellulose Film,Refrigerated,14,High Risk,0
+Butter,24.9,86.0,6,Cellulose Film,Room Temperature,60,High Risk,52.2
+Paneer,12.8,62.4,3,Kraft Paper,Refrigerated,7,Safe,3.4
+Curd,5.4,47.4,7,Cellulose Film,Refrigerated,10,Safe,2.4
+Cheese,31.8,77.0,33,Vacuum Pack,Refrigerated,30,High Risk,0
+Yogurt,5.7,83.5,9,Cellulose Film,Refrigerated,14,Warning,4.1
+Cheese,22.6,75.6,24,Moulded Bagasse Pulp,Room Temperature,30,High Risk,3.6
+Cheese,4.9,78.0,3,Kraft Paper,Refrigerated,30,Safe,26.7
+Cheese,10.6,86.1,11,Kraft Paper,Room Temperature,30,High Risk,17.2
+Yogurt,4.8,81.6,12,Cellulose Film,Refrigerated,14,Warning,0.5
+Butter,3.1,35.8,42,Vacuum Pack,Room Temperature,60,Warning,16.8
+Milk,32.3,71.5,4,Glass Container,Room Temperature,7,Warning,1.5
+Milk,12.3,58.8,2,Vacuum Pack,Refrigerated,7,Safe,4.4
+Cheese,27.7,60.7,20,Glass Container,Room Temperature,30,Warning,8.8
+Cheese,10.9,79.7,1,PLA Film,Refrigerated,30,Warning,27.8
+Milk,15.8,94.2,1,Cellulose Film,Refrigerated,7,Warning,4.5
+Paneer,17.3,35.2,4,Vacuum Pack,Refrigerated,7,Safe,2.4
+Milk,11.6,78.5,12,Cellulose Film,Refrigerated,7,High Risk,0
+Yogurt,31.8,57.5,9,Kraft Paper,Refrigerated,14,Warning,3.8
+Yogurt,21.3,90.3,7,Cellulose Film,Room Temperature,14,High Risk,4.9
+Milk,31.7,72.5,5,Moulded Bagasse Pulp,Refrigerated,7,Warning,0.5
+Curd,28.5,44.9,13,Cellulose Film,Refrigerated,10,High Risk,0
+Yogurt,31.9,46.6,5,Cellulose Film,Room Temperature,14,Warning,7.8
+Paneer,11.4,46.3,3,Cellulose Film,Room Temperature,7,Warning,2.8
+Paneer,13.8,79.2,9,Vacuum Pack,Refrigerated,7,High Risk,0
+Yogurt,27.2,85.8,17,Vacuum Pack,Refrigerated,14,High Risk,0
+Paneer,3.6,57.1,0,Moulded Bagasse Pulp,Room Temperature,7,Warning,5.8
+Curd,32.7,51.1,2,Moulded Bagasse Pulp,Room Temperature,10,Warning,6.8
+Yogurt,23.9,66.4,15,Cellulose Film,Refrigerated,14,High Risk,0
+Yogurt,12.5,77.1,17,Glass Container,Room Temperature,14,High Risk,0
+Cheese,23.9,90.7,34,Moulded Bagasse Pulp,Refrigerated,30,High Risk,0
+Butter,34.1,73.5,35,Glass Container,Room Temperature,60,Warning,23.5
+Butter,6.8,75.5,4,Vacuum Pack,Room Temperature,60,Warning,55.1
+Butter,23.5,44.5,46,Cellulose Film,Refrigerated,60,High Risk,12.2
+Milk,28.3,79.3,7,Glass Container,Refrigerated,7,High Risk,0
+Milk,7.5,73.6,6,Glass Container,Refrigerated,7,Warning,0
+Paneer,34.9,76.4,8,Glass Container,Refrigerated,7,High Risk,0
+Cheese,23.9,44.5,31,Glass Container,Room Temperature,30,High Risk,0
+Yogurt,29.4,58.2,3,Vacuum Pack,Room Temperature,14,Warning,9.8
+Curd,13.2,74.0,13,Vacuum Pack,Refrigerated,10,High Risk,0
+Paneer,2.2,79.3,11,Glass Container,Refrigerated,7,Warning,0
+Cheese,31.6,93.3,26,Moulded Bagasse Pulp,Refrigerated,30,High Risk,1.6
+Yogurt,9.5,44.7,7,PLA Film,Room Temperature,14,Warning,5.5
+Cheese,25.4,69.1,2,Vacuum Pack,Refrigerated,30,Safe,27.4
+Curd,34.8,62.7,14,Kraft Paper,Room Temperature,10,High Risk,0
+Milk,11.2,87.9,3,Kraft Paper,Refrigerated,7,Warning,2.5
+Yogurt,30.2,49.8,7,PLA Film,Refrigerated,14,Warning,5.8
+Butter,34.0,79.4,8,Moulded Bagasse Pulp,Refrigerated,60,Warning,50.8
+Curd,28.2,35.2,7,Kraft Paper,Room Temperature,10,Warning,1.5
+Paneer,21.0,84.6,5,Kraft Paper,Room Temperature,7,High Risk,0
+Curd,6.8,92.7,11,Glass Container,Refrigerated,10,High Risk,0
+Yogurt,30.9,67.0,14,Cellulose Film,Refrigerated,14,High Risk,0
+Curd,21.2,64.7,1,Kraft Paper,Refrigerated,10,Warning,8.1
+Butter,14.1,42.6,35,Moulded Bagasse Pulp,Room Temperature,60,Warning,23.5
+Yogurt,32.1,74.0,5,Moulded Bagasse Pulp,Room Temperature,14,Warning,7.5
+Yogurt,29.4,55.6,11,Vacuum Pack,Refrigerated,14,Warning,1.5
+Milk,33.0,94.0,1,Kraft Paper,Refrigerated,7,High Risk,4.2
+Butter,5.6,35.7,5,Glass Container,Room Temperature,60,Warning,54.1
+Cheese,14.3,93.9,12,Kraft Paper,Room Temperature,30,Warning,16.5
+Yogurt,25.3,93.8,5,Vacuum Pack,Refrigerated,14,Warning,7.8
+Paneer,27.6,39.9,2,PLA Film,Refrigerated,7,Warning,4.1
+Butter,7.9,67.9,10,PLA Film,Room Temperature,60,Warning,48.8
+Milk,19.5,92.4,7,Vacuum Pack,Refrigerated,7,High Risk,0
+Cheese,24.5,57.6,6,Moulded Bagasse Pulp,Room Temperature,30,Warning,22.5
+Cheese,21.3,46.8,23,Moulded Bagasse Pulp,Refrigerated,30,High Risk,5.2
+Paneer,13.8,38.9,10,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,27.9,40.1,5,Kraft Paper,Room Temperature,7,Warning,0.5
+Butter,3.5,76.8,62,Cellulose Film,Refrigerated,60,Warning,0
+Cheese,6.7,39.1,7,Moulded Bagasse Pulp,Room Temperature,30,Warning,21.8
+Yogurt,16.9,46.6,6,PLA Film,Room Temperature,14,Warning,6.8
+Cheese,17.9,75.4,26,Moulded Bagasse Pulp,Room Temperature,30,High Risk,1.6
+Milk,27.3,68.8,1,Cellulose Film,Room Temperature,7,Warning,4.5
+Paneer,19.6,87.6,12,Kraft Paper,Refrigerated,7,High Risk,0
+Cheese,28.6,42.4,27,PLA Film,Refrigerated,30,High Risk,1.2
+Butter,5.8,79.9,3,PLA Film,Refrigerated,60,Safe,56.4
+Milk,32.2,60.0,9,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,18.9,38.2,8,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,20.7,44.7,0,Cellulose Film,Refrigerated,10,Warning,9.1
+Milk,5.5,50.1,11,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,19.2,81.5,5,Moulded Bagasse Pulp,Refrigerated,10,High Risk,3.2
+Paneer,2.5,69.7,11,PLA Film,Room Temperature,7,High Risk,0
+Curd,18.8,93.5,4,PLA Film,Refrigerated,10,Warning,4.5
+Yogurt,30.7,52.0,11,PLA Film,Room Temperature,14,High Risk,0.9
+Yogurt,18.8,86.6,15,Vacuum Pack,Room Temperature,14,High Risk,0
+Curd,16.7,41.2,5,Vacuum Pack,Refrigerated,10,Warning,4.1
+Paneer,30.5,62.9,4,Glass Container,Refrigerated,7,Warning,1.8
+Curd,22.8,69.9,3,Cellulose Film,Refrigerated,10,Warning,5.8
+Cheese,16.1,45.2,4,Glass Container,Room Temperature,30,Warning,25.1
+Butter,4.6,64.9,20,Kraft Paper,Room Temperature,60,Warning,38.8
+Yogurt,14.8,79.6,10,Cellulose Film,Refrigerated,14,Warning,2.5
+Curd,29.9,64.6,0,Cellulose Film,Room Temperature,10,Warning,8.8
+Curd,21.0,58.9,8,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0.2
+Yogurt,21.8,36.1,15,Vacuum Pack,Room Temperature,14,High Risk,0
+Paneer,19.6,35.4,10,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Milk,26.3,57.2,8,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,16.2,38.0,48,Glass Container,Refrigerated,60,Warning,10.5
+Curd,31.6,90.6,4,Glass Container,Room Temperature,10,Warning,4.5
+Curd,34.9,74.8,14,Vacuum Pack,Room Temperature,10,High Risk,0
+Milk,3.3,89.4,10,Vacuum Pack,Refrigerated,7,High Risk,0
+Milk,29.1,70.0,7,Vacuum Pack,Refrigerated,7,High Risk,0
+Curd,13.4,38.3,11,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Butter,14.1,40.3,40,Moulded Bagasse Pulp,Refrigerated,60,Warning,18.8
+Cheese,7.8,51.8,2,PLA Film,Room Temperature,30,Warning,26.8
+Yogurt,2.8,86.7,6,Kraft Paper,Refrigerated,14,Safe,7.4
+Curd,7.1,55.5,12,Glass Container,Room Temperature,10,High Risk,0
+Yogurt,28.9,55.0,7,Vacuum Pack,Refrigerated,14,Safe,6.4
+Milk,31.6,94.1,9,PLA Film,Refrigerated,7,High Risk,0
+Butter,5.1,92.1,55,Moulded Bagasse Pulp,Refrigerated,60,High Risk,3.2
+Paneer,3.7,51.2,8,Glass Container,Room Temperature,7,High Risk,0
+Butter,3.9,83.8,27,PLA Film,Refrigerated,60,Safe,32.4
+Cheese,20.6,83.2,17,Cellulose Film,Refrigerated,30,Warning,11.5
+Butter,5.5,80.8,35,Glass Container,Refrigerated,60,Warning,24.1
+Curd,26.8,91.1,12,Cellulose Film,Refrigerated,10,High Risk,0
+Yogurt,30.8,46.2,12,Glass Container,Refrigerated,14,Warning,0.8
+Curd,9.7,68.3,11,PLA Film,Room Temperature,10,High Risk,0
+Yogurt,13.7,48.7,15,Vacuum Pack,Room Temperature,14,High Risk,0
+Cheese,28.3,85.3,25,Cellulose Film,Room Temperature,30,High Risk,2.6
+Curd,12.7,48.4,9,PLA Film,Refrigerated,10,High Risk,0
+Milk,20.3,46.4,7,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,24.3,73.3,40,Moulded Bagasse Pulp,Refrigerated,60,Warning,18.5
+Cheese,20.3,71.1,30,PLA Film,Room Temperature,30,High Risk,0
+Cheese,12.0,71.0,18,Kraft Paper,Refrigerated,30,Warning,10.5
+Milk,34.0,54.1,5,Kraft Paper,Room Temperature,7,Warning,0.5
+Milk,10.0,38.9,7,Vacuum Pack,Room Temperature,7,High Risk,0
+Yogurt,22.5,63.0,5,Moulded Bagasse Pulp,Room Temperature,14,Warning,8.1
+Cheese,3.5,90.1,17,Cellulose Film,Room Temperature,30,High Risk,10.9
+Curd,31.3,71.2,9,PLA Film,Room Temperature,10,High Risk,0
+Milk,23.5,94.7,3,Kraft Paper,Room Temperature,7,High Risk,2.2
+Cheese,12.7,78.4,28,Vacuum Pack,Refrigerated,30,Warning,0.5
+Butter,25.6,71.0,39,PLA Film,Refrigerated,60,Warning,19.8
+Yogurt,11.6,94.3,6,Glass Container,Room Temperature,14,Warning,6.5
+Butter,29.1,51.6,20,PLA Film,Refrigerated,60,Warning,39.1
+Paneer,3.6,69.4,0,Cellulose Film,Refrigerated,7,Safe,6.7
+Butter,25.9,35.2,16,Moulded Bagasse Pulp,Room Temperature,60,Warning,42.8
+Paneer,2.4,54.5,1,Cellulose Film,Refrigerated,7,Safe,6.0
+Milk,9.4,45.4,0,PLA Film,Refrigerated,7,Warning,6.1
+Paneer,6.5,50.6,5,Moulded Bagasse Pulp,Room Temperature,7,Warning,0.5
+Paneer,16.9,80.3,0,Kraft Paper,Room Temperature,7,High Risk,4.9
+Curd,24.4,64.7,6,Glass Container,Refrigerated,10,Warning,3.1
+Butter,2.6,60.7,7,Kraft Paper,Room Temperature,60,Warning,51.8
+Paneer,6.2,45.2,4,Glass Container,Refrigerated,7,Safe,2.4
+Cheese,7.4,42.7,6,Vacuum Pack,Refrigerated,30,Safe,23.7
+Curd,7.7,66.0,1,Vacuum Pack,Refrigerated,10,Safe,8.4
+Milk,34.6,89.7,4,Glass Container,Refrigerated,7,Warning,1.5
+Milk,18.4,50.8,8,Glass Container,Room Temperature,7,High Risk,0
+Cheese,24.7,43.7,17,Moulded Bagasse Pulp,Refrigerated,30,Warning,11.8
+Milk,33.8,53.5,7,PLA Film,Room Temperature,7,High Risk,0
+Milk,19.9,84.1,9,Cellulose Film,Room Temperature,7,High Risk,0
+Yogurt,18.5,70.3,13,PLA Film,Room Temperature,14,High Risk,0
+Curd,12.4,94.3,11,Vacuum Pack,Refrigerated,10,High Risk,0
+Yogurt,34.9,80.1,4,Vacuum Pack,Room Temperature,14,Warning,8.5
+Butter,23.9,83.4,32,Vacuum Pack,Room Temperature,60,High Risk,25.9
+Curd,19.1,35.4,12,Kraft Paper,Refrigerated,10,High Risk,0
+Curd,2.8,86.1,4,Vacuum Pack,Refrigerated,10,Safe,5.7
+Paneer,13.9,94.7,6,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,17.1,70.3,15,Cellulose Film,Refrigerated,10,High Risk,0
+Milk,34.9,44.7,9,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Paneer,21.6,73.9,3,Glass Container,Room Temperature,7,Warning,2.8
+Paneer,8.1,76.2,11,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Butter,13.4,42.4,2,Glass Container,Refrigerated,60,Safe,57.4
+Cheese,24.4,49.3,14,Kraft Paper,Refrigerated,30,Warning,15.1
+Curd,4.5,74.6,10,Kraft Paper,Refrigerated,10,High Risk,0
+Yogurt,16.7,47.2,17,Vacuum Pack,Refrigerated,14,High Risk,0
+Yogurt,24.3,85.1,1,Moulded Bagasse Pulp,Refrigerated,14,High Risk,11.2
+Milk,2.8,63.2,9,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,19.2,57.2,4,PLA Film,Room Temperature,10,Warning,5.1
+Paneer,31.0,89.2,4,Kraft Paper,Room Temperature,7,High Risk,1.2
+Paneer,18.8,56.7,10,Glass Container,Room Temperature,7,High Risk,0
+Paneer,15.3,62.5,0,PLA Film,Refrigerated,7,Warning,6.1
+Butter,8.7,89.4,44,Moulded Bagasse Pulp,Room Temperature,60,High Risk,13.6
+Yogurt,30.9,39.9,14,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Milk,7.0,39.9,6,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,22.3,87.7,7,Glass Container,Room Temperature,7,High Risk,0
+Curd,29.1,43.0,9,Cellulose Film,Refrigerated,10,High Risk,0
+Cheese,7.2,88.1,25,Kraft Paper,Refrigerated,30,High Risk,3.2
+Cheese,26.1,48.8,19,Vacuum Pack,Refrigerated,30,Warning,10.1
+Yogurt,21.1,78.8,8,Vacuum Pack,Refrigerated,14,Warning,4.5
+Yogurt,3.6,78.9,18,Vacuum Pack,Refrigerated,14,Warning,0
+Yogurt,27.6,63.4,19,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Milk,33.8,39.2,10,PLA Film,Room Temperature,7,High Risk,0
+Butter,28.7,75.5,23,Kraft Paper,Room Temperature,60,High Risk,35.2
+Curd,29.7,92.8,4,Moulded Bagasse Pulp,Refrigerated,10,Warning,4.5
+Milk,22.1,90.2,8,Vacuum Pack,Refrigerated,7,High Risk,0
+Milk,23.0,69.7,4,Moulded Bagasse Pulp,Room Temperature,7,High Risk,1.2
+Cheese,6.7,52.4,17,Moulded Bagasse Pulp,Refrigerated,30,Warning,12.1
+Butter,33.0,53.0,42,Cellulose Film,Refrigerated,60,Warning,16.8
+Yogurt,31.7,66.8,17,Vacuum Pack,Refrigerated,14,High Risk,0
+Cheese,31.5,58.9,6,Moulded Bagasse Pulp,Room Temperature,30,Warning,22.8
+Yogurt,23.7,73.8,16,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Butter,6.4,90.9,8,PLA Film,Refrigerated,60,Warning,51.1
+Milk,11.4,75.3,6,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,34.2,55.4,5,Kraft Paper,Room Temperature,7,Warning,0.5
+Curd,18.6,74.2,3,Glass Container,Room Temperature,10,Warning,5.5
+Paneer,10.1,64.0,9,PLA Film,Refrigerated,7,High Risk,0
+Curd,32.4,72.4,3,Glass Container,Refrigerated,10,Safe,6.4
+Milk,28.8,66.5,0,Vacuum Pack,Room Temperature,7,Warning,5.8
+Paneer,33.7,58.2,1,Kraft Paper,Refrigerated,7,Warning,5.1
+Milk,12.2,88.9,12,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Curd,24.8,61.5,11,Glass Container,Refrigerated,10,High Risk,0
+Paneer,16.6,38.5,4,Moulded Bagasse Pulp,Refrigerated,7,Warning,1.5
+Yogurt,27.0,66.3,2,Vacuum Pack,Room Temperature,14,Warning,11.1
+Cheese,33.3,49.9,16,Glass Container,Refrigerated,30,Warning,13.1
+Curd,14.1,67.9,6,Glass Container,Refrigerated,10,Warning,2.8
+Yogurt,9.9,76.8,18,Vacuum Pack,Room Temperature,14,High Risk,0
+Milk,14.0,65.2,5,Moulded Bagasse Pulp,Room Temperature,7,Warning,0.5
+Butter,3.1,56.4,31,Cellulose Film,Room Temperature,60,Warning,27.5
+Yogurt,8.3,41.8,14,Kraft Paper,Refrigerated,14,High Risk,0
+Paneer,14.8,88.5,4,Kraft Paper,Refrigerated,7,High Risk,1.2
+Curd,12.3,58.0,3,Cellulose Film,Room Temperature,10,Warning,5.8
+Paneer,24.9,37.8,12,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Yogurt,14.3,94.0,10,Vacuum Pack,Refrigerated,14,Warning,2.5
+Paneer,33.8,94.8,4,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0.9
+Paneer,6.6,89.0,3,PLA Film,Refrigerated,7,Warning,3.1
+Curd,33.9,75.8,10,Glass Container,Refrigerated,10,High Risk,0
+Butter,18.3,41.3,22,Kraft Paper,Room Temperature,60,Warning,36.8
+Paneer,9.1,44.5,5,Cellulose Film,Refrigerated,7,Warning,0.8
+Butter,7.1,90.5,42,Glass Container,Refrigerated,60,Warning,16.8
+Paneer,16.9,60.2,6,Cellulose Film,Room Temperature,7,High Risk,0
+Butter,19.3,64.2,3,Kraft Paper,Refrigerated,60,Warning,56.1
+Yogurt,12.8,57.1,0,Vacuum Pack,Room Temperature,14,Warning,13.1
+Paneer,28.9,57.0,6,PLA Film,Room Temperature,7,High Risk,0
+Cheese,16.1,59.2,5,Cellulose Film,Room Temperature,30,Warning,24.1
+Yogurt,32.9,51.4,11,PLA Film,Room Temperature,14,High Risk,1.2
+Cheese,20.7,37.9,29,Kraft Paper,Room Temperature,30,High Risk,0
+Curd,13.0,39.8,0,Cellulose Film,Room Temperature,10,Warning,8.8
+Yogurt,4.1,68.8,6,Moulded Bagasse Pulp,Room Temperature,14,Warning,6.5
+Butter,12.9,77.8,10,Vacuum Pack,Refrigerated,60,Warning,48.8
+Curd,13.7,90.0,2,Moulded Bagasse Pulp,Room Temperature,10,High Risk,6.2
+Curd,8.0,39.9,15,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Yogurt,2.1,41.0,17,Vacuum Pack,Refrigerated,14,Warning,0
+Butter,23.3,78.9,21,Glass Container,Room Temperature,60,Warning,37.8
+Yogurt,27.0,67.2,14,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Paneer,28.4,49.5,5,Moulded Bagasse Pulp,Room Temperature,7,Warning,0.5
+Paneer,31.6,78.3,0,PLA Film,Refrigerated,7,Warning,5.8
+Butter,5.5,78.7,6,Cellulose Film,Room Temperature,60,Warning,52.5
+Milk,6.6,62.2,11,PLA Film,Refrigerated,7,Warning,0
+Milk,30.1,64.0,4,Cellulose Film,Room Temperature,7,Warning,1.8
+Butter,10.1,85.0,30,PLA Film,Refrigerated,60,High Risk,27.9
+Curd,25.9,66.5,12,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Paneer,21.7,46.3,11,Glass Container,Room Temperature,7,High Risk,0
+Butter,33.5,50.3,26,Glass Container,Refrigerated,60,Safe,33.4
+Curd,21.4,51.4,1,Kraft Paper,Room Temperature,10,Warning,8.1
+Curd,11.5,39.7,13,Cellulose Film,Room Temperature,10,High Risk,0
+Curd,3.8,61.2,15,Cellulose Film,Room Temperature,10,High Risk,0
+Butter,15.5,70.6,60,Moulded Bagasse Pulp,Refrigerated,60,High Risk,0
+Cheese,8.4,40.4,14,Moulded Bagasse Pulp,Refrigerated,30,Safe,15.4
+Paneer,29.4,40.6,6,Glass Container,Room Temperature,7,High Risk,0
+Curd,24.6,87.2,15,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Milk,32.4,65.9,5,Vacuum Pack,Room Temperature,7,Warning,0.5
+Milk,22.5,87.2,3,Cellulose Film,Refrigerated,7,High Risk,2.2
+Yogurt,10.2,92.0,7,PLA Film,Refrigerated,14,High Risk,4.9
+Paneer,27.0,64.2,1,Vacuum Pack,Room Temperature,7,Safe,5.4
+Cheese,29.4,39.2,16,Vacuum Pack,Room Temperature,30,Warning,13.1
+Yogurt,3.5,81.4,5,Cellulose Film,Room Temperature,14,High Risk,7.2
+Butter,19.9,58.6,3,Vacuum Pack,Refrigerated,60,Warning,56.1
+Yogurt,9.3,92.3,12,PLA Film,Refrigerated,14,High Risk,0
+Paneer,4.0,87.6,11,PLA Film,Room Temperature,7,High Risk,0
+Paneer,22.7,86.0,6,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,5.9,94.4,4,Cellulose Film,Refrigerated,60,Warning,55.1
+Butter,34.5,74.4,52,Kraft Paper,Refrigerated,60,High Risk,5.9
+Curd,3.9,45.0,2,PLA Film,Refrigerated,10,Safe,8.3
+Curd,34.2,94.4,14,Glass Container,Refrigerated,10,High Risk,0
+Curd,19.8,61.3,4,Kraft Paper,Room Temperature,10,Warning,4.8
+Butter,30.0,60.4,51,Vacuum Pack,Refrigerated,60,Warning,7.5
+Yogurt,5.9,37.1,3,Vacuum Pack,Refrigerated,14,Safe,11.0
+Cheese,4.8,57.0,22,Glass Container,Room Temperature,30,Warning,6.8
+Paneer,11.5,66.3,10,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,26.3,41.8,2,Vacuum Pack,Room Temperature,10,Warning,7.1
+Milk,19.0,40.4,10,Vacuum Pack,Refrigerated,7,High Risk,0
+Paneer,30.3,57.4,0,Vacuum Pack,Refrigerated,7,Safe,6.7
+Milk,27.0,82.4,2,Kraft Paper,Room Temperature,7,High Risk,3.2
+Yogurt,26.9,75.7,7,Cellulose Film,Refrigerated,14,Warning,5.8
+Yogurt,15.0,53.5,7,PLA Film,Room Temperature,14,Warning,5.5
+Cheese,26.6,45.9,15,Moulded Bagasse Pulp,Room Temperature,30,Warning,13.5
+Yogurt,27.9,93.5,13,Cellulose Film,Refrigerated,14,High Risk,0
+Paneer,28.1,58.3,10,Vacuum Pack,Refrigerated,7,High Risk,0
+Curd,16.7,75.7,11,Vacuum Pack,Refrigerated,10,High Risk,0
+Milk,29.8,88.7,12,PLA Film,Refrigerated,7,High Risk,0
+Paneer,27.9,90.0,11,Glass Container,Refrigerated,7,High Risk,0
+Cheese,32.4,84.3,2,Moulded Bagasse Pulp,Refrigerated,30,Warning,26.8
+Curd,30.5,58.4,14,Cellulose Film,Room Temperature,10,High Risk,0
+Paneer,7.5,85.7,1,Moulded Bagasse Pulp,Room Temperature,7,High Risk,4.2
+Milk,25.8,72.9,12,PLA Film,Refrigerated,7,High Risk,0
+Yogurt,17.4,69.4,18,Vacuum Pack,Room Temperature,14,High Risk,0
+Butter,13.8,66.3,39,Kraft Paper,Room Temperature,60,Warning,19.5
+Yogurt,21.6,35.6,1,Vacuum Pack,Room Temperature,14,Warning,12.1
+Yogurt,18.3,88.0,0,Cellulose Film,Room Temperature,14,High Risk,11.9
+Yogurt,11.2,49.8,2,Moulded Bagasse Pulp,Refrigerated,14,Warning,11.1
+Butter,9.8,57.0,25,Cellulose Film,Room Temperature,60,Warning,33.8
+Paneer,12.0,75.3,4,Cellulose Film,Room Temperature,7,High Risk,1.2
+Milk,9.0,59.0,7,Cellulose Film,Refrigerated,7,High Risk,0
+Curd,8.5,85.4,5,Glass Container,Refrigerated,10,Warning,3.5
+Butter,8.3,81.2,17,Vacuum Pack,Refrigerated,60,Warning,41.5
+Curd,7.0,88.5,4,Glass Container,Refrigerated,10,Safe,5.4
+Paneer,33.8,42.0,3,Glass Container,Refrigerated,7,Safe,3.4
+Milk,23.2,54.9,0,Vacuum Pack,Refrigerated,7,Safe,6.4
+Curd,31.7,48.8,12,Glass Container,Room Temperature,10,High Risk,0
+Cheese,7.7,54.4,33,Vacuum Pack,Refrigerated,30,Warning,0
+Curd,10.0,84.9,14,Kraft Paper,Room Temperature,10,High Risk,0
+Paneer,7.3,84.4,11,Glass Container,Room Temperature,7,High Risk,0
+Yogurt,7.5,44.3,12,Glass Container,Room Temperature,14,High Risk,0
+Milk,34.6,88.1,11,Cellulose Film,Room Temperature,7,High Risk,0
+Paneer,20.0,94.3,10,PLA Film,Room Temperature,7,High Risk,0
+Butter,25.4,86.2,23,Moulded Bagasse Pulp,Refrigerated,60,Warning,35.5
+Cheese,24.4,79.0,18,PLA Film,Refrigerated,30,Warning,10.8
+Butter,5.7,71.2,16,Vacuum Pack,Refrigerated,60,Safe,43.7
+Yogurt,33.8,71.2,3,Kraft Paper,Room Temperature,14,Warning,9.5
+Curd,32.3,55.0,11,Cellulose Film,Refrigerated,10,High Risk,0
+Curd,31.9,91.1,12,Kraft Paper,Refrigerated,10,High Risk,0
+Yogurt,27.6,90.8,15,Vacuum Pack,Room Temperature,14,High Risk,0
+Curd,23.5,71.6,15,Glass Container,Refrigerated,10,High Risk,0
+Cheese,27.0,72.6,7,Kraft Paper,Refrigerated,30,Warning,22.1
+Butter,27.7,72.8,61,Cellulose Film,Refrigerated,60,High Risk,0
+Yogurt,7.8,81.7,19,Cellulose Film,Refrigerated,14,High Risk,0
+Milk,8.6,81.0,3,Cellulose Film,Refrigerated,7,Warning,2.5
+Milk,25.4,72.0,1,Glass Container,Refrigerated,7,Warning,5.1
+Butter,4.7,76.8,16,Moulded Bagasse Pulp,Refrigerated,60,Safe,44.0
+Curd,19.9,67.1,13,Glass Container,Room Temperature,10,High Risk,0
+Yogurt,11.8,89.7,2,Cellulose Film,Refrigerated,14,Warning,10.5
+Yogurt,13.2,59.8,7,PLA Film,Refrigerated,14,Warning,5.5
+Milk,13.4,56.4,10,Vacuum Pack,Room Temperature,7,High Risk,0
+Paneer,28.7,91.7,12,Kraft Paper,Refrigerated,7,High Risk,0
+Yogurt,9.7,42.0,13,PLA Film,Refrigerated,14,High Risk,0
+Butter,30.5,68.3,37,Vacuum Pack,Room Temperature,60,Warning,21.8
+Curd,2.6,84.9,15,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Milk,15.4,44.6,3,Kraft Paper,Room Temperature,7,Warning,2.8
+Paneer,10.8,51.9,0,Cellulose Film,Refrigerated,7,Warning,6.1
+Curd,17.7,51.3,14,PLA Film,Room Temperature,10,High Risk,0
+Curd,24.9,75.2,5,Moulded Bagasse Pulp,Room Temperature,10,Warning,3.5
+Cheese,32.4,60.1,16,Glass Container,Room Temperature,30,Warning,12.5
+Curd,12.6,70.2,3,PLA Film,Room Temperature,10,Warning,5.8
+Yogurt,11.9,76.1,17,Kraft Paper,Room Temperature,14,High Risk,0
+Paneer,34.7,62.4,4,Glass Container,Room Temperature,7,Warning,1.5
+Butter,32.7,92.3,60,Moulded Bagasse Pulp,Room Temperature,60,High Risk,0
+Curd,15.7,56.0,8,Kraft Paper,Refrigerated,10,High Risk,0
+Milk,32.3,82.6,0,Kraft Paper,Refrigerated,7,High Risk,5.2
+Paneer,15.5,60.6,4,Moulded Bagasse Pulp,Room Temperature,7,Warning,1.8
+Paneer,30.8,48.7,8,Vacuum Pack,Refrigerated,7,High Risk,0
+Butter,2.3,50.8,46,Glass Container,Room Temperature,60,Warning,12.5
+Curd,25.9,76.2,15,PLA Film,Refrigerated,10,High Risk,0
+Milk,33.7,78.0,12,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,3.2,53.5,53,Glass Container,Refrigerated,60,Safe,6.4
+Curd,10.8,90.8,0,Vacuum Pack,Room Temperature,10,Warning,8.5
+Cheese,25.2,76.2,16,Moulded Bagasse Pulp,Refrigerated,30,Warning,12.5
+Yogurt,26.0,82.4,6,Cellulose Film,Refrigerated,14,Warning,6.8
+Curd,11.8,66.1,3,PLA Film,Refrigerated,10,Warning,5.8
+Cheese,16.8,47.7,6,Moulded Bagasse Pulp,Refrigerated,30,Warning,23.1
+Curd,6.6,54.2,7,Cellulose Film,Refrigerated,10,Warning,2.1
+Paneer,25.8,58.9,3,Vacuum Pack,Room Temperature,7,Warning,2.8
+Paneer,13.3,80.9,8,Vacuum Pack,Refrigerated,7,High Risk,0
+Curd,9.8,39.2,5,Glass Container,Refrigerated,10,Safe,4.4
+Butter,18.3,39.3,4,Moulded Bagasse Pulp,Room Temperature,60,Warning,54.8
+Cheese,6.7,50.8,27,Kraft Paper,Refrigerated,30,Warning,1.8
+Cheese,25.8,76.9,3,Kraft Paper,Refrigerated,30,Warning,25.8
+Yogurt,8.5,55.8,1,Vacuum Pack,Room Temperature,14,Warning,12.1
+Butter,2.0,65.4,46,Glass Container,Room Temperature,60,High Risk,11.9
+Butter,33.6,45.8,40,Glass Container,Room Temperature,60,Warning,18.8
+Yogurt,6.5,53.3,8,Vacuum Pack,Room Temperature,14,Warning,4.8
+Yogurt,4.0,56.0,8,PLA Film,Refrigerated,14,Safe,5.7
+Curd,5.7,40.3,9,Glass Container,Room Temperature,10,High Risk,0
+Milk,21.6,84.1,7,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,25.7,74.0,0,Cellulose Film,Room Temperature,14,Warning,12.8
+Milk,19.9,69.5,1,Kraft Paper,Refrigerated,7,Warning,4.5
+Yogurt,27.9,50.4,12,Vacuum Pack,Room Temperature,14,Warning,0.5
+Milk,22.4,78.8,5,Cellulose Film,Refrigerated,7,Warning,0.5
+Yogurt,27.1,65.4,3,PLA Film,Refrigerated,14,Warning,9.8
+Butter,2.7,51.9,5,PLA Film,Room Temperature,60,Warning,53.8
+Cheese,3.5,37.6,9,Moulded Bagasse Pulp,Room Temperature,30,Warning,19.5
+Yogurt,21.2,40.1,11,Cellulose Film,Refrigerated,14,High Risk,1.2
+Milk,18.2,93.0,1,Cellulose Film,Refrigerated,7,Warning,4.5
+Paneer,2.0,53.7,5,Moulded Bagasse Pulp,Room Temperature,7,Warning,0.5
+Cheese,22.4,41.4,12,Cellulose Film,Room Temperature,30,Warning,16.8
+Yogurt,32.0,92.0,13,Cellulose Film,Room Temperature,14,High Risk,0
+Yogurt,11.6,43.5,18,PLA Film,Room Temperature,14,High Risk,0
+Yogurt,2.2,80.1,15,Vacuum Pack,Room Temperature,14,High Risk,0
+Yogurt,26.0,66.5,0,PLA Film,Refrigerated,14,Warning,12.8
+Yogurt,2.5,56.3,7,Kraft Paper,Room Temperature,14,Warning,5.8
+Paneer,20.5,57.2,7,Kraft Paper,Room Temperature,7,High Risk,0
+Curd,6.9,63.1,6,PLA Film,Refrigerated,10,Warning,3.1
+Butter,15.0,83.2,47,Cellulose Film,Room Temperature,60,High Risk,10.0
+Cheese,17.2,82.2,24,Moulded Bagasse Pulp,Refrigerated,30,High Risk,3.3
+Milk,12.5,75.0,1,Glass Container,Room Temperature,7,Warning,4.8
+Yogurt,11.2,83.4,6,Cellulose Film,Refrigerated,14,Warning,6.5
+Paneer,12.6,46.0,1,Vacuum Pack,Refrigerated,7,Safe,5.4
+Cheese,8.0,50.6,23,Kraft Paper,Refrigerated,30,Warning,6.1
+Milk,3.9,67.2,5,Cellulose Film,Refrigerated,7,Safe,1.4
+Cheese,18.7,62.8,21,Cellulose Film,Refrigerated,30,Warning,8.1
+Milk,13.3,92.7,9,PLA Film,Room Temperature,7,High Risk,0
+Curd,23.5,69.0,8,Glass Container,Room Temperature,10,High Risk,0
+Cheese,26.8,88.4,27,Glass Container,Refrigerated,30,High Risk,0.6
+Cheese,18.0,50.5,34,PLA Film,Room Temperature,30,High Risk,0
+Yogurt,19.6,68.0,10,PLA Film,Refrigerated,14,Warning,2.5
+Butter,11.3,53.2,12,Glass Container,Room Temperature,60,Safe,47.4
+Milk,10.9,70.7,5,Vacuum Pack,Refrigerated,7,Warning,1.1
+Curd,11.5,60.6,6,Kraft Paper,Refrigerated,10,Warning,2.8
+Yogurt,18.1,86.4,10,Moulded Bagasse Pulp,Refrigerated,14,High Risk,2.2
+Paneer,11.3,38.9,8,Glass Container,Room Temperature,7,High Risk,0
+Yogurt,32.1,43.8,5,PLA Film,Room Temperature,14,Warning,7.8
+Cheese,32.6,92.6,19,Kraft Paper,Refrigerated,30,High Risk,9.2
+Yogurt,6.5,81.2,4,Moulded Bagasse Pulp,Refrigerated,14,Warning,9.1
+Milk,23.6,49.8,4,Cellulose Film,Refrigerated,7,Warning,1.8
+Yogurt,34.2,45.7,3,Cellulose Film,Refrigerated,14,Warning,9.8
+Cheese,2.3,64.0,26,PLA Film,Room Temperature,30,High Risk,1.9
+Curd,28.6,76.4,7,Glass Container,Room Temperature,10,High Risk,1.2
+Yogurt,2.7,37.5,0,Glass Container,Refrigerated,14,Safe,14.3
+Curd,29.2,85.5,15,Vacuum Pack,Refrigerated,10,High Risk,0
+Curd,33.4,37.3,12,Kraft Paper,Room Temperature,10,High Risk,0
+Paneer,10.3,62.9,12,Cellulose Film,Refrigerated,7,High Risk,0
+Cheese,34.6,87.8,28,Vacuum Pack,Room Temperature,30,High Risk,0
+Paneer,11.1,74.4,6,Vacuum Pack,Refrigerated,7,High Risk,0
+Yogurt,31.5,49.0,4,Glass Container,Refrigerated,14,Safe,9.4
+Paneer,31.6,77.8,3,Vacuum Pack,Room Temperature,7,Warning,2.5
+Yogurt,7.9,60.2,6,Kraft Paper,Room Temperature,14,Warning,6.8
+Milk,22.0,49.9,10,Cellulose Film,Refrigerated,7,High Risk,0
+Cheese,18.2,84.0,22,Moulded Bagasse Pulp,Room Temperature,30,High Risk,5.9
+Milk,18.3,57.1,10,PLA Film,Room Temperature,7,High Risk,0
+Milk,8.9,86.4,0,PLA Film,Refrigerated,7,Warning,5.8
+Milk,24.7,83.4,8,Vacuum Pack,Room Temperature,7,High Risk,0
+Yogurt,6.4,44.2,11,PLA Film,Refrigerated,14,Warning,1.8
+Milk,21.2,66.5,5,Moulded Bagasse Pulp,Refrigerated,7,Warning,0.5
+Yogurt,22.2,60.9,10,Vacuum Pack,Refrigerated,14,Warning,3.1
+Milk,32.6,60.9,7,Cellulose Film,Room Temperature,7,High Risk,0
+Yogurt,6.1,82.3,11,Kraft Paper,Refrigerated,14,High Risk,1.2
+Curd,32.9,91.0,0,Glass Container,Refrigerated,10,Warning,8.8
+Yogurt,6.5,90.3,9,Cellulose Film,Refrigerated,14,Warning,3.8
+Curd,3.6,84.1,6,Kraft Paper,Refrigerated,10,Warning,2.8
+Yogurt,21.3,87.7,1,Moulded Bagasse Pulp,Room Temperature,14,High Risk,10.9
+Curd,31.1,73.6,14,Glass Container,Refrigerated,10,High Risk,0
+Yogurt,22.1,53.3,13,Cellulose Film,Room Temperature,14,High Risk,0
+Butter,16.6,64.4,65,Moulded Bagasse Pulp,Room Temperature,60,High Risk,0
+Paneer,27.7,88.4,2,Moulded Bagasse Pulp,Refrigerated,7,High Risk,3.2
+Curd,11.0,56.2,11,Glass Container,Room Temperature,10,High Risk,0
+Curd,10.6,70.2,5,Kraft Paper,Refrigerated,10,Warning,3.8
+Paneer,21.7,47.6,2,Cellulose Film,Room Temperature,7,Warning,3.8
+Curd,7.7,81.5,5,Vacuum Pack,Room Temperature,10,High Risk,3.2
+Butter,8.8,56.5,54,Vacuum Pack,Refrigerated,60,Warning,4.5
+Milk,28.5,92.2,8,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,32.6,79.0,10,Cellulose Film,Room Temperature,60,Warning,48.8
+Butter,7.6,54.0,65,Moulded Bagasse Pulp,Room Temperature,60,High Risk,0
+Paneer,5.4,86.1,7,Glass Container,Refrigerated,7,High Risk,0
+Butter,16.4,87.0,4,Vacuum Pack,Room Temperature,60,Warning,54.5
+Yogurt,26.7,61.3,19,PLA Film,Refrigerated,14,High Risk,0
+Cheese,33.7,67.4,16,PLA Film,Refrigerated,30,Warning,12.8
+Curd,30.7,52.8,9,Moulded Bagasse Pulp,Refrigerated,10,Warning,0
+Milk,7.4,87.0,9,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Butter,24.8,61.6,29,Glass Container,Refrigerated,60,Safe,30.7
+Milk,12.3,70.7,4,PLA Film,Room Temperature,7,Warning,1.5
+Milk,23.2,87.7,6,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Cheese,8.6,88.3,12,Glass Container,Room Temperature,30,Warning,16.5
+Yogurt,20.7,94.2,13,PLA Film,Room Temperature,14,High Risk,0
+Yogurt,14.1,36.9,7,PLA Film,Refrigerated,14,Warning,5.8
+Milk,27.2,52.8,6,Vacuum Pack,Refrigerated,7,Warning,0
+Cheese,32.8,56.8,31,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Yogurt,14.9,60.1,4,Glass Container,Refrigerated,14,Safe,9.4
+Butter,32.8,42.8,20,Moulded Bagasse Pulp,Refrigerated,60,Warning,39.1
+Cheese,33.0,35.2,30,Vacuum Pack,Refrigerated,30,High Risk,0
+Cheese,20.9,66.1,23,Vacuum Pack,Refrigerated,30,High Risk,5.2
+Milk,32.0,90.6,11,Kraft Paper,Refrigerated,7,High Risk,0
+Yogurt,19.4,58.8,17,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Curd,22.3,69.2,13,PLA Film,Room Temperature,10,High Risk,0
+Curd,21.7,37.0,2,Cellulose Film,Refrigerated,10,Warning,6.8
+Yogurt,14.5,48.1,1,Vacuum Pack,Refrigerated,14,Safe,12.4
+Curd,10.0,36.3,15,PLA Film,Room Temperature,10,High Risk,0
+Butter,30.4,90.3,12,Glass Container,Room Temperature,60,Warning,46.5
+Cheese,9.6,73.8,30,Kraft Paper,Room Temperature,30,High Risk,0
+Yogurt,16.4,93.7,15,Vacuum Pack,Room Temperature,14,High Risk,0
+Curd,5.9,65.5,7,Glass Container,Refrigerated,10,Safe,2.4
+Yogurt,18.2,71.2,3,Cellulose Film,Refrigerated,14,Warning,9.8
+Cheese,2.6,80.5,22,Glass Container,Refrigerated,30,Safe,7.7
+Cheese,4.4,67.8,30,Vacuum Pack,Refrigerated,30,Warning,0
+Curd,9.1,56.8,9,Cellulose Film,Refrigerated,10,High Risk,0
+Yogurt,18.0,94.5,1,Cellulose Film,Refrigerated,14,High Risk,11.2
+Butter,9.2,74.4,15,Kraft Paper,Room Temperature,60,Warning,43.5
+Cheese,33.4,70.2,19,Moulded Bagasse Pulp,Room Temperature,30,High Risk,9.2
+Milk,12.2,52.3,5,Cellulose Film,Refrigerated,7,Warning,0.5
+Cheese,30.4,37.9,15,Vacuum Pack,Refrigerated,30,Warning,13.8
+Cheese,25.9,56.5,10,Kraft Paper,Room Temperature,30,Warning,18.8
+Paneer,11.3,51.8,12,Vacuum Pack,Refrigerated,7,High Risk,0
+Cheese,30.9,67.6,14,Glass Container,Refrigerated,30,Warning,15.1
+Butter,2.2,49.4,13,PLA Film,Refrigerated,60,Safe,47.0
+Cheese,3.6,50.9,1,Moulded Bagasse Pulp,Refrigerated,30,Safe,28.7
+Curd,15.9,66.0,8,PLA Film,Room Temperature,10,High Risk,0
+Butter,30.1,75.0,31,Cellulose Film,Room Temperature,60,Warning,27.5
+Butter,10.2,51.8,24,Cellulose Film,Room Temperature,60,Warning,34.8
+Butter,27.9,56.9,16,Moulded Bagasse Pulp,Refrigerated,60,Safe,43.4
+Yogurt,5.7,48.4,6,PLA Film,Room Temperature,14,Warning,6.8
+Butter,14.3,44.4,24,Cellulose Film,Room Temperature,60,Warning,35.1
+Yogurt,19.7,85.6,0,PLA Film,Refrigerated,14,High Risk,12.2
+Yogurt,14.6,88.4,15,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Yogurt,34.2,72.7,17,Cellulose Film,Refrigerated,14,High Risk,0
+Paneer,17.6,86.5,6,Vacuum Pack,Room Temperature,7,High Risk,0
+Cheese,11.9,48.9,16,PLA Film,Room Temperature,30,Warning,12.5
+Milk,7.5,39.0,6,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,25.3,83.8,49,Kraft Paper,Room Temperature,60,High Risk,8.0
+Butter,26.3,54.9,2,Vacuum Pack,Refrigerated,60,Warning,57.1
+Milk,21.4,39.1,3,PLA Film,Room Temperature,7,Warning,2.8
+Paneer,27.7,89.7,6,Glass Container,Room Temperature,7,High Risk,0
+Yogurt,9.6,55.9,18,PLA Film,Refrigerated,14,High Risk,0
+Milk,5.1,42.7,8,Glass Container,Room Temperature,7,High Risk,0
+Curd,21.4,84.7,12,Cellulose Film,Refrigerated,10,High Risk,0
+Cheese,20.8,82.3,8,Cellulose Film,Refrigerated,30,High Risk,20.2
+Butter,19.4,68.3,25,Glass Container,Refrigerated,60,Safe,34.4
+Cheese,32.4,47.0,26,Moulded Bagasse Pulp,Refrigerated,30,High Risk,2.2
+Milk,22.9,59.7,8,Cellulose Film,Room Temperature,7,High Risk,0
+Cheese,27.7,43.2,3,Glass Container,Refrigerated,30,Warning,26.1
+Butter,16.7,77.9,29,PLA Film,Refrigerated,60,Warning,29.5
+Paneer,24.2,52.5,3,Glass Container,Refrigerated,7,Safe,3.4
+Yogurt,12.0,90.8,1,PLA Film,Refrigerated,14,Warning,11.5
+Paneer,7.2,66.5,4,Cellulose Film,Refrigerated,7,Warning,1.8
+Milk,12.4,45.3,0,Glass Container,Refrigerated,7,Warning,6.1
+Milk,29.3,78.3,6,Kraft Paper,Room Temperature,7,High Risk,0
+Curd,12.8,74.9,12,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Milk,18.7,94.7,0,Glass Container,Refrigerated,7,Warning,5.8
+Butter,21.6,52.0,57,Cellulose Film,Room Temperature,60,High Risk,0.9
+Butter,34.7,35.4,8,Cellulose Film,Room Temperature,60,Warning,50.8
+Cheese,8.0,73.9,2,Glass Container,Room Temperature,30,Warning,27.1
+Paneer,20.5,41.8,7,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,22.6,92.4,13,PLA Film,Refrigerated,14,High Risk,0
+Paneer,28.6,59.0,12,Kraft Paper,Room Temperature,7,High Risk,0
+Curd,8.7,84.5,9,Kraft Paper,Room Temperature,10,High Risk,0
+Yogurt,13.4,69.7,12,Cellulose Film,Refrigerated,14,High Risk,0
+Butter,25.8,53.8,10,Vacuum Pack,Refrigerated,60,Safe,49.4
+Butter,4.2,87.0,53,Cellulose Film,Refrigerated,60,Warning,5.8
+Cheese,30.4,64.1,7,Kraft Paper,Room Temperature,30,Warning,21.8
+Yogurt,32.4,62.6,5,PLA Film,Refrigerated,14,Warning,8.1
+Paneer,10.9,72.2,11,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,7.3,73.7,8,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Cheese,10.0,38.1,34,PLA Film,Room Temperature,30,High Risk,0
+Milk,15.1,37.6,8,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,9.7,45.1,29,Glass Container,Refrigerated,60,Safe,30.4
+Yogurt,12.0,78.9,2,Kraft Paper,Refrigerated,14,Warning,10.8
+Curd,19.2,72.6,3,Cellulose Film,Room Temperature,10,Warning,5.5
+Paneer,26.5,83.5,6,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,6.5,94.3,5,PLA Film,Refrigerated,7,Warning,0.8
+Curd,26.4,35.3,7,Kraft Paper,Refrigerated,10,Warning,2.1
+Milk,21.1,69.5,3,Cellulose Film,Refrigerated,7,Warning,2.8
+Cheese,22.0,63.2,16,PLA Film,Room Temperature,30,Warning,12.5
+Milk,13.5,91.2,4,Cellulose Film,Refrigerated,7,High Risk,1.2
+Yogurt,30.0,63.6,6,PLA Film,Refrigerated,14,Warning,6.8
+Cheese,29.8,63.9,2,Moulded Bagasse Pulp,Refrigerated,30,Warning,27.1
+Yogurt,16.2,44.1,7,Cellulose Film,Room Temperature,14,Warning,5.5
+Cheese,8.8,39.1,9,Vacuum Pack,Room Temperature,30,Warning,20.1
+Cheese,6.0,82.0,25,Glass Container,Room Temperature,30,High Risk,2.6
+Paneer,26.5,75.7,3,Glass Container,Room Temperature,7,Warning,2.5
+Curd,25.7,58.8,11,Vacuum Pack,Refrigerated,10,High Risk,0
+Milk,28.4,76.7,9,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,25.2,82.7,10,Vacuum Pack,Refrigerated,30,Warning,19.1
+Curd,31.6,93.4,2,Vacuum Pack,Refrigerated,10,Warning,6.8
+Cheese,27.2,46.0,28,Kraft Paper,Room Temperature,30,High Risk,0
+Butter,28.1,71.9,37,Moulded Bagasse Pulp,Refrigerated,60,High Risk,21.2
+Paneer,24.6,79.1,8,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Paneer,32.9,54.8,9,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Butter,18.9,92.2,14,Vacuum Pack,Room Temperature,60,Warning,44.8
+Cheese,12.3,80.5,0,Vacuum Pack,Room Temperature,30,High Risk,28.2
+Cheese,9.8,64.2,13,PLA Film,Refrigerated,30,Warning,16.1
+Curd,9.7,84.3,3,PLA Film,Room Temperature,10,High Risk,4.9
+Milk,21.3,90.7,11,Glass Container,Room Temperature,7,High Risk,0
+Milk,34.4,87.4,0,PLA Film,Refrigerated,7,Warning,5.5
+Cheese,22.7,63.8,0,PLA Film,Room Temperature,30,Warning,28.8
+Cheese,15.0,65.9,0,Kraft Paper,Refrigerated,30,Warning,28.8
+Cheese,26.8,79.6,31,Vacuum Pack,Refrigerated,30,High Risk,0
+Paneer,18.6,94.0,3,Kraft Paper,Room Temperature,7,High Risk,2.2
+Paneer,26.8,73.8,5,Cellulose Film,Refrigerated,7,Warning,0.5
+Curd,23.3,60.5,6,PLA Film,Refrigerated,10,Warning,3.1
+Butter,12.0,78.2,39,Cellulose Film,Room Temperature,60,High Risk,19.2
+Cheese,16.2,70.9,1,Cellulose Film,Refrigerated,30,Warning,28.1
+Curd,34.8,93.4,10,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Cheese,23.6,75.2,31,Glass Container,Room Temperature,30,High Risk,0
+Cheese,12.6,42.7,33,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Curd,24.9,62.4,10,Cellulose Film,Room Temperature,10,High Risk,0
+Milk,23.8,35.8,12,PLA Film,Refrigerated,7,High Risk,0
+Curd,8.5,57.9,11,PLA Film,Refrigerated,10,High Risk,0
+Cheese,12.9,67.6,18,Kraft Paper,Refrigerated,30,Warning,10.5
+Curd,24.0,35.3,1,Moulded Bagasse Pulp,Refrigerated,10,Warning,8.1
+Butter,8.3,90.0,7,Cellulose Film,Room Temperature,60,High Risk,51.2
+Butter,5.4,92.8,30,Vacuum Pack,Refrigerated,60,Warning,28.8
+Milk,19.2,81.5,5,Vacuum Pack,Refrigerated,7,Warning,0.5
+Paneer,24.0,66.7,5,Cellulose Film,Room Temperature,7,High Risk,0.2
+Curd,20.5,45.0,9,Kraft Paper,Room Temperature,10,High Risk,0
+Yogurt,27.3,64.0,12,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Milk,7.3,74.3,12,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,4.6,60.0,4,Moulded Bagasse Pulp,Refrigerated,7,Safe,2.7
+Curd,22.4,84.9,15,Cellulose Film,Room Temperature,10,High Risk,0
+Butter,25.0,36.4,56,PLA Film,Refrigerated,60,Warning,2.5
+Yogurt,7.2,36.7,12,Moulded Bagasse Pulp,Refrigerated,14,Warning,0.8
+Paneer,32.5,35.7,8,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,5.8,57.1,20,PLA Film,Room Temperature,60,Warning,38.8
+Paneer,9.2,41.5,3,Moulded Bagasse Pulp,Room Temperature,7,Warning,2.8
+Milk,32.7,65.6,6,Glass Container,Room Temperature,7,High Risk,0
+Curd,28.3,73.9,0,Kraft Paper,Room Temperature,10,Warning,8.5
+Yogurt,20.3,77.0,5,Kraft Paper,Refrigerated,14,Warning,7.8
+Curd,25.1,75.9,14,Cellulose Film,Room Temperature,10,High Risk,0
+Milk,6.6,39.1,10,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,17.4,94.5,5,Cellulose Film,Refrigerated,7,Warning,0.5
+Milk,2.8,94.5,12,Glass Container,Room Temperature,7,High Risk,0
+Paneer,17.1,36.6,5,PLA Film,Refrigerated,7,Warning,0.8
+Yogurt,18.7,87.9,0,PLA Film,Room Temperature,14,Warning,12.5
+Milk,19.4,44.1,2,Vacuum Pack,Refrigerated,7,Safe,4.4
+Paneer,7.6,51.2,2,Kraft Paper,Room Temperature,7,Warning,3.8
+Milk,16.3,80.3,0,PLA Film,Room Temperature,7,Warning,5.5
+Cheese,8.7,92.1,17,Moulded Bagasse Pulp,Room Temperature,30,High Risk,10.6
+Paneer,24.6,82.1,2,Vacuum Pack,Room Temperature,7,Warning,3.5
+Curd,12.3,90.3,8,Kraft Paper,Room Temperature,10,High Risk,0
+Cheese,30.5,52.7,22,Glass Container,Refrigerated,30,Warning,6.8
+Milk,18.9,67.2,9,Kraft Paper,Refrigerated,7,High Risk,0
+Yogurt,3.2,74.2,7,PLA Film,Room Temperature,14,High Risk,5.2
+Butter,3.6,53.8,63,Vacuum Pack,Refrigerated,60,Warning,0
+Cheese,5.0,39.6,15,Vacuum Pack,Refrigerated,30,Safe,15.3
+Milk,4.5,69.6,12,Glass Container,Room Temperature,7,High Risk,0
+Milk,12.0,46.6,10,PLA Film,Room Temperature,7,High Risk,0
+Curd,24.7,58.0,7,Glass Container,Refrigerated,10,Warning,1.8
+Curd,11.3,46.1,4,Moulded Bagasse Pulp,Room Temperature,10,Warning,4.5
+Curd,25.8,47.8,1,Moulded Bagasse Pulp,Room Temperature,10,Warning,7.8
+Curd,5.8,40.2,0,Vacuum Pack,Refrigerated,10,Safe,10.0
+Curd,18.3,61.4,1,Moulded Bagasse Pulp,Room Temperature,10,Warning,7.8
+Milk,3.9,91.2,2,Glass Container,Refrigerated,7,Safe,4.4
+Paneer,25.3,43.1,5,PLA Film,Refrigerated,7,Warning,0.8
+Curd,30.7,62.5,1,Vacuum Pack,Room Temperature,10,Warning,8.1
+Milk,6.3,73.2,10,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,28.3,63.4,6,Glass Container,Refrigerated,30,Warning,23.1
+Milk,18.3,65.1,3,Moulded Bagasse Pulp,Room Temperature,7,Warning,2.5
+Cheese,4.5,58.4,5,Kraft Paper,Room Temperature,30,Warning,23.5
+Cheese,12.6,64.2,19,PLA Film,Refrigerated,30,Warning,9.5
+Butter,17.3,40.8,43,PLA Film,Room Temperature,60,Warning,15.5
+Milk,34.4,76.0,2,Vacuum Pack,Room Temperature,7,Warning,4.1
+Paneer,27.0,44.0,8,Glass Container,Room Temperature,7,High Risk,0
+Butter,26.0,55.0,18,Kraft Paper,Room Temperature,60,Warning,40.8
+Paneer,29.8,50.9,6,PLA Film,Room Temperature,7,High Risk,0
+Butter,27.1,59.7,61,Kraft Paper,Refrigerated,60,High Risk,0
+Butter,9.4,75.2,7,Glass Container,Room Temperature,60,Warning,52.1
+Milk,4.2,41.5,0,Cellulose Film,Refrigerated,7,Safe,6.7
+Paneer,30.4,51.0,1,Glass Container,Refrigerated,7,Safe,5.4
+Butter,33.1,83.0,15,Cellulose Film,Room Temperature,60,Warning,43.5
+Curd,23.5,89.9,2,Moulded Bagasse Pulp,Room Temperature,10,High Risk,6.2
+Butter,27.5,54.1,57,Moulded Bagasse Pulp,Room Temperature,60,High Risk,0.9
+Milk,33.0,78.6,4,Kraft Paper,Refrigerated,7,Warning,1.8
+Butter,2.2,94.0,35,Vacuum Pack,Room Temperature,60,High Risk,23.2
+Paneer,12.0,81.0,1,PLA Film,Refrigerated,7,Warning,4.5
+Paneer,21.6,83.1,2,PLA Film,Room Temperature,7,High Risk,3.2
+Paneer,4.5,70.7,12,Kraft Paper,Refrigerated,7,High Risk,0
+Cheese,8.0,66.7,16,Kraft Paper,Room Temperature,30,High Risk,12.2
+Milk,29.2,47.9,10,Vacuum Pack,Refrigerated,7,High Risk,0
+Paneer,24.8,94.4,11,Cellulose Film,Room Temperature,7,High Risk,0
+Butter,8.2,41.1,28,Glass Container,Refrigerated,60,Safe,31.7
+Cheese,16.5,75.2,24,Vacuum Pack,Room Temperature,30,High Risk,3.9
+Cheese,8.4,72.0,8,PLA Film,Room Temperature,30,Warning,20.5
+Paneer,18.8,60.2,8,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,28.5,76.0,30,Cellulose Film,Room Temperature,60,High Risk,28.2
+Curd,24.1,62.4,4,Kraft Paper,Refrigerated,10,Warning,5.1
+Yogurt,26.5,58.3,16,Glass Container,Refrigerated,14,High Risk,0
+Butter,24.5,38.2,40,PLA Film,Refrigerated,60,Warning,19.1
+Cheese,5.2,70.0,19,Cellulose Film,Refrigerated,30,Warning,10.1
+Milk,31.5,66.1,5,Glass Container,Room Temperature,7,Warning,0.8
+Yogurt,7.0,61.1,5,PLA Film,Refrigerated,14,Safe,8.7
+Butter,17.9,39.1,27,Vacuum Pack,Room Temperature,60,Warning,32.1
+Curd,27.4,58.7,9,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Cheese,5.6,36.7,6,Cellulose Film,Refrigerated,30,Safe,23.7
+Cheese,8.6,54.3,2,Glass Container,Refrigerated,30,Safe,27.4
+Cheese,26.6,47.3,18,PLA Film,Room Temperature,30,Warning,10.5
+Cheese,16.7,74.6,0,PLA Film,Room Temperature,30,Warning,28.5
+Paneer,25.5,36.3,8,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,8.3,36.9,4,Kraft Paper,Room Temperature,7,Warning,1.8
+Cheese,5.1,70.8,35,Vacuum Pack,Refrigerated,30,High Risk,0
+Cheese,16.7,76.3,35,Glass Container,Room Temperature,30,High Risk,0
+Yogurt,4.3,77.8,2,PLA Film,Room Temperature,14,Warning,10.5
+Milk,12.2,63.1,10,Vacuum Pack,Refrigerated,7,High Risk,0
+Butter,23.2,67.4,48,Vacuum Pack,Refrigerated,60,High Risk,9.9
+Butter,7.8,41.7,32,Moulded Bagasse Pulp,Room Temperature,60,High Risk,26.2
+Paneer,14.6,46.8,4,Kraft Paper,Room Temperature,7,Warning,1.5
+Butter,27.8,71.0,44,Cellulose Film,Refrigerated,60,Warning,14.8
+Paneer,12.0,45.0,12,Kraft Paper,Refrigerated,7,High Risk,0
+Yogurt,25.8,49.3,13,Cellulose Film,Room Temperature,14,High Risk,0
+Curd,20.3,48.7,11,Vacuum Pack,Room Temperature,10,High Risk,0
+Curd,21.0,35.1,13,Vacuum Pack,Room Temperature,10,High Risk,0
+Cheese,34.4,75.2,11,Kraft Paper,Refrigerated,30,Warning,17.5
+Paneer,10.7,56.0,5,Kraft Paper,Room Temperature,7,Warning,0.5
+Paneer,3.1,81.6,2,Kraft Paper,Room Temperature,7,Warning,3.5
+Paneer,32.0,65.2,1,PLA Film,Room Temperature,7,Warning,4.8
+Paneer,34.1,37.8,1,Vacuum Pack,Room Temperature,7,Warning,5.1
+Milk,7.5,93.8,5,Cellulose Film,Room Temperature,7,High Risk,0
+Yogurt,22.8,80.3,5,Glass Container,Refrigerated,14,Warning,7.8
+Paneer,15.4,71.0,5,Kraft Paper,Refrigerated,7,Warning,0.5
+Cheese,17.4,83.6,21,Vacuum Pack,Refrigerated,30,High Risk,7.2
+Curd,7.5,44.3,11,Cellulose Film,Refrigerated,10,High Risk,0
+Milk,32.9,88.1,11,Vacuum Pack,Refrigerated,7,High Risk,0
+Paneer,2.9,69.0,8,Cellulose Film,Refrigerated,7,High Risk,0
+Curd,5.0,77.0,7,Glass Container,Refrigerated,10,Safe,2.7
+Curd,32.7,41.7,15,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Cheese,26.2,66.3,1,Kraft Paper,Room Temperature,30,High Risk,27.2
+Cheese,25.3,45.3,20,Moulded Bagasse Pulp,Refrigerated,30,Warning,9.1
+Butter,34.7,39.9,46,Vacuum Pack,Room Temperature,60,High Risk,11.9
+Curd,14.1,51.8,14,Cellulose Film,Refrigerated,10,High Risk,0
+Paneer,18.9,77.6,5,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0.2
+Paneer,11.5,45.2,12,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,22.4,90.1,0,Moulded Bagasse Pulp,Room Temperature,7,High Risk,5.2
+Paneer,17.2,85.3,11,Vacuum Pack,Room Temperature,7,High Risk,0
+Curd,12.6,44.4,13,Cellulose Film,Refrigerated,10,High Risk,0
+Yogurt,29.8,80.0,8,PLA Film,Room Temperature,14,Warning,4.5
+Butter,26.1,55.3,48,Moulded Bagasse Pulp,Room Temperature,60,High Risk,9.9
+Curd,8.0,62.3,3,Vacuum Pack,Refrigerated,10,Safe,7.0
+Cheese,7.2,50.8,31,Kraft Paper,Room Temperature,30,High Risk,0
+Butter,19.6,73.9,64,Moulded Bagasse Pulp,Room Temperature,60,High Risk,0
+Yogurt,14.5,88.7,12,Moulded Bagasse Pulp,Refrigerated,14,High Risk,0
+Butter,32.7,50.3,19,Vacuum Pack,Refrigerated,60,Safe,40.4
+Paneer,3.6,70.2,5,Kraft Paper,Refrigerated,7,Warning,1.1
+Yogurt,31.4,78.8,15,PLA Film,Refrigerated,14,High Risk,0
+Butter,15.0,66.2,45,Kraft Paper,Room Temperature,60,High Risk,12.9
+Paneer,2.2,85.1,3,PLA Film,Refrigerated,7,Warning,3.1
+Yogurt,23.5,88.2,17,Vacuum Pack,Refrigerated,14,High Risk,0
+Butter,33.8,37.8,12,Cellulose Film,Refrigerated,60,Warning,47.1
+Cheese,9.8,70.2,21,PLA Film,Refrigerated,30,Warning,7.8
+Butter,22.1,60.3,39,Moulded Bagasse Pulp,Room Temperature,60,High Risk,19.2
+Milk,2.4,65.8,5,PLA Film,Room Temperature,7,High Risk,0
+Cheese,14.9,36.7,28,Kraft Paper,Refrigerated,30,Warning,0.5
+Milk,3.1,91.5,5,Cellulose Film,Room Temperature,7,High Risk,0.2
+Paneer,17.8,94.3,10,PLA Film,Refrigerated,7,High Risk,0
+Milk,5.1,86.6,5,Kraft Paper,Room Temperature,7,High Risk,0.2
+Butter,9.8,79.2,33,Moulded Bagasse Pulp,Refrigerated,60,Warning,25.5
+Curd,19.6,78.9,15,Glass Container,Room Temperature,10,High Risk,0
+Milk,29.6,44.6,5,Cellulose Film,Room Temperature,7,Warning,0.5
+Milk,17.9,38.1,8,PLA Film,Refrigerated,7,High Risk,0
+Yogurt,5.1,44.6,14,Vacuum Pack,Refrigerated,14,Warning,0
+Milk,23.3,63.2,9,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,19.7,43.8,11,PLA Film,Room Temperature,7,High Risk,0
+Paneer,6.5,37.9,8,Kraft Paper,Refrigerated,7,High Risk,0
+Curd,15.9,44.8,8,Cellulose Film,Room Temperature,10,High Risk,0
+Paneer,4.7,44.1,6,Glass Container,Room Temperature,7,High Risk,0
+Butter,12.2,43.9,52,Vacuum Pack,Room Temperature,60,High Risk,6.2
+Milk,4.5,85.4,4,Kraft Paper,Refrigerated,7,Warning,2.1
+Butter,9.1,52.7,58,Vacuum Pack,Room Temperature,60,High Risk,0
+Butter,14.1,39.7,22,Glass Container,Room Temperature,60,Warning,37.1
+Milk,22.7,42.5,2,PLA Film,Refrigerated,7,Warning,4.1
+Butter,11.8,51.5,31,PLA Film,Room Temperature,60,Warning,27.5
+Cheese,5.4,39.4,11,Vacuum Pack,Room Temperature,30,Warning,18.1
+Curd,28.2,39.2,13,Glass Container,Room Temperature,10,High Risk,0
+Curd,10.8,35.5,9,Glass Container,Room Temperature,10,High Risk,0
+Paneer,5.6,56.6,12,Cellulose Film,Room Temperature,7,High Risk,0
+Cheese,20.8,86.6,24,Kraft Paper,Refrigerated,30,High Risk,3.3
+Milk,10.9,67.3,9,Vacuum Pack,Refrigerated,7,High Risk,0
+Milk,20.8,41.3,3,PLA Film,Refrigerated,7,Warning,3.1
+Cheese,28.4,37.1,23,PLA Film,Refrigerated,30,High Risk,5.2
+Yogurt,13.4,62.3,7,Cellulose Film,Room Temperature,14,Warning,5.5
+Cheese,10.3,44.2,33,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Yogurt,23.7,63.2,15,PLA Film,Refrigerated,14,High Risk,0
+Cheese,13.2,89.6,27,Glass Container,Room Temperature,30,High Risk,0.9
+Cheese,17.0,93.6,6,Glass Container,Room Temperature,30,Warning,22.8
+Butter,21.0,80.9,58,Cellulose Film,Refrigerated,60,High Risk,0
+Milk,22.6,74.2,2,Kraft Paper,Refrigerated,7,Warning,3.5
+Curd,6.4,45.2,9,Moulded Bagasse Pulp,Refrigerated,10,Warning,0
+Yogurt,34.4,62.1,16,Cellulose Film,Room Temperature,14,High Risk,0
+Paneer,27.6,75.5,8,Cellulose Film,Refrigerated,7,High Risk,0
+Yogurt,18.7,38.8,0,Kraft Paper,Room Temperature,14,Warning,12.8
+Paneer,27.1,67.8,2,Moulded Bagasse Pulp,Room Temperature,7,Warning,3.8
+Cheese,25.2,78.5,10,PLA Film,Refrigerated,30,Warning,19.1
+Butter,21.2,85.3,25,Vacuum Pack,Refrigerated,60,Warning,33.8
+Curd,22.0,55.7,1,Vacuum Pack,Refrigerated,10,Safe,8.4
+Yogurt,4.0,46.0,10,Vacuum Pack,Refrigerated,14,Safe,4.3
+Yogurt,26.6,60.9,14,Vacuum Pack,Room Temperature,14,High Risk,0
+Paneer,33.1,61.4,12,Kraft Paper,Room Temperature,7,High Risk,0
+Yogurt,23.0,54.6,3,PLA Film,Refrigerated,14,Warning,10.1
+Curd,25.4,55.3,11,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Cheese,9.3,58.0,17,Cellulose Film,Refrigerated,30,Warning,11.5
+Milk,24.0,48.7,7,Kraft Paper,Room Temperature,7,High Risk,0
+Paneer,2.4,91.0,0,PLA Film,Refrigerated,7,Safe,6.4
+Yogurt,9.4,67.5,4,Cellulose Film,Refrigerated,14,Warning,8.8
+Butter,17.5,50.5,64,Vacuum Pack,Room Temperature,60,High Risk,0
+Yogurt,15.9,94.2,18,Kraft Paper,Room Temperature,14,High Risk,0
+Butter,8.4,58.7,48,PLA Film,Room Temperature,60,High Risk,10.2
+Curd,12.5,55.0,14,Cellulose Film,Refrigerated,10,High Risk,0
+Butter,6.6,62.4,60,Glass Container,Refrigerated,60,Warning,0
+Milk,14.7,94.6,1,Moulded Bagasse Pulp,Refrigerated,7,High Risk,4.2
+Yogurt,28.3,66.7,1,PLA Film,Room Temperature,14,High Risk,11.2
+Paneer,12.7,46.0,7,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Yogurt,27.8,94.2,0,PLA Film,Room Temperature,14,Warning,12.5
+Cheese,21.4,81.1,16,Glass Container,Room Temperature,30,Warning,12.5
+Paneer,19.3,49.1,7,Vacuum Pack,Room Temperature,7,High Risk,0
+Yogurt,22.8,85.5,9,PLA Film,Room Temperature,14,High Risk,3.2
+Cheese,34.5,75.4,24,Cellulose Film,Refrigerated,30,High Risk,3.9
+Milk,2.8,58.1,9,Moulded Bagasse Pulp,Refrigerated,7,Warning,0
+Paneer,30.9,77.7,0,PLA Film,Refrigerated,7,Warning,5.8
+Cheese,9.2,53.9,29,PLA Film,Room Temperature,30,High Risk,0
+Milk,22.1,37.4,9,Kraft Paper,Refrigerated,7,High Risk,0
+Yogurt,23.0,70.4,10,Glass Container,Refrigerated,14,Warning,2.8
+Butter,12.1,78.8,53,PLA Film,Refrigerated,60,High Risk,5.2
+Paneer,32.8,59.7,5,Kraft Paper,Refrigerated,7,Warning,0.5
+Milk,28.3,47.9,2,Moulded Bagasse Pulp,Refrigerated,7,Warning,3.8
+Yogurt,33.6,94.1,13,Cellulose Film,Room Temperature,14,High Risk,0
+Yogurt,31.9,52.4,19,Kraft Paper,Refrigerated,14,High Risk,0
+Paneer,16.5,89.5,0,Cellulose Film,Room Temperature,7,High Risk,4.9
+Yogurt,21.2,58.9,14,Glass Container,Room Temperature,14,High Risk,0
+Milk,22.6,76.4,2,Cellulose Film,Room Temperature,7,Warning,3.5
+Paneer,24.3,83.7,4,PLA Film,Refrigerated,7,High Risk,1.2
+Milk,19.8,82.5,5,Vacuum Pack,Refrigerated,7,High Risk,0.2
+Yogurt,3.8,87.0,10,Moulded Bagasse Pulp,Room Temperature,14,High Risk,2.2
+Paneer,17.7,69.5,2,Vacuum Pack,Room Temperature,7,Warning,3.8
+Milk,15.1,44.8,12,Kraft Paper,Refrigerated,7,High Risk,0
+Curd,5.9,57.9,6,Cellulose Film,Refrigerated,10,Safe,3.7
+Yogurt,25.5,58.0,17,Glass Container,Refrigerated,14,High Risk,0
+Paneer,32.4,57.1,11,Cellulose Film,Room Temperature,7,High Risk,0
+Milk,32.2,39.1,3,Glass Container,Room Temperature,7,Safe,3.4
+Milk,8.2,92.9,10,Cellulose Film,Room Temperature,7,High Risk,0
+Butter,30.3,72.2,35,Glass Container,Refrigerated,60,Warning,23.5
+Curd,12.0,91.1,7,Moulded Bagasse Pulp,Refrigerated,10,Warning,1.5
+Butter,25.5,52.7,24,Moulded Bagasse Pulp,Room Temperature,60,Warning,35.1
+Yogurt,15.2,84.9,9,Kraft Paper,Room Temperature,14,High Risk,2.6
+Cheese,31.4,58.4,20,Moulded Bagasse Pulp,Refrigerated,30,Warning,8.8
+Paneer,32.6,48.0,9,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,9.3,59.9,63,Moulded Bagasse Pulp,Refrigerated,60,High Risk,0
+Curd,3.0,90.3,4,PLA Film,Refrigerated,10,Warning,5.1
+Curd,30.9,87.1,12,Kraft Paper,Room Temperature,10,High Risk,0
+Yogurt,33.6,44.9,1,Glass Container,Room Temperature,14,Warning,12.1
+Paneer,19.2,62.8,2,Kraft Paper,Room Temperature,7,Warning,3.5
+Paneer,35.0,44.9,6,Cellulose Film,Refrigerated,7,High Risk,0
+Butter,19.4,86.2,2,Glass Container,Refrigerated,60,Warning,56.8
+Curd,24.6,77.3,4,Vacuum Pack,Refrigerated,10,Warning,5.1
+Milk,9.0,35.5,6,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,33.0,85.6,23,Moulded Bagasse Pulp,Room Temperature,30,High Risk,4.3
+Yogurt,13.1,51.4,8,Vacuum Pack,Room Temperature,14,Warning,4.8
+Yogurt,17.8,54.0,7,Moulded Bagasse Pulp,Refrigerated,14,Warning,5.5
+Cheese,22.7,50.4,15,Vacuum Pack,Room Temperature,30,Warning,13.5
+Yogurt,24.1,86.9,15,Glass Container,Room Temperature,14,High Risk,0
+Milk,6.4,67.1,7,Cellulose Film,Room Temperature,7,High Risk,0
+Curd,3.5,82.9,1,Vacuum Pack,Room Temperature,10,High Risk,7.2
+Curd,30.9,37.7,9,Cellulose Film,Room Temperature,10,High Risk,0
+Butter,31.1,41.2,11,Vacuum Pack,Room Temperature,60,Warning,47.8
+Cheese,33.7,61.4,31,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Curd,10.4,43.6,14,Kraft Paper,Room Temperature,10,High Risk,0
+Curd,33.6,63.6,5,Glass Container,Refrigerated,10,Warning,4.1
+Butter,26.6,87.4,45,Moulded Bagasse Pulp,Room Temperature,60,High Risk,12.6
+Milk,22.6,36.1,8,PLA Film,Room Temperature,7,High Risk,0
+Milk,20.0,65.8,11,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,18.4,45.2,11,Kraft Paper,Refrigerated,14,High Risk,1.2
+Paneer,17.7,62.6,4,Moulded Bagasse Pulp,Refrigerated,7,Warning,1.8
+Cheese,13.4,56.0,17,Vacuum Pack,Refrigerated,30,Warning,12.1
+Curd,9.1,69.9,0,Vacuum Pack,Refrigerated,10,Warning,9.1
+Cheese,27.3,87.6,28,Moulded Bagasse Pulp,Refrigerated,30,High Risk,0
+Paneer,30.5,58.9,1,Kraft Paper,Refrigerated,7,Warning,4.8
+Paneer,24.6,64.4,4,Vacuum Pack,Refrigerated,7,Warning,1.8
+Yogurt,27.7,93.5,19,Glass Container,Refrigerated,14,High Risk,0
+Cheese,15.2,57.3,26,Kraft Paper,Room Temperature,30,High Risk,2.2
+Cheese,12.5,39.0,13,Moulded Bagasse Pulp,Refrigerated,30,Warning,15.8
+Paneer,31.4,85.1,6,Glass Container,Refrigerated,7,High Risk,0
+Butter,22.8,73.3,26,Cellulose Film,Room Temperature,60,High Risk,32.2
+Cheese,17.0,51.1,11,Moulded Bagasse Pulp,Refrigerated,30,Warning,17.8
+Curd,19.5,60.1,15,PLA Film,Refrigerated,10,High Risk,0
+Paneer,18.1,82.1,1,PLA Film,Refrigerated,7,Warning,4.5
+Butter,28.9,72.0,60,Cellulose Film,Refrigerated,60,High Risk,0
+Yogurt,34.1,49.1,12,PLA Film,Room Temperature,14,High Risk,0
+Milk,7.1,48.1,8,Vacuum Pack,Refrigerated,7,Warning,0
+Curd,12.3,75.4,6,Vacuum Pack,Room Temperature,10,Warning,2.5
+Milk,12.4,79.6,1,Moulded Bagasse Pulp,Refrigerated,7,Warning,4.8
+Butter,27.1,39.0,41,Kraft Paper,Room Temperature,60,Warning,17.5
+Butter,9.2,63.9,11,Cellulose Film,Room Temperature,60,Warning,47.8
+Butter,25.8,72.1,62,Kraft Paper,Refrigerated,60,High Risk,0
+Paneer,9.8,89.4,8,Cellulose Film,Refrigerated,7,High Risk,0
+Paneer,3.2,82.7,6,Cellulose Film,Refrigerated,7,Warning,0
+Cheese,9.7,75.8,26,Moulded Bagasse Pulp,Room Temperature,30,High Risk,1.9
+Yogurt,12.8,89.6,7,Vacuum Pack,Refrigerated,14,Warning,5.5
+Paneer,7.1,40.0,7,Kraft Paper,Refrigerated,7,High Risk,0
+Yogurt,31.9,80.9,0,PLA Film,Room Temperature,14,High Risk,12.2
+Milk,25.4,82.6,12,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Curd,29.1,86.3,14,PLA Film,Room Temperature,10,High Risk,0
+Milk,22.8,43.1,5,Kraft Paper,Room Temperature,7,Warning,0.8
+Yogurt,19.0,38.3,11,Cellulose Film,Refrigerated,14,Warning,1.5
+Milk,8.9,94.2,0,Moulded Bagasse Pulp,Refrigerated,7,Warning,5.5
+Paneer,22.9,73.1,6,Glass Container,Refrigerated,7,High Risk,0
+Cheese,21.0,67.9,14,Kraft Paper,Refrigerated,30,Warning,15.1
+Butter,26.8,72.0,26,Kraft Paper,Refrigerated,60,Warning,32.8
+Paneer,15.1,84.2,11,Glass Container,Refrigerated,7,High Risk,0
+Butter,17.5,35.4,61,Kraft Paper,Room Temperature,60,High Risk,0
+Paneer,8.5,49.0,8,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,16.1,39.3,5,Vacuum Pack,Refrigerated,7,Warning,0.8
+Curd,26.9,75.5,11,Glass Container,Refrigerated,10,High Risk,0
+Butter,11.4,36.2,6,PLA Film,Room Temperature,60,Warning,52.8
+Curd,9.6,51.7,11,Kraft Paper,Room Temperature,10,High Risk,0
+Curd,26.3,56.1,13,PLA Film,Room Temperature,10,High Risk,0
+Cheese,2.7,71.3,16,Cellulose Film,Refrigerated,30,Safe,13.4
+Butter,22.3,54.6,14,Glass Container,Refrigerated,60,Safe,45.4
+Paneer,20.5,52.2,1,PLA Film,Room Temperature,7,Warning,4.5
+Paneer,23.8,65.4,0,Moulded Bagasse Pulp,Room Temperature,7,Warning,5.8
+Curd,23.4,43.0,9,Cellulose Film,Refrigerated,10,High Risk,0
+Yogurt,17.0,68.9,18,Kraft Paper,Room Temperature,14,High Risk,0
+Butter,11.8,45.1,60,Kraft Paper,Refrigerated,60,High Risk,0
+Cheese,5.6,41.2,16,Cellulose Film,Refrigerated,30,Safe,13.4
+Paneer,28.9,78.3,10,Kraft Paper,Refrigerated,7,High Risk,0
+Cheese,4.3,87.3,33,Cellulose Film,Room Temperature,30,High Risk,0
+Cheese,3.6,81.0,2,Cellulose Film,Refrigerated,30,Safe,27.4
+Butter,19.6,43.1,50,Cellulose Film,Room Temperature,60,High Risk,7.9
+Paneer,34.2,41.3,6,Glass Container,Refrigerated,7,Warning,0
+Butter,23.1,59.0,38,Moulded Bagasse Pulp,Refrigerated,60,Warning,20.8
+Milk,26.3,89.9,3,Kraft Paper,Room Temperature,7,High Risk,1.9
+Cheese,2.0,46.6,19,Moulded Bagasse Pulp,Room Temperature,30,Warning,9.8
+Paneer,30.5,59.9,8,Glass Container,Refrigerated,7,High Risk,0
+Milk,20.4,63.9,5,Kraft Paper,Refrigerated,7,Warning,0.8
+Curd,20.0,46.3,11,Moulded Bagasse Pulp,Refrigerated,10,High Risk,0
+Yogurt,6.6,58.1,7,Kraft Paper,Room Temperature,14,Warning,5.5
+Milk,30.1,50.2,11,Cellulose Film,Room Temperature,7,High Risk,0
+Cheese,15.9,83.4,24,PLA Film,Room Temperature,30,High Risk,3.3
+Butter,11.3,87.4,56,Kraft Paper,Room Temperature,60,High Risk,1.3
+Milk,14.2,65.7,4,Cellulose Film,Room Temperature,7,High Risk,0.9
+Cheese,13.7,53.2,14,Glass Container,Room Temperature,30,Warning,15.1
+Yogurt,30.3,64.4,11,Vacuum Pack,Refrigerated,14,Warning,1.5
+Butter,34.5,60.2,35,PLA Film,Refrigerated,60,Warning,23.8
+Yogurt,26.5,94.6,14,Cellulose Film,Refrigerated,14,High Risk,0
+Yogurt,6.1,85.4,1,Vacuum Pack,Room Temperature,14,Warning,11.5
+Paneer,20.6,80.2,7,PLA Film,Room Temperature,7,High Risk,0
+Milk,28.1,41.4,12,Kraft Paper,Room Temperature,7,High Risk,0
+Cheese,4.7,62.4,28,Glass Container,Room Temperature,30,High Risk,0.2
+Paneer,11.0,53.3,11,Cellulose Film,Refrigerated,7,High Risk,0
+Paneer,23.0,64.6,10,Kraft Paper,Refrigerated,7,High Risk,0
+Milk,9.5,93.0,6,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,20.8,66.9,1,Kraft Paper,Refrigerated,10,Warning,7.8
+Cheese,23.2,50.9,33,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Paneer,27.7,64.5,1,Cellulose Film,Room Temperature,7,Warning,4.8
+Paneer,21.1,59.4,9,Kraft Paper,Refrigerated,7,High Risk,0
+Cheese,10.0,69.4,25,Vacuum Pack,Refrigerated,30,High Risk,3.2
+Curd,22.1,46.2,13,Kraft Paper,Room Temperature,10,High Risk,0
+Paneer,19.4,82.4,0,Cellulose Film,Refrigerated,7,Warning,5.8
+Curd,21.8,86.7,2,Glass Container,Room Temperature,10,Warning,6.5
+Cheese,5.0,57.9,3,Moulded Bagasse Pulp,Room Temperature,30,Warning,25.8
+Yogurt,33.1,78.5,1,Moulded Bagasse Pulp,Room Temperature,14,High Risk,11.2
+Butter,5.1,56.0,20,Glass Container,Refrigerated,60,Safe,40.0
+Curd,25.0,69.6,1,Moulded Bagasse Pulp,Refrigerated,10,Warning,7.8
+Paneer,24.5,89.3,3,Kraft Paper,Refrigerated,7,Warning,2.5
+Curd,2.9,50.0,9,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Yogurt,2.3,91.3,16,Kraft Paper,Room Temperature,14,High Risk,0
+Yogurt,8.3,65.5,3,PLA Film,Refrigerated,14,Warning,9.8
+Paneer,2.5,69.6,5,PLA Film,Refrigerated,7,Safe,1.4
+Paneer,16.4,50.0,9,Glass Container,Room Temperature,7,High Risk,0
+Milk,15.2,68.1,1,Glass Container,Room Temperature,7,Warning,4.5
+Paneer,25.6,91.3,11,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,24.5,88.9,0,Cellulose Film,Refrigerated,60,Warning,58.8
+Curd,10.8,93.3,11,Vacuum Pack,Room Temperature,10,High Risk,0
+Curd,14.7,41.7,11,Kraft Paper,Refrigerated,10,High Risk,0
+Yogurt,21.8,80.5,7,Cellulose Film,Refrigerated,14,High Risk,5.2
+Cheese,23.8,66.2,23,Cellulose Film,Room Temperature,30,High Risk,4.6
+Milk,28.7,42.5,11,Glass Container,Room Temperature,7,High Risk,0
+Butter,9.1,35.9,21,PLA Film,Room Temperature,60,Warning,37.8
+Paneer,2.2,39.1,1,Glass Container,Room Temperature,7,Safe,5.4
+Curd,34.2,79.7,8,Kraft Paper,Refrigerated,10,High Risk,0
+Milk,17.6,49.8,3,Kraft Paper,Refrigerated,7,Warning,3.1
+Cheese,16.1,94.5,4,Vacuum Pack,Refrigerated,30,Warning,24.8
+Cheese,21.5,84.2,31,Glass Container,Refrigerated,30,High Risk,0
+Paneer,19.2,49.8,6,Vacuum Pack,Room Temperature,7,High Risk,0
+Yogurt,26.3,37.8,0,Moulded Bagasse Pulp,Room Temperature,14,Warning,12.8
+Yogurt,12.9,70.5,15,Cellulose Film,Room Temperature,14,High Risk,0
+Milk,30.6,59.5,11,PLA Film,Refrigerated,7,High Risk,0
+Milk,8.8,47.6,7,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Cheese,6.4,46.4,14,Vacuum Pack,Refrigerated,30,Safe,16.0
+Butter,23.5,71.3,56,Vacuum Pack,Refrigerated,60,High Risk,1.9
+Curd,4.4,49.1,6,PLA Film,Room Temperature,10,Warning,2.5
+Butter,14.0,57.7,49,Vacuum Pack,Room Temperature,60,High Risk,9.2
+Paneer,25.2,71.5,4,Moulded Bagasse Pulp,Room Temperature,7,High Risk,1.2
+Curd,29.2,39.4,14,Cellulose Film,Room Temperature,10,High Risk,0
+Milk,15.8,94.7,6,Glass Container,Room Temperature,7,High Risk,0
+Cheese,22.1,47.1,34,Vacuum Pack,Refrigerated,30,High Risk,0
+Milk,21.3,48.7,2,Kraft Paper,Refrigerated,7,Warning,4.1
+Milk,14.5,62.3,4,Cellulose Film,Room Temperature,7,Warning,1.5
+Curd,33.8,85.7,9,PLA Film,Refrigerated,10,High Risk,0
+Curd,14.5,52.5,15,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Butter,33.0,47.0,9,Kraft Paper,Refrigerated,60,Warning,50.1
+Butter,9.0,64.1,11,Cellulose Film,Refrigerated,60,Warning,47.8
+Curd,30.5,61.3,7,Moulded Bagasse Pulp,Refrigerated,10,Warning,1.8
+Butter,14.1,54.3,17,Moulded Bagasse Pulp,Room Temperature,60,Warning,41.8
+Butter,14.7,53.6,52,Glass Container,Room Temperature,60,High Risk,6.2
+Butter,16.4,92.4,6,Moulded Bagasse Pulp,Room Temperature,60,High Risk,52.2
+Butter,29.7,48.7,12,Cellulose Film,Room Temperature,60,Warning,46.8
+Paneer,34.8,51.0,5,Vacuum Pack,Refrigerated,7,Warning,1.1
+Paneer,29.8,42.7,10,Vacuum Pack,Room Temperature,7,High Risk,0
+Milk,4.7,37.2,3,Glass Container,Room Temperature,7,Warning,2.8
+Paneer,24.4,52.7,9,Glass Container,Room Temperature,7,High Risk,0
+Cheese,7.1,69.0,29,PLA Film,Refrigerated,30,Warning,0
+Butter,26.6,86.1,33,PLA Film,Refrigerated,60,High Risk,25.2
+Milk,3.3,36.8,8,Vacuum Pack,Room Temperature,7,High Risk,0
+Curd,7.2,36.1,1,Glass Container,Refrigerated,10,Safe,9.0
+Paneer,7.5,88.4,1,Moulded Bagasse Pulp,Refrigerated,7,Warning,5.1
+Butter,6.1,35.6,54,Kraft Paper,Refrigerated,60,Warning,4.8
+Curd,4.3,64.0,14,Glass Container,Room Temperature,10,High Risk,0
+Butter,33.6,46.0,37,PLA Film,Room Temperature,60,High Risk,21.2
+Milk,20.4,80.3,10,Vacuum Pack,Refrigerated,7,High Risk,0
+Yogurt,14.5,54.1,7,Vacuum Pack,Refrigerated,14,Warning,6.1
+Yogurt,8.1,54.2,10,Moulded Bagasse Pulp,Refrigerated,14,Warning,2.8
+Cheese,11.1,84.5,8,Moulded Bagasse Pulp,Room Temperature,30,High Risk,20.2
+Yogurt,7.3,64.6,5,Glass Container,Room Temperature,14,Warning,8.1
+Milk,5.9,88.3,1,PLA Film,Room Temperature,7,High Risk,4.2
+Curd,31.3,42.7,7,Kraft Paper,Room Temperature,10,Warning,1.5
+Curd,29.1,71.8,10,PLA Film,Room Temperature,10,High Risk,0
+Cheese,20.8,39.9,24,Glass Container,Room Temperature,30,High Risk,4.2
+Cheese,27.3,52.1,25,Glass Container,Room Temperature,30,High Risk,3.2
+Milk,6.3,71.7,3,Kraft Paper,Room Temperature,7,Warning,2.5
+Cheese,3.3,80.1,13,Moulded Bagasse Pulp,Refrigerated,30,Safe,16.4
+Butter,35.0,54.9,37,Kraft Paper,Refrigerated,60,Warning,22.1
+Milk,13.0,64.2,9,Vacuum Pack,Room Temperature,7,High Risk,0
+Paneer,32.9,92.0,7,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,5.3,71.0,13,PLA Film,Room Temperature,14,High Risk,0
+Milk,4.5,84.8,3,Glass Container,Room Temperature,7,Warning,2.8
+Milk,24.5,49.4,5,Vacuum Pack,Refrigerated,7,Safe,1.4
+Butter,3.6,52.7,58,PLA Film,Refrigerated,60,Safe,1.4
+Milk,20.1,53.0,0,Moulded Bagasse Pulp,Room Temperature,7,Warning,6.1
+Paneer,8.9,46.2,11,PLA Film,Refrigerated,7,High Risk,0
+Curd,33.0,75.4,1,Moulded Bagasse Pulp,Refrigerated,10,Warning,7.8
+Milk,8.8,90.0,10,Glass Container,Room Temperature,7,High Risk,0
+Paneer,28.9,72.1,11,Glass Container,Refrigerated,7,High Risk,0
+Paneer,16.3,45.0,11,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Yogurt,31.1,44.1,15,Cellulose Film,Refrigerated,14,High Risk,0
+Cheese,30.2,61.1,21,Cellulose Film,Room Temperature,30,High Risk,7.2
+Paneer,34.7,48.9,5,Cellulose Film,Refrigerated,7,Warning,0.8
+Butter,34.4,44.9,55,Kraft Paper,Room Temperature,60,High Risk,2.9
+Butter,28.4,73.0,27,PLA Film,Room Temperature,60,Warning,31.5
+Cheese,26.8,42.5,5,Cellulose Film,Refrigerated,30,Warning,24.1
+Milk,20.5,40.1,5,Kraft Paper,Refrigerated,7,Warning,0.8
+Butter,12.0,84.2,1,PLA Film,Refrigerated,60,Warning,57.8
+Milk,24.7,65.8,10,PLA Film,Room Temperature,7,High Risk,0
+Yogurt,17.2,43.2,3,Glass Container,Room Temperature,14,Warning,9.8
+Cheese,15.8,66.4,31,Moulded Bagasse Pulp,Refrigerated,30,High Risk,0
+Butter,16.7,54.7,37,PLA Film,Room Temperature,60,High Risk,21.2
+Yogurt,16.7,81.0,14,Kraft Paper,Room Temperature,14,High Risk,0
+Butter,2.3,80.4,21,Vacuum Pack,Room Temperature,60,Warning,37.5
+Paneer,6.9,75.9,2,Kraft Paper,Room Temperature,7,Warning,3.8
+Paneer,27.2,91.5,10,Cellulose Film,Room Temperature,7,High Risk,0
+Cheese,18.9,35.0,30,Moulded Bagasse Pulp,Room Temperature,30,High Risk,0
+Butter,15.8,68.7,20,Vacuum Pack,Refrigerated,60,Warning,38.8
+Curd,17.0,72.3,6,Vacuum Pack,Room Temperature,10,Warning,2.5
+Paneer,15.8,44.5,10,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,9.8,62.5,1,Moulded Bagasse Pulp,Refrigerated,10,Safe,8.4
+Paneer,4.2,61.1,3,Glass Container,Room Temperature,7,Warning,3.1
+Cheese,21.8,54.1,5,Moulded Bagasse Pulp,Refrigerated,30,Safe,24.4
+Paneer,15.1,73.9,3,Moulded Bagasse Pulp,Room Temperature,7,Warning,2.8
+Paneer,21.7,45.9,5,Moulded Bagasse Pulp,Refrigerated,7,Warning,0.8
+Yogurt,15.6,70.2,2,PLA Film,Refrigerated,14,Warning,11.1
+Cheese,13.3,40.4,1,Glass Container,Refrigerated,30,Safe,28.4
+Paneer,13.8,66.3,4,Moulded Bagasse Pulp,Room Temperature,7,High Risk,1.2
+Curd,34.0,43.5,9,Cellulose Film,Room Temperature,10,High Risk,0
+Milk,26.5,82.4,2,Cellulose Film,Refrigerated,7,Warning,3.5
+Yogurt,10.7,91.4,7,Vacuum Pack,Refrigerated,14,Warning,5.8
+Paneer,23.0,41.4,8,Cellulose Film,Refrigerated,7,High Risk,0
+Cheese,6.6,78.1,18,Vacuum Pack,Refrigerated,30,Warning,11.1
+Milk,22.4,52.2,12,Glass Container,Refrigerated,7,High Risk,0
+Curd,11.8,68.9,11,PLA Film,Refrigerated,10,High Risk,0
+Milk,6.4,70.3,11,Glass Container,Refrigerated,7,High Risk,0
+Milk,10.9,58.8,8,Vacuum Pack,Room Temperature,7,High Risk,0
+Curd,19.0,66.9,7,Kraft Paper,Refrigerated,10,High Risk,1.2
+Curd,2.1,37.3,15,Cellulose Film,Refrigerated,10,Warning,0
+Cheese,19.9,89.1,12,Kraft Paper,Refrigerated,30,Warning,16.8
+Milk,15.0,57.5,0,Cellulose Film,Refrigerated,7,Warning,6.1
+Cheese,4.1,66.4,8,Vacuum Pack,Room Temperature,30,Warning,20.8
+Yogurt,6.5,43.2,13,Glass Container,Room Temperature,14,Warning,0
+Milk,7.5,62.6,2,PLA Film,Room Temperature,7,Warning,3.8
+Cheese,9.9,55.5,17,Moulded Bagasse Pulp,Room Temperature,30,Warning,11.5
+Butter,29.5,66.5,64,Kraft Paper,Refrigerated,60,High Risk,0
+Paneer,7.7,73.4,0,Glass Container,Room Temperature,7,Warning,5.8
+Curd,34.2,78.5,14,Glass Container,Room Temperature,10,High Risk,0
+Butter,5.9,72.5,49,Moulded Bagasse Pulp,Refrigerated,60,High Risk,9.2
+Cheese,6.2,38.0,14,PLA Film,Room Temperature,30,Warning,14.8
+Curd,34.5,35.6,10,Kraft Paper,Refrigerated,10,High Risk,0
+Milk,16.3,69.9,7,Kraft Paper,Room Temperature,7,High Risk,0
+Milk,15.7,56.7,1,Moulded Bagasse Pulp,Refrigerated,7,Warning,5.1
+Curd,6.8,48.5,6,Kraft Paper,Refrigerated,10,Safe,3.7
+Cheese,9.3,43.1,35,Cellulose Film,Refrigerated,30,High Risk,0
+Cheese,10.1,94.6,17,Cellulose Film,Room Temperature,30,High Risk,10.9
+Milk,34.6,80.9,9,Glass Container,Refrigerated,7,High Risk,0
+Paneer,20.8,87.0,9,Glass Container,Room Temperature,7,High Risk,0
+Milk,11.5,62.2,11,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Cheese,19.8,39.2,10,Vacuum Pack,Refrigerated,30,Warning,19.1
+Yogurt,31.2,42.2,2,Vacuum Pack,Room Temperature,14,Safe,11.4
+Cheese,26.6,44.1,0,PLA Film,Refrigerated,30,Warning,28.8
+Milk,19.1,39.4,11,PLA Film,Room Temperature,7,High Risk,0
+Curd,18.1,74.4,9,Kraft Paper,Refrigerated,10,High Risk,0
+Curd,10.0,75.8,15,Vacuum Pack,Room Temperature,10,High Risk,0
+Butter,13.2,64.1,60,Vacuum Pack,Refrigerated,60,High Risk,0
+Yogurt,5.0,46.5,4,PLA Film,Refrigerated,14,Safe,10.3
+Milk,32.6,48.1,10,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Butter,20.3,56.1,9,Kraft Paper,Refrigerated,60,Warning,50.1
+Butter,4.6,85.9,38,Moulded Bagasse Pulp,Refrigerated,60,Warning,20.8
+Butter,27.2,46.6,21,Vacuum Pack,Refrigerated,60,Safe,38.4
+Curd,30.1,85.9,9,Kraft Paper,Room Temperature,10,High Risk,0
+Paneer,2.3,75.1,2,Moulded Bagasse Pulp,Refrigerated,7,Safe,4.7
+Yogurt,15.2,60.4,1,Glass Container,Refrigerated,14,Warning,12.1
+Curd,27.7,82.9,5,PLA Film,Refrigerated,10,High Risk,3.2
+Curd,4.1,58.0,9,Moulded Bagasse Pulp,Room Temperature,10,High Risk,0
+Cheese,19.2,62.2,8,Kraft Paper,Refrigerated,30,Warning,21.1
+Butter,28.3,68.3,26,Kraft Paper,Refrigerated,60,Warning,32.8
+Paneer,18.6,59.4,7,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Butter,33.3,93.2,3,Vacuum Pack,Refrigerated,60,Warning,56.1
+Butter,28.7,42.9,37,Glass Container,Room Temperature,60,Warning,21.8
+Paneer,6.9,85.9,11,PLA Film,Room Temperature,7,High Risk,0
+Yogurt,28.6,90.6,18,PLA Film,Refrigerated,14,High Risk,0
+Curd,6.1,54.0,15,Glass Container,Room Temperature,10,High Risk,0
+Butter,3.0,91.7,28,Cellulose Film,Refrigerated,60,Safe,31.7
+Paneer,12.9,84.0,1,Kraft Paper,Refrigerated,7,Warning,4.5
+Butter,18.8,38.9,18,Vacuum Pack,Room Temperature,60,Safe,41.4
+Paneer,6.5,36.2,2,Cellulose Film,Room Temperature,7,Warning,3.8
+Yogurt,34.2,37.3,17,Glass Container,Refrigerated,14,High Risk,0
+Cheese,18.1,73.4,28,Glass Container,Refrigerated,30,High Risk,0.2
+Butter,3.4,37.5,57,Moulded Bagasse Pulp,Refrigerated,60,Safe,2.4
+Curd,25.4,86.5,5,Cellulose Film,Refrigerated,10,High Risk,3.2
+Paneer,32.4,57.7,6,Kraft Paper,Room Temperature,7,High Risk,0
+Butter,28.5,66.7,46,Moulded Bagasse Pulp,Room Temperature,60,High Risk,11.6
+Milk,18.6,85.9,6,Glass Container,Room Temperature,7,High Risk,0
+Yogurt,3.2,59.5,0,Moulded Bagasse Pulp,Refrigerated,14,Safe,14.0
+Cheese,21.8,93.5,3,PLA Film,Room Temperature,30,High Risk,25.2
+Curd,16.2,45.0,13,Cellulose Film,Room Temperature,10,High Risk,0
+Cheese,28.4,72.5,16,Glass Container,Refrigerated,30,Warning,13.1
+Milk,30.2,67.0,5,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0.2
+Butter,34.4,88.6,49,Moulded Bagasse Pulp,Room Temperature,60,High Risk,8.3
+Cheese,26.5,69.2,7,PLA Film,Refrigerated,30,Warning,22.1
+Paneer,31.5,76.6,5,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0.2
+Butter,22.8,43.8,20,Moulded Bagasse Pulp,Room Temperature,60,Warning,38.5
+Curd,6.9,46.2,2,Vacuum Pack,Refrigerated,10,Safe,8.3
+Butter,25.7,41.5,27,Vacuum Pack,Refrigerated,60,Safe,32.4
+Butter,16.2,60.6,16,Cellulose Film,Room Temperature,60,Warning,42.8
+Paneer,20.5,39.3,1,Cellulose Film,Room Temperature,7,Warning,5.1
+Butter,15.0,55.5,59,Cellulose Film,Refrigerated,60,High Risk,0
+Milk,14.0,58.6,10,Cellulose Film,Room Temperature,7,High Risk,0
+Paneer,6.4,74.0,3,Glass Container,Refrigerated,7,Safe,3.4
+Milk,26.6,71.3,1,Glass Container,Room Temperature,7,Warning,4.8
+Butter,13.7,72.0,3,Glass Container,Refrigerated,60,Warning,55.8
+Curd,15.3,54.5,9,Kraft Paper,Room Temperature,10,High Risk,0
+Cheese,4.4,52.3,22,Cellulose Film,Refrigerated,30,Safe,8.0
+Milk,22.0,59.8,4,Glass Container,Room Temperature,7,Warning,1.8
+Curd,28.1,76.5,2,Kraft Paper,Room Temperature,10,Warning,6.8
+Yogurt,22.9,66.8,8,Kraft Paper,Room Temperature,14,High Risk,4.2
+Butter,14.8,72.6,64,Glass Container,Room Temperature,60,High Risk,0
+Curd,22.0,86.2,3,Vacuum Pack,Room Temperature,10,Warning,5.5
+Butter,5.3,60.3,17,Moulded Bagasse Pulp,Room Temperature,60,Warning,41.5
+Curd,2.5,46.4,2,Cellulose Film,Refrigerated,10,Safe,8.0
+Butter,9.9,51.9,53,Kraft Paper,Refrigerated,60,High Risk,5.2
+Butter,12.2,48.0,49,Moulded Bagasse Pulp,Refrigerated,60,High Risk,8.9
+Cheese,25.3,85.3,11,Cellulose Film,Room Temperature,30,High Risk,17.2
+Curd,27.0,73.2,5,Kraft Paper,Room Temperature,10,High Risk,3.2
+Yogurt,29.3,37.5,13,Moulded Bagasse Pulp,Room Temperature,14,High Risk,0
+Yogurt,3.5,66.9,1,Moulded Bagasse Pulp,Refrigerated,14,Safe,12.7
+Milk,3.5,44.1,8,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Curd,15.5,73.0,10,Kraft Paper,Refrigerated,10,High Risk,0
+Cheese,11.9,69.7,3,Kraft Paper,Refrigerated,30,Warning,25.8
+Paneer,7.3,64.7,3,Kraft Paper,Refrigerated,7,Safe,3.7
+Curd,8.0,44.8,13,PLA Film,Room Temperature,10,High Risk,0
+Cheese,20.0,69.6,9,Moulded Bagasse Pulp,Refrigerated,30,Warning,19.5
+Milk,8.1,62.6,2,Glass Container,Refrigerated,7,Safe,4.7
+Butter,24.7,45.0,34,Glass Container,Refrigerated,60,Warning,25.1
+Cheese,27.1,61.7,19,Moulded Bagasse Pulp,Refrigerated,30,Warning,9.8
+Curd,32.2,90.8,6,Cellulose Film,Room Temperature,10,High Risk,1.6
+Cheese,19.7,73.9,18,Cellulose Film,Refrigerated,30,High Risk,10.2
+Paneer,10.4,51.9,6,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Butter,30.9,93.9,22,Cellulose Film,Refrigerated,60,Warning,36.5
+Yogurt,3.0,78.4,0,Vacuum Pack,Refrigerated,14,Safe,14.3
+Paneer,30.5,46.6,11,Moulded Bagasse Pulp,Room Temperature,7,High Risk,0
+Paneer,30.0,36.4,5,Cellulose Film,Room Temperature,7,Warning,0.5
+Paneer,7.8,37.1,1,Vacuum Pack,Refrigerated,7,Safe,5.7
+Milk,34.4,60.2,3,PLA Film,Refrigerated,7,Warning,3.1
+Yogurt,32.9,60.1,9,Cellulose Film,Room Temperature,14,Warning,3.8
+Yogurt,28.3,37.2,10,Vacuum Pack,Room Temperature,14,Warning,3.1
+Milk,13.4,60.1,4,Cellulose Film,Room Temperature,7,Warning,1.5
+Milk,29.2,65.7,5,Kraft Paper,Refrigerated,7,Warning,0.5
+Milk,11.0,37.4,11,Vacuum Pack,Room Temperature,7,High Risk,0
+Butter,12.9,78.1,12,Glass Container,Refrigerated,60,Safe,47.4
+Paneer,13.2,76.9,6,Vacuum Pack,Refrigerated,7,High Risk,0
+Curd,20.9,61.2,0,Vacuum Pack,Room Temperature,10,Warning,9.1
+Paneer,30.8,38.8,12,Moulded Bagasse Pulp,Refrigerated,7,High Risk,0
+Curd,4.5,91.7,10,Glass Container,Room Temperature,10,High Risk,0
+Curd,10.0,92.3,3,Glass Container,Room Temperature,10,Warning,5.5
+Cheese,3.0,75.1,1,Cellulose Film,Refrigerated,30,Safe,28.4
+Butter,23.8,79.4,16,Cellulose Film,Room Temperature,60,Warning,42.5
+Butter,2.7,55.3,16,Kraft Paper,Refrigerated,60,Safe,44.0
+Butter,25.6,41.2,42,Cellulose Film,Room Temperature,60,Warning,16.5
+Butter,11.7,53.0,1,Moulded Bagasse Pulp,Room Temperature,60,Warning,57.8
+Yogurt,23.5,56.3,6,Glass Container,Room Temperature,14,Warning,7.1
+Cheese,28.8,73.8,14,Moulded Bagasse Pulp,Room Temperature,30,Warning,14.5
+Curd,23.8,60.9,0,Moulded Bagasse Pulp,Refrigerated,10,Safe,9.4
+Butter,21.1,38.7,57,Moulded Bagasse Pulp,Room Temperature,60,High Risk,1.2
+Yogurt,9.5,48.9,8,PLA Film,Refrigerated,14,Warning,4.8
+Curd,16.6,49.6,1,Vacuum Pack,Room Temperature,10,Safe,8.4
+Cheese,10.4,71.9,19,Moulded Bagasse Pulp,Refrigerated,30,High Risk,9.2
+Milk,9.1,75.4,9,Cellulose Film,Room Temperature,7,High Risk,0
+Paneer,30.7,64.8,2,Glass Container,Refrigerated,7,Safe,4.4
+Yogurt,15.3,56.4,18,Cellulose Film,Room Temperature,14,High Risk,0
+Yogurt,2.8,53.2,15,Cellulose Film,Room Temperature,14,High Risk,0
+Curd,17.1,83.8,7,Glass Container,Refrigerated,10,High Risk,1.2
+Milk,28.8,49.1,11,Glass Container,Room Temperature,7,High Risk,0
+Curd,14.3,53.7,2,PLA Film,Room Temperature,10,Warning,6.8
+Paneer,27.1,82.4,7,Glass Container,Room Temperature,7,High Risk,0
+Curd,33.2,35.8,2,Glass Container,Room Temperature,10,Warning,7.1
+Butter,30.1,77.5,10,Kraft Paper,Refrigerated,60,Warning,48.8
+Curd,15.1,83.4,2,PLA Film,Refrigerated,10,Warning,6.5
