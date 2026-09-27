@@ -44,7 +44,7 @@ const foodIcons = {
 };
 
 
-function FoodInputForm({ onPredict, loading }) {
+function FoodInputForm({ onPredict, loading, onStepChange }) {
 
     const [step, setStep] = useState(1);
 
@@ -77,19 +77,19 @@ function FoodInputForm({ onPredict, loading }) {
 
 
     function goToDetails() {
-
         if (!formData.food_type) {
             return;
         }
 
         setStep(2);
+        onStepChange?.(2);
     }
 
 
     function goBackToFoodSelection() {
         setStep(1);
+        onStepChange?.(1);
     }
-
 
     function handleSubmit(event) {
         event.preventDefault();

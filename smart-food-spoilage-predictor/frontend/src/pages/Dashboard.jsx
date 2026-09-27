@@ -5,6 +5,7 @@ import PredictionCard from "../components/PredictionCard";
 import RiskIndicator from "../components/RiskIndicator";
 import ExplanationCard from "../components/ExplanationCard";
 import RecommendationCard from "../components/RecommendationCard";
+import InteractiveBentoGallery from "../components/InteractiveBentoGallery";
 
 import { predictSpoilage } from "../services/api";
 
@@ -13,6 +14,9 @@ function Dashboard() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
     const [lastFormData, setLastFormData] = useState(null);
+
+    // Track which step the user is on
+    const [currentStep, setCurrentStep] = useState(1);
 
     async function handlePrediction(formData) {
         setLoading(true);
@@ -31,6 +35,10 @@ function Dashboard() {
         } finally {
             setLoading(false);
         }
+    }
+
+    function handleStepChange(step) {
+        setCurrentStep(step);
     }
 
     return (
@@ -97,24 +105,8 @@ function Dashboard() {
 
                 </div>
 
-                <div className="hero-food-visual">
-
-                    <div className="food-circle">
-                        🧀
-                    </div>
-
-                    <div className="food-leaf leaf-one">
-                        🌿
-                    </div>
-
-                    <div className="food-leaf leaf-two">
-                        🍃
-                    </div>
-
-                    <div className="food-shield">
-                        🛡️
-                    </div>
-
+                <div className="hero-bento-visual">
+                    <InteractiveBentoGallery />
                 </div>
 
             </section>
@@ -122,13 +114,20 @@ function Dashboard() {
 
             {/* MAIN APPLICATION */}
 
-            <section className="dashboard-grid">
+            <section
+                className={
+                    currentStep === 1
+                        ? "dashboard-grid step-one-layout"
+                        : "dashboard-grid"
+                }
+            >
 
                 <div className="input-section">
 
                     <FoodInputForm
                         onPredict={handlePrediction}
                         loading={loading}
+                        onStepChange={handleStepChange}
                     />
 
                 </div>
@@ -136,79 +135,106 @@ function Dashboard() {
 
                 <div className="results-section">
 
-                    {/* INITIAL STATE */}
+                    {/* STEP 1 */}
 
-                    {!result && !loading && (
-                        <div className="empty-result">
+                    {currentStep === 1 &&
+                        !result &&
+                        !loading && (
+                            <div className="step-placeholder">
 
-                            <div className="empty-food-visual">
-                                🥗
-                            </div>
-
-                            <h2>
-                                Ready for prediction
-                            </h2>
-
-                            <p>
-                                Enter the food and storage
-                                conditions, then click
-                                "Predict Spoilage".
-                            </p>
-
-                            <div className="empty-features">
-
-                                <div>
-                                    <span>🧠</span>
-
-                                    <strong>
-                                        AI Analysis
-                                    </strong>
-
-                                    <small>
-                                        ML-based prediction
-                                    </small>
+                                <div className="placeholder-icon">
+                                    🍽️
                                 </div>
 
-                                <div>
-                                    <span>🛡️</span>
+                                <h2>
+                                    Choose Your Food
+                                </h2>
 
-                                    <strong>
-                                        Food Safety
-                                    </strong>
-
-                                    <small>
-                                        Risk assessment
-                                    </small>
-                                </div>
-
-                                <div>
-                                    <span>🌱</span>
-
-                                    <strong>
-                                        Less Waste
-                                    </strong>
-
-                                    <small>
-                                        Better decisions
-                                    </small>
-                                </div>
-
-                                <div>
-                                    <span>❤️</span>
-
-                                    <strong>
-                                        Healthier Food
-                                    </strong>
-
-                                    <small>
-                                        Fresh food
-                                    </small>
-                                </div>
+                                <p>
+                                    Select a food product from
+                                    the cards to begin your
+                                    analysis.
+                                </p>
 
                             </div>
+                        )}
 
-                        </div>
-                    )}
+
+                    {/* STEP 2 */}
+
+                    {currentStep === 2 &&
+                        !result &&
+                        !loading && (
+                            <div className="empty-result">
+
+                                <div className="empty-food-visual">
+                                    🥗
+                                </div>
+
+                                <h2>
+                                    Ready for prediction
+                                </h2>
+
+                                <p>
+                                    Enter the food and storage
+                                    conditions, then click
+                                    "Predict Spoilage".
+                                </p>
+
+                                <div className="empty-features">
+
+                                    <div>
+                                        <span>🧠</span>
+
+                                        <strong>
+                                            AI Analysis
+                                        </strong>
+
+                                        <small>
+                                            ML-based prediction
+                                        </small>
+                                    </div>
+
+                                    <div>
+                                        <span>🛡️</span>
+
+                                        <strong>
+                                            Food Safety
+                                        </strong>
+
+                                        <small>
+                                            Risk assessment
+                                        </small>
+                                    </div>
+
+                                    <div>
+                                        <span>🌱</span>
+
+                                        <strong>
+                                            Less Waste
+                                        </strong>
+
+                                        <small>
+                                            Better decisions
+                                        </small>
+                                    </div>
+
+                                    <div>
+                                        <span>❤️</span>
+
+                                        <strong>
+                                            Healthier Food
+                                        </strong>
+
+                                        <small>
+                                            Fresh food
+                                        </small>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        )}
 
 
                     {/* LOADING */}
