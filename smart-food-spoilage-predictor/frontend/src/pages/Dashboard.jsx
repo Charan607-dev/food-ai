@@ -36,7 +36,7 @@ function Dashboard() {
     return (
         <div className="dashboard">
 
-            {/* HERO HEADER */}
+            {/* HERO */}
 
             <section className="dashboard-hero">
 
@@ -62,25 +62,34 @@ function Dashboard() {
 
                         <div className="hero-highlight">
                             <span>🤖</span>
+
                             <div>
                                 <strong>AI Analysis</strong>
-                                <small>Smart predictions</small>
+                                <small>
+                                    Smart predictions
+                                </small>
                             </div>
                         </div>
 
                         <div className="hero-highlight">
                             <span>🛡️</span>
+
                             <div>
                                 <strong>Food Safety</strong>
-                                <small>Know the risk</small>
+                                <small>
+                                    Know the risk
+                                </small>
                             </div>
                         </div>
 
                         <div className="hero-highlight">
                             <span>🌿</span>
+
                             <div>
                                 <strong>Less Waste</strong>
-                                <small>Save food</small>
+                                <small>
+                                    Save food
+                                </small>
                             </div>
                         </div>
 
@@ -127,6 +136,8 @@ function Dashboard() {
 
                 <div className="results-section">
 
+                    {/* INITIAL STATE */}
+
                     {!result && !loading && (
                         <div className="empty-result">
 
@@ -148,7 +159,11 @@ function Dashboard() {
 
                                 <div>
                                     <span>🧠</span>
-                                    <strong>AI Analysis</strong>
+
+                                    <strong>
+                                        AI Analysis
+                                    </strong>
+
                                     <small>
                                         ML-based prediction
                                     </small>
@@ -156,7 +171,11 @@ function Dashboard() {
 
                                 <div>
                                     <span>🛡️</span>
-                                    <strong>Food Safety</strong>
+
+                                    <strong>
+                                        Food Safety
+                                    </strong>
+
                                     <small>
                                         Risk assessment
                                     </small>
@@ -164,7 +183,11 @@ function Dashboard() {
 
                                 <div>
                                     <span>🌱</span>
-                                    <strong>Less Waste</strong>
+
+                                    <strong>
+                                        Less Waste
+                                    </strong>
+
                                     <small>
                                         Better decisions
                                     </small>
@@ -172,7 +195,11 @@ function Dashboard() {
 
                                 <div>
                                     <span>❤️</span>
-                                    <strong>Healthier Food</strong>
+
+                                    <strong>
+                                        Healthier Food
+                                    </strong>
+
                                     <small>
                                         Fresh food
                                     </small>
@@ -183,6 +210,8 @@ function Dashboard() {
                         </div>
                     )}
 
+
+                    {/* LOADING */}
 
                     {loading && (
                         <div className="loading-result">
@@ -205,6 +234,8 @@ function Dashboard() {
                     )}
 
 
+                    {/* ERROR */}
+
                     {error && (
                         <div className="error-message">
 
@@ -224,6 +255,8 @@ function Dashboard() {
                         </div>
                     )}
 
+
+                    {/* PREDICTION RESULTS */}
 
                     {result && !loading && (
                         <div className="prediction-results">
