@@ -5,7 +5,6 @@ import PredictionCard from "../components/PredictionCard";
 import ExplanationCard from "../components/ExplanationCard";
 import RecommendationCard from "../components/RecommendationCard";
 
-const HISTORY_KEY = "food_spoilage_prediction_history";
 
 const foodIcons = {
     Milk: "🥛",
@@ -16,84 +15,159 @@ const foodIcons = {
     Butter: "🧈",
 };
 
+
 function History() {
+
     const [history, setHistory] = useState([]);
+
     const [selectedPrediction, setSelectedPrediction] =
         useState(null);
 
-    useEffect(() => {
-        loadHistory();
-    }, []);
 
-    function loadHistory() {
+    // ==========================================
+    // GET CURRENT USER
+    // ==========================================
+
+    const currentUser =
+        localStorage.getItem(
+            "food_spoilage_current_user"
+        );
+
+
+    // ==========================================
+    // CREATE USER-SPECIFIC HISTORY KEY
+    // ==========================================
+
+    const HISTORY_KEY = currentUser
+        ? `food_spoilage_history_${currentUser}`
+        : null;
+
+
+    // ==========================================
+    // LOAD CURRENT USER'S HISTORY
+    // ==========================================
+
+    useEffect(() => {
+
+        if (!HISTORY_KEY) {
+            setHistory([]);
+            return;
+        }
+
+
         const savedHistory =
             localStorage.getItem(HISTORY_KEY);
+
 
         if (!savedHistory) {
             setHistory([]);
             return;
         }
 
+
         try {
-            setHistory(JSON.parse(savedHistory));
+
+            setHistory(
+                JSON.parse(savedHistory)
+            );
+
         } catch (error) {
+
             console.error(
-                "Failed to load prediction history:",
+                "Failed to load history:",
                 error
             );
 
             setHistory([]);
         }
-    }
+
+    }, [HISTORY_KEY]);
+
+
+    // ==========================================
+    // OPEN PREDICTION
+    // ==========================================
 
     function openPrediction(item) {
         setSelectedPrediction(item);
     }
 
+
+    // ==========================================
+    // CLOSE PREDICTION
+    // ==========================================
+
     function closePrediction() {
         setSelectedPrediction(null);
     }
 
-    // Delete one history item
+
+    // ==========================================
+    // DELETE ONE PREDICTION
+    // ==========================================
+
     function deletePrediction(event, id) {
+
         event.stopPropagation();
 
-        const updatedHistory = history.filter(
-            (item) => item.id !== id
-        );
+
+        const updatedHistory =
+            history.filter(
+                (item) => item.id !== id
+            );
+
 
         setHistory(updatedHistory);
 
-        localStorage.setItem(
-            HISTORY_KEY,
-            JSON.stringify(updatedHistory)
-        );
+
+        if (HISTORY_KEY) {
+
+            localStorage.setItem(
+                HISTORY_KEY,
+                JSON.stringify(updatedHistory)
+            );
+
+        }
     }
 
-    // Delete all history
+
+    // ==========================================
+    // CLEAR ALL CURRENT USER HISTORY
+    // ==========================================
+
     function clearHistory() {
-        const confirmed = window.confirm(
-            "Are you sure you want to delete all prediction history?"
-        );
+
+        const confirmed =
+            window.confirm(
+                "Are you sure you want to delete all your prediction history?"
+            );
+
 
         if (!confirmed) {
             return;
         }
 
-        localStorage.removeItem(HISTORY_KEY);
+
+        if (HISTORY_KEY) {
+            localStorage.removeItem(
+                HISTORY_KEY
+            );
+        }
+
 
         setHistory([]);
         setSelectedPrediction(null);
     }
 
-    /*
-     * ==========================================
-     * FULL PREDICTION DETAILS
-     * ==========================================
-     */
+
+    // ==========================================
+    // FULL PREDICTION DETAILS
+    // ==========================================
 
     if (selectedPrediction) {
+
         const item = selectedPrediction;
+
 
         return (
             <div className="history-page">
@@ -108,14 +182,17 @@ function History() {
                         ← Back to History
                     </button>
 
+
                     <p className="eyebrow">
                         PREDICTION DETAILS
                     </p>
+
 
                     <h1>
                         {item.formData?.food_type ||
                             "Food"} Prediction
                     </h1>
+
 
                     <p>
                         Prediction made on {item.date}
@@ -131,6 +208,7 @@ function History() {
                             item.prediction
                                 ?.spoilage_risk
                         }
+
                         confidence={
                             item.prediction
                                 ?.confidence
@@ -142,6 +220,7 @@ function History() {
                         prediction={
                             item.prediction
                         }
+
                         foodData={
                             item.formData
                         }
@@ -168,13 +247,12 @@ function History() {
     }
 
 
-    /*
-     * ==========================================
-     * EMPTY HISTORY
-     * ==========================================
-     */
+    // ==========================================
+    // NO USER HISTORY
+    // ==========================================
 
     if (history.length === 0) {
+
         return (
             <div className="history-page">
 
@@ -184,13 +262,16 @@ function History() {
                         PREDICTION HISTORY
                     </p>
 
+
                     <h1>
                         Prediction History
                     </h1>
 
+
                     <p>
-                        View your previous food spoilage
-                        predictions in one place.
+                        View your previous food
+                        spoilage predictions in
+                        one place.
                     </p>
 
                 </section>
@@ -202,14 +283,16 @@ function History() {
                         📋
                     </div>
 
+
                     <h2>
                         No prediction history yet
                     </h2>
 
+
                     <p>
                         Your prediction records will
-                        appear here after you make a
-                        prediction.
+                        appear here after you make
+                        a prediction.
                     </p>
 
                 </section>
@@ -219,13 +302,12 @@ function History() {
     }
 
 
-    /*
-     * ==========================================
-     * HISTORY LIST
-     * ==========================================
-     */
+    // ==========================================
+    // HISTORY LIST
+    // ==========================================
 
     return (
+
         <div className="history-page">
 
             <section className="history-header">
@@ -234,9 +316,11 @@ function History() {
                     PREDICTION HISTORY
                 </p>
 
+
                 <h1>
                     Prediction History
                 </h1>
+
 
                 <p>
                     View your previous food spoilage
@@ -253,9 +337,13 @@ function History() {
                 <div className="history-topbar">
 
                     <div>
+
                         <h2>
-                            Previous Predictions
+                            {currentUser
+                                ? `${currentUser}'s Predictions`
+                                : "Previous Predictions"}
                         </h2>
+
 
                         <p>
                             {history.length} prediction
@@ -264,6 +352,7 @@ function History() {
                                 : ""}{" "}
                             recorded
                         </p>
+
                     </div>
 
 
@@ -289,10 +378,12 @@ function History() {
                                 ?.food_type ||
                             "Food";
 
+
                         const risk =
                             item.prediction
                                 ?.spoilage_risk ||
                             "Unknown";
+
 
                         return (
 
@@ -326,6 +417,7 @@ function History() {
                                                 {food}
                                             </h3>
 
+
                                             <p className="history-date">
                                                 {item.date}
                                             </p>
@@ -352,11 +444,17 @@ function History() {
                                     <div className="history-card-details">
 
                                         <div className="history-detail">
-                                            <span>🌡️</span>
+
+                                            <span>
+                                                🌡️
+                                            </span>
+
                                             <div>
+
                                                 <small>
                                                     Temperature
                                                 </small>
+
                                                 <strong>
                                                     {
                                                         item
@@ -364,16 +462,24 @@ function History() {
                                                             ?.temperature_c
                                                     }°C
                                                 </strong>
+
                                             </div>
+
                                         </div>
 
 
                                         <div className="history-detail">
-                                            <span>💧</span>
+
+                                            <span>
+                                                💧
+                                            </span>
+
                                             <div>
+
                                                 <small>
                                                     Humidity
                                                 </small>
+
                                                 <strong>
                                                     {
                                                         item
@@ -381,16 +487,24 @@ function History() {
                                                             ?.humidity_percent
                                                     }%
                                                 </strong>
+
                                             </div>
+
                                         </div>
 
 
                                         <div className="history-detail">
-                                            <span>📅</span>
+
+                                            <span>
+                                                📅
+                                            </span>
+
                                             <div>
+
                                                 <small>
                                                     Packaging Age
                                                 </small>
+
                                                 <strong>
                                                     {
                                                         item
@@ -399,16 +513,24 @@ function History() {
                                                     }{" "}
                                                     days
                                                 </strong>
+
                                             </div>
+
                                         </div>
 
 
                                         <div className="history-detail">
-                                            <span>📦</span>
+
+                                            <span>
+                                                📦
+                                            </span>
+
                                             <div>
+
                                                 <small>
                                                     Packaging
                                                 </small>
+
                                                 <strong>
                                                     {
                                                         item
@@ -416,16 +538,24 @@ function History() {
                                                             ?.packaging_material
                                                     }
                                                 </strong>
+
                                             </div>
+
                                         </div>
 
 
                                         <div className="history-detail">
-                                            <span>❄️</span>
+
+                                            <span>
+                                                ❄️
+                                            </span>
+
                                             <div>
+
                                                 <small>
                                                     Storage
                                                 </small>
+
                                                 <strong>
                                                     {
                                                         item
@@ -433,7 +563,9 @@ function History() {
                                                             ?.storage_condition
                                                     }
                                                 </strong>
+
                                             </div>
+
                                         </div>
 
                                     </div>
@@ -477,5 +609,6 @@ function History() {
         </div>
     );
 }
+
 
 export default History;

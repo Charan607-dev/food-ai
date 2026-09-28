@@ -9,29 +9,60 @@ import InteractiveBentoGallery from "../components/InteractiveBentoGallery";
 
 import { predictSpoilage } from "../services/api";
 
-const HISTORY_KEY = "food_spoilage_prediction_history";
 
 function Dashboard() {
+
     const [result, setResult] = useState(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
     const [lastFormData, setLastFormData] = useState(null);
 
-    // Track which step the user is on
     const [currentStep, setCurrentStep] = useState(1);
 
+
     async function handlePrediction(formData) {
+
         setLoading(true);
         setError("");
         setLastFormData(formData);
 
         try {
+
             const data = await predictSpoilage(formData);
 
             setResult(data);
 
+
             // ==========================================
-            // SAVE COMPLETE PREDICTION TO HISTORY
+            // GET CURRENT LOGGED-IN USER
+            // ==========================================
+
+            const currentUser =
+                localStorage.getItem(
+                    "food_spoilage_current_user"
+                );
+
+
+            if (!currentUser) {
+
+                console.warn(
+                    "No logged-in user found."
+                );
+
+                return;
+            }
+
+
+            // ==========================================
+            // USER-SPECIFIC HISTORY KEY
+            // ==========================================
+
+            const HISTORY_KEY =
+                `food_spoilage_history_${currentUser}`;
+
+
+            // ==========================================
+            // LOAD USER HISTORY
             // ==========================================
 
             const savedHistory =
@@ -39,10 +70,16 @@ function Dashboard() {
 
             let history = [];
 
+
             if (savedHistory) {
+
                 try {
-                    history = JSON.parse(savedHistory);
+
+                    history =
+                        JSON.parse(savedHistory);
+
                 } catch (error) {
+
                     console.error(
                         "Failed to read prediction history:",
                         error
@@ -52,117 +89,224 @@ function Dashboard() {
                 }
             }
 
+
+            // ==========================================
+            // CREATE HISTORY ITEM
+            // ==========================================
+
             const historyItem = {
+
                 id: Date.now(),
 
-                date: new Date().toLocaleString(),
+                date:
+                    new Date().toLocaleString(),
 
-                // Complete input data
                 formData: {
                     ...formData,
                 },
 
-                // Complete AI prediction
-                prediction: data.prediction,
+                prediction:
+                    data.prediction,
 
-                // Complete explanation
-                explanation: data.explanation,
+                explanation:
+                    data.explanation,
 
-                // Complete recommendations
-                recommendations: data.recommendations,
+                recommendations:
+                    data.recommendations,
             };
 
-            // Newest prediction comes first
+
+            // Newest prediction first
+
             history.unshift(historyItem);
+
+
+            // ==========================================
+            // SAVE USER HISTORY
+            // ==========================================
 
             localStorage.setItem(
                 HISTORY_KEY,
                 JSON.stringify(history)
             );
 
+
         } catch (error) {
+
             setError(
                 error.message ||
                 "Unable to connect to the prediction server."
             );
+
         } finally {
+
             setLoading(false);
         }
     }
 
+
     function handleStepChange(step) {
+
         setCurrentStep(step);
+
+        // Clear old result when starting a new prediction
+
+        if (step === 1) {
+            setResult(null);
+            setError("");
+        }
     }
 
+
+    const currentUser =
+        localStorage.getItem(
+            "food_spoilage_current_user"
+        );
+
+
     return (
+
         <div className="dashboard">
 
-            {/* HERO */}
+            {/* =====================================================
+                FLOATING BACKGROUND ELEMENTS
+                ===================================================== */}
 
-            <section className="dashboard-hero">
+            <div className="dashboard-floating-elements">
 
-                <div className="hero-content">
+                <span className="dashboard-float float-food-1">
+                    🥛
+                </span>
 
-                    <div className="hero-badge">
-                        <span>✦</span>
-                        AI-POWERED FOOD SAFETY
+                <span className="dashboard-float float-food-2">
+                    🧀
+                </span>
+
+                <span className="dashboard-float float-food-3">
+                    🥬
+                </span>
+
+                <span className="dashboard-float float-food-4">
+                    🌿
+                </span>
+
+                <span className="dashboard-float float-food-5">
+                    🥣
+                </span>
+
+            </div>
+
+
+            {/* =====================================================
+                WELCOME HERO
+                ===================================================== */}
+
+            <section className="dashboard-welcome">
+
+                <div className="welcome-content">
+
+                    <div className="welcome-top-row">
+
+                        <div className="dashboard-status">
+
+                            <span className="status-dot"></span>
+
+                            AI SYSTEM ONLINE
+
+                        </div>
+
+                        <div className="welcome-user">
+
+                            👋 Welcome,
+                            <strong>
+                                {currentUser || "User"}
+                            </strong>
+
+                        </div>
+
                     </div>
 
-                    <h1>
-                        Smarter Food Choices,
-                        <span> Less Food Waste.</span>
+
+                    <h1 className="dashboard-title">
+
+                        Smart Food
+                        <span>
+                            Safety
+                        </span>
+
                     </h1>
 
-                    <p>
-                        Predict food spoilage risk, estimate
-                        remaining shelf life, and get smart
-                        storage recommendations using AI.
+
+                    <p className="dashboard-subtitle">
+
+                        Predict food spoilage risk,
+                        estimate remaining shelf life,
+                        and make smarter food storage
+                        decisions with AI.
+
                     </p>
 
-                    <div className="hero-highlights">
 
-                        <div className="hero-highlight">
-                            <span>🤖</span>
+                    {/* =================================================
+                        QUICK INFO CARDS
+                        ================================================= */}
+
+                    <div className="dashboard-stats">
+
+                        <div className="dashboard-stat-card">
+
+                            <div className="stat-icon">
+                                🤖
+                            </div>
 
                             <div>
                                 <strong>
                                     AI Analysis
                                 </strong>
 
-                                <small>
-                                    Smart predictions
-                                </small>
+                                <span>
+                                    Smart prediction
+                                </span>
                             </div>
+
                         </div>
 
 
-                        <div className="hero-highlight">
-                            <span>🛡️</span>
+                        <div className="dashboard-stat-card">
+
+                            <div className="stat-icon">
+                                🛡️
+                            </div>
 
                             <div>
                                 <strong>
                                     Food Safety
                                 </strong>
 
-                                <small>
-                                    Know the risk
-                                </small>
+                                <span>
+                                    Risk assessment
+                                </span>
                             </div>
+
                         </div>
 
 
-                        <div className="hero-highlight">
-                            <span>🌿</span>
+                        <div className="dashboard-stat-card">
+
+                            <div className="stat-icon">
+                                🌱
+                            </div>
 
                             <div>
                                 <strong>
                                     Less Waste
                                 </strong>
 
-                                <small>
-                                    Save food
-                                </small>
+                                <span>
+                                    Better decisions
+                                </span>
                             </div>
+
                         </div>
 
                     </div>
@@ -170,14 +314,109 @@ function Dashboard() {
                 </div>
 
 
-                <div className="hero-bento-visual">
-                    <InteractiveBentoGallery />
+                {/* =====================================================
+                    AI VISUAL
+                    ===================================================== */}
+
+                <div className="dashboard-ai-visual">
+
+                    <div className="ai-glow"></div>
+
+                    <div className="ai-circle ai-circle-one"></div>
+                    <div className="ai-circle ai-circle-two"></div>
+
+                    <div className="ai-center">
+
+                        <span className="ai-brain">
+                            🧠
+                        </span>
+
+                        <strong>
+                            AI
+                        </strong>
+
+                        <small>
+                            FOOD ANALYSIS
+                        </small>
+
+                    </div>
+
+
+                    <div className="ai-orbit-item orbit-food-a">
+                        🥛
+                    </div>
+
+                    <div className="ai-orbit-item orbit-food-b">
+                        🧀
+                    </div>
+
+                    <div className="ai-orbit-item orbit-food-c">
+                        🌿
+                    </div>
+
                 </div>
 
             </section>
 
 
-            {/* MAIN APPLICATION */}
+            {/* =====================================================
+                ANALYSIS HEADER
+                ===================================================== */}
+
+            <section className="analysis-heading">
+
+                <div>
+
+                    <span className="section-label">
+                        AI ANALYSIS
+                    </span>
+
+                    <h2>
+                        Check Your Food
+                    </h2>
+
+                    <p>
+                        Enter the food and storage
+                        conditions to begin your prediction.
+                    </p>
+
+                </div>
+
+
+                <div className="analysis-step-indicator">
+
+                    <div
+                        className={
+                            currentStep === 1
+                                ? "analysis-step active"
+                                : "analysis-step"
+                        }
+                    >
+                        <span>1</span>
+                        Food
+                    </div>
+
+                    <div className="step-line"></div>
+
+                    <div
+                        className={
+                            currentStep === 2
+                                ? "analysis-step active"
+                                : "analysis-step"
+                        }
+                    >
+                        <span>2</span>
+                        Conditions
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            {/* =====================================================
+                MAIN APPLICATION
+                ===================================================== */}
 
             <section
                 className={
@@ -187,7 +426,36 @@ function Dashboard() {
                 }
             >
 
+                {/* =================================================
+                    INPUT
+                    ================================================= */}
+
                 <div className="input-section">
+
+                    <div className="section-card-header">
+
+                        <div>
+
+                            <span>
+                                STEP {currentStep}
+                            </span>
+
+                            <h3>
+                                {currentStep === 1
+                                    ? "Select Your Food"
+                                    : "Storage Conditions"}
+                            </h3>
+
+                        </div>
+
+                        <div className="header-icon">
+                            {currentStep === 1
+                                ? "🍽️"
+                                : "📦"}
+                        </div>
+
+                    </div>
+
 
                     <FoodInputForm
                         onPredict={handlePrediction}
@@ -198,128 +466,172 @@ function Dashboard() {
                 </div>
 
 
+                {/* =================================================
+                    RESULTS
+                    ================================================= */}
+
                 <div className="results-section">
 
-                    {/* STEP 1 */}
+
+                    {/* =================================================
+                        STEP 1 PLACEHOLDER
+                        ================================================= */}
 
                     {currentStep === 1 &&
                         !result &&
                         !loading && (
 
-                            <div className="step-placeholder">
+                            <div className="modern-placeholder">
 
-                                <div className="placeholder-icon">
-                                    🍽️
+                                <div className="placeholder-orb">
+
+                                    <span>
+                                        🍽️
+                                    </span>
+
                                 </div>
+
+                                <span className="placeholder-label">
+                                    STEP 01
+                                </span>
 
                                 <h2>
                                     Choose Your Food
                                 </h2>
 
                                 <p>
-                                    Select a food product from
-                                    the cards to begin your
-                                    analysis.
+                                    Select a food product
+                                    from the cards to begin
+                                    your AI-powered analysis.
                                 </p>
 
+
+                                <div className="placeholder-points">
+
+                                    <span>
+                                        ✓ Food type
+                                    </span>
+
+                                    <span>
+                                        ✓ Storage conditions
+                                    </span>
+
+                                    <span>
+                                        ✓ Packaging material
+                                    </span>
+
+                                </div>
+
                             </div>
+
                         )}
 
 
-                    {/* STEP 2 */}
+                    {/* =================================================
+                        STEP 2 READY STATE
+                        ================================================= */}
 
                     {currentStep === 2 &&
                         !result &&
                         !loading && (
 
-                            <div className="empty-result">
+                            <div className="modern-ready-card">
 
-                                <div className="empty-food-visual">
-                                    🥗
+                                <div className="ready-icon">
+                                    🧠
                                 </div>
 
+                                <span className="placeholder-label">
+                                    AI READY
+                                </span>
+
                                 <h2>
-                                    Ready for prediction
+                                    Ready for Prediction
                                 </h2>
 
                                 <p>
-                                    Enter the food and storage
-                                    conditions, then click
-                                    "Predict Spoilage".
+                                    Your food and storage
+                                    conditions are ready.
+                                    Run the AI analysis to
+                                    check spoilage risk.
                                 </p>
 
 
-                                <div className="empty-features">
+                                <div className="ready-features">
 
                                     <div>
-                                        <span>🧠</span>
+                                        <span>
+                                            🤖
+                                        </span>
 
                                         <strong>
-                                            AI Analysis
+                                            AI Model
                                         </strong>
 
                                         <small>
-                                            ML-based prediction
+                                            ML analysis
                                         </small>
                                     </div>
 
 
                                     <div>
-                                        <span>🛡️</span>
+                                        <span>
+                                            📊
+                                        </span>
 
                                         <strong>
-                                            Food Safety
+                                            Risk
                                         </strong>
 
                                         <small>
-                                            Risk assessment
+                                            Assessment
                                         </small>
                                     </div>
 
 
                                     <div>
-                                        <span>🌱</span>
+                                        <span>
+                                            ⏱️
+                                        </span>
 
                                         <strong>
-                                            Less Waste
+                                            Shelf Life
                                         </strong>
 
                                         <small>
-                                            Better decisions
-                                        </small>
-                                    </div>
-
-
-                                    <div>
-                                        <span>❤️</span>
-
-                                        <strong>
-                                            Healthier Food
-                                        </strong>
-
-                                        <small>
-                                            Fresh food
+                                            Estimation
                                         </small>
                                     </div>
 
                                 </div>
 
                             </div>
+
                         )}
 
 
-                    {/* LOADING */}
+                    {/* =================================================
+                        LOADING
+                        ================================================= */}
 
                     {loading && (
 
-                        <div className="loading-result">
+                        <div className="modern-loading">
 
-                            <div className="loading-spinner">
-                                ⟳
+                            <div className="loading-ai-ring">
+
+                                <div>
+                                    🧠
+                                </div>
+
                             </div>
 
+                            <span className="loading-label">
+                                AI ANALYSIS IN PROGRESS
+                            </span>
+
                             <h2>
-                                Analyzing food conditions...
+                                Analyzing Food Conditions...
                             </h2>
 
                             <p>
@@ -328,38 +640,85 @@ function Dashboard() {
                                 shelf life.
                             </p>
 
+
+                            <div className="loading-progress">
+
+                                <span></span>
+
+                            </div>
+
                         </div>
+
                     )}
 
 
-                    {/* ERROR */}
+                    {/* =================================================
+                        ERROR
+                        ================================================= */}
 
                     {error && (
 
-                        <div className="error-message">
+                        <div className="modern-error">
 
-                            <h3>
-                                Prediction Error
-                            </h3>
+                            <div className="error-icon">
+                                ⚠️
+                            </div>
 
-                            <p>
-                                {error}
-                            </p>
+                            <div>
 
-                            <p>
-                                Make sure the Flask backend
-                                is running on port 5000.
-                            </p>
+                                <span>
+                                    ANALYSIS FAILED
+                                </span>
+
+                                <h3>
+                                    Prediction Error
+                                </h3>
+
+                                <p>
+                                    {error}
+                                </p>
+
+                                <small>
+                                    Check that the prediction
+                                    service is available and
+                                    try again.
+                                </small>
+
+                            </div>
 
                         </div>
+
                     )}
 
 
-                    {/* PREDICTION RESULTS */}
+                    {/* =================================================
+                        RESULTS
+                        ================================================= */}
 
                     {result && !loading && (
 
                         <div className="prediction-results">
+
+                            <div className="result-header">
+
+                                <div>
+
+                                    <span>
+                                        AI ANALYSIS COMPLETE
+                                    </span>
+
+                                    <h2>
+                                        Your Food Safety Result
+                                    </h2>
+
+                                </div>
+
+                                <div className="result-success-icon">
+                                    ✓
+                                </div>
+
+                            </div>
+
 
                             <RiskIndicator
                                 risk={
@@ -399,14 +758,107 @@ function Dashboard() {
                             />
 
                         </div>
+
                     )}
 
                 </div>
 
             </section>
 
+
+            {/* =====================================================
+                BOTTOM AI INFORMATION
+                ===================================================== */}
+
+            {!result && !loading && (
+
+                <section className="dashboard-bottom-info">
+
+                    <div className="bottom-info-content">
+
+                        <div>
+
+                            <span className="section-label">
+                                HOW IT WORKS
+                            </span>
+
+                            <h2>
+                                AI-powered food safety
+                                in three simple steps.
+                            </h2>
+
+                        </div>
+
+
+                        <div className="bottom-steps">
+
+                            <div className="bottom-step">
+
+                                <span>
+                                    01
+                                </span>
+
+                                <div>
+                                    <strong>
+                                        Select
+                                    </strong>
+
+                                    <small>
+                                        Choose your food
+                                    </small>
+                                </div>
+
+                            </div>
+
+
+                            <div className="bottom-step">
+
+                                <span>
+                                    02
+                                </span>
+
+                                <div>
+                                    <strong>
+                                        Analyze
+                                    </strong>
+
+                                    <small>
+                                        Enter conditions
+                                    </small>
+                                </div>
+
+                            </div>
+
+
+                            <div className="bottom-step">
+
+                                <span>
+                                    03
+                                </span>
+
+                                <div>
+                                    <strong>
+                                        Protect
+                                    </strong>
+
+                                    <small>
+                                        Follow recommendations
+                                    </small>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            )}
+
         </div>
     );
 }
+
 
 export default Dashboard;

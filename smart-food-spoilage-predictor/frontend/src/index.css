@@ -2797,3 +2797,4608 @@ button {
     }
 
 }
+
+/* =========================================================
+   SMART FOOD SAFETY - ANIMATED LOGIN
+   ========================================================= */
+
+.login-page {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px 20px;
+
+    background:
+        radial-gradient(circle at 15% 20%,
+            rgba(74, 222, 128, 0.18),
+            transparent 30%),
+        radial-gradient(circle at 85% 80%,
+            rgba(34, 197, 94, 0.14),
+            transparent 30%),
+        linear-gradient(135deg,
+            #f0fdf4 0%,
+            #ecfdf5 45%,
+            #f8fafc 100%);
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   BACKGROUND
+   ========================================================= */
+
+.login-background {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+
+.gradient-orb {
+    position: absolute;
+
+    border-radius: 50%;
+
+    filter: blur(2px);
+
+    opacity: 0.55;
+
+    animation:
+        loginOrbFloat 10s ease-in-out infinite;
+}
+
+
+.orb-one {
+    width: 360px;
+    height: 360px;
+
+    top: -120px;
+    left: -100px;
+
+    background:
+        radial-gradient(circle,
+            rgba(34, 197, 94, 0.38),
+            rgba(34, 197, 94, 0));
+}
+
+
+.orb-two {
+    width: 430px;
+    height: 430px;
+
+    right: -160px;
+    bottom: -160px;
+
+    background:
+        radial-gradient(circle,
+            rgba(16, 185, 129, 0.30),
+            rgba(16, 185, 129, 0));
+
+    animation-delay: -3s;
+}
+
+
+.orb-three {
+    width: 250px;
+    height: 250px;
+
+    right: 15%;
+    top: 8%;
+
+    background:
+        radial-gradient(circle,
+            rgba(132, 204, 22, 0.20),
+            rgba(132, 204, 22, 0));
+
+    animation-delay: -6s;
+}
+
+
+@keyframes loginOrbFloat {
+
+    0%,
+    100% {
+        transform:
+            translate3d(0, 0, 0) scale(1);
+    }
+
+    50% {
+        transform:
+            translate3d(25px, -20px, 0) scale(1.08);
+    }
+}
+
+
+/* =========================================================
+   SUBTLE GRID
+   ========================================================= */
+
+.grid-overlay {
+    position: absolute;
+    inset: 0;
+
+    background-image:
+        linear-gradient(rgba(22, 101, 52, 0.035) 1px,
+            transparent 1px),
+        linear-gradient(90deg,
+            rgba(22, 101, 52, 0.035) 1px,
+            transparent 1px);
+
+    background-size: 40px 40px;
+
+    mask-image:
+        linear-gradient(to bottom,
+            transparent,
+            black 20%,
+            black 80%,
+            transparent);
+}
+
+
+/* =========================================================
+   FLOATING FOOD
+   ========================================================= */
+
+.floating-food {
+    position: absolute;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 58px;
+    height: 58px;
+
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.48);
+
+    border: 1px solid rgba(255, 255, 255, 0.75);
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+        0 15px 35px rgba(22, 101, 52, 0.08);
+
+    font-size: 27px;
+
+    animation:
+        foodFloat 5s ease-in-out infinite;
+}
+
+
+.food-one {
+    left: 9%;
+    top: 18%;
+}
+
+
+.food-two {
+    right: 10%;
+    top: 24%;
+
+    animation-delay: -1s;
+}
+
+
+.food-three {
+    left: 13%;
+    bottom: 19%;
+
+    animation-delay: -2s;
+}
+
+
+.food-four {
+    right: 13%;
+    bottom: 17%;
+
+    animation-delay: -3s;
+}
+
+
+.food-five {
+    left: 22%;
+    top: 8%;
+
+    width: 44px;
+    height: 44px;
+
+    font-size: 21px;
+
+    animation-delay: -4s;
+}
+
+
+@keyframes foodFloat {
+
+    0%,
+    100% {
+        transform:
+            translateY(0) rotate(-3deg);
+    }
+
+    50% {
+        transform:
+            translateY(-16px) rotate(4deg);
+    }
+}
+
+
+/* =========================================================
+   LOGIN CARD
+   ========================================================= */
+
+.login-card {
+    position: relative;
+
+    z-index: 10;
+
+    width: min(470px, 100%);
+
+    padding: 42px 42px 30px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(145deg,
+            rgba(255, 255, 255, 0.88),
+            rgba(255, 255, 255, 0.67));
+
+    border: 1px solid rgba(255, 255, 255, 0.9);
+
+    box-shadow:
+        0 30px 80px rgba(20, 83, 45, 0.13),
+        0 8px 30px rgba(20, 83, 45, 0.06);
+
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+
+    text-align: center;
+
+    animation:
+        loginCardAppear 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+
+.login-card::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    padding: 1px;
+
+    border-radius: inherit;
+
+    background:
+        linear-gradient(135deg,
+            rgba(34, 197, 94, 0.45),
+            transparent 35%,
+            rgba(16, 185, 129, 0.28));
+
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+
+    -webkit-mask-composite: xor;
+
+    mask-composite: exclude;
+
+    pointer-events: none;
+}
+
+
+@keyframes loginCardAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(30px) scale(0.94);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0) scale(1);
+    }
+}
+
+
+/* =========================================================
+   BADGE
+   ========================================================= */
+
+.login-badge {
+    display: inline-flex;
+
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 13px;
+
+    border-radius: 999px;
+
+    background: rgba(220, 252, 231, 0.75);
+
+    border: 1px solid rgba(134, 239, 172, 0.55);
+
+    color: #166534;
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.12em;
+}
+
+
+.badge-dot {
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: #22c55e;
+
+    box-shadow:
+        0 0 0 5px rgba(34, 197, 94, 0.12);
+
+    animation: badgePulse 2s infinite;
+}
+
+
+@keyframes badgePulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.45;
+    }
+}
+
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.login-logo {
+    width: 76px;
+    height: 76px;
+
+    margin: 24px auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 24px;
+
+    background:
+        linear-gradient(135deg,
+            #dcfce7,
+            #bbf7d0);
+
+    border: 1px solid rgba(34, 197, 94, 0.2);
+
+    box-shadow:
+        0 15px 35px rgba(34, 197, 94, 0.14);
+
+    font-size: 39px;
+
+    animation:
+        logoFloat 4s ease-in-out infinite;
+}
+
+
+@keyframes logoFloat {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+
+/* =========================================================
+   HEADING
+   ========================================================= */
+
+.login-card h1 {
+    margin: 0;
+
+    color: #123b2a;
+
+    font-size: clamp(28px, 5vw, 38px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+
+    letter-spacing: -0.04em;
+}
+
+
+.login-card h1 span {
+    display: block;
+
+    background:
+        linear-gradient(90deg,
+            #166534,
+            #16a34a,
+            #059669);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+
+.login-description {
+    max-width: 390px;
+
+    margin: 15px auto 28px;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   FORM
+   ========================================================= */
+
+.login-card form {
+    text-align: left;
+}
+
+
+.login-card label {
+    display: block;
+
+    margin-bottom: 9px;
+
+    color: #1e293b;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+.login-input-wrapper {
+    position: relative;
+}
+
+
+.input-icon {
+    position: absolute;
+
+    left: 15px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    font-size: 18px;
+
+    pointer-events: none;
+}
+
+
+.login-input-wrapper input {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 15px 16px 15px 46px;
+
+    border-radius: 14px;
+
+    border: 1px solid #d1d5db;
+
+    outline: none;
+
+    background: rgba(255, 255, 255, 0.78);
+
+    color: #172033;
+
+    font-size: 15px;
+
+    transition:
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+
+.login-input-wrapper input::placeholder {
+    color: #94a3b8;
+}
+
+
+.login-input-wrapper input:hover {
+    border-color: #86efac;
+
+    background: rgba(255, 255, 255, 0.95);
+}
+
+
+.login-input-wrapper input:focus {
+    border-color: #22c55e;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 0 0 4px rgba(34, 197, 94, 0.12),
+        0 8px 25px rgba(34, 197, 94, 0.08);
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.login-error {
+    margin: 9px 0 0;
+
+    color: #dc2626;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    animation:
+        errorAppear 0.25s ease both;
+}
+
+
+@keyframes errorAppear {
+
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.login-button {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+
+    margin-top: 18px;
+
+    padding: 15px 18px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    color: white;
+
+    background:
+        linear-gradient(100deg,
+            #15803d,
+            #16a34a,
+            #059669,
+            #15803d);
+
+    background-size: 300% 100%;
+
+    box-shadow:
+        0 12px 25px rgba(22, 163, 74, 0.23);
+
+    font-size: 14px;
+
+    font-weight: 750;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+    animation:
+        buttonGradient 5s ease infinite;
+}
+
+
+.login-button::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: -120%;
+
+    width: 70%;
+    height: 100%;
+
+    background:
+        linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.3),
+            transparent);
+
+    transform: skewX(-20deg);
+
+    transition: left 0.6s ease;
+}
+
+
+.login-button:hover::before {
+    left: 140%;
+}
+
+
+.login-button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 16px 32px rgba(22, 163, 74, 0.30);
+}
+
+
+.login-button:active {
+    transform: translateY(0);
+}
+
+
+.button-arrow {
+    font-size: 20px;
+
+    transition:
+        transform 0.25s ease;
+}
+
+
+.login-button:hover .button-arrow {
+    transform: translateX(5px);
+}
+
+
+@keyframes buttonGradient {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* =========================================================
+   FEATURES
+   ========================================================= */
+
+.login-features {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    margin-top: 27px;
+
+    padding-top: 23px;
+
+    border-top: 1px solid rgba(148, 163, 184, 0.20);
+}
+
+
+.login-feature {
+    display: flex;
+
+    align-items: center;
+    gap: 6px;
+
+    color: #475569;
+}
+
+
+.login-feature span {
+    font-size: 17px;
+}
+
+
+.login-feature small {
+    font-size: 10px;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+
+.feature-divider {
+    width: 1px;
+    height: 22px;
+
+    background: rgba(148, 163, 184, 0.3);
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.login-footer {
+    margin: 20px 0 0;
+
+    color: #94a3b8;
+
+    font-size: 10px;
+
+    letter-spacing: 0.04em;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .floating-food {
+        opacity: 0.45;
+        transform: scale(0.8);
+    }
+
+
+    .food-one {
+        left: 2%;
+    }
+
+
+    .food-two {
+        right: 2%;
+    }
+
+
+    .food-three {
+        left: 3%;
+    }
+
+
+    .food-four {
+        right: 3%;
+    }
+
+
+    .food-five {
+        display: none;
+    }
+
+
+    .login-card {
+        padding: 32px 24px 26px;
+
+        border-radius: 24px;
+    }
+
+
+    .login-features {
+        gap: 10px;
+    }
+
+
+    .login-feature small {
+        font-size: 9px;
+    }
+
+}
+
+
+@media (max-width: 420px) {
+
+    .login-page {
+        padding: 20px 12px;
+    }
+
+
+    .login-card {
+        padding: 28px 18px 23px;
+    }
+
+
+    .login-card h1 {
+        font-size: 28px;
+    }
+
+
+    .login-description {
+        font-size: 13px;
+    }
+
+
+    .login-features {
+        gap: 8px;
+    }
+
+
+    .login-feature {
+        gap: 3px;
+    }
+
+
+    .login-feature span {
+        font-size: 15px;
+    }
+
+}
+
+/* =========================================================
+   LOGOUT BUTTON
+   ========================================================= */
+
+.logout-link {
+    color: #dc2626 !important;
+
+    transition:
+        color 0.25s ease,
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+.logout-link:hover {
+    color: #b91c1c !important;
+
+    background: rgba(239, 68, 68, 0.08);
+
+    transform: translateY(-1px);
+}
+
+/* =========================================================
+   SMART FOOD SAFETY
+   PREMIUM ANIMATED LOGIN
+   ========================================================= */
+
+.login-page {
+    position: relative;
+
+    min-height: 100vh;
+    width: 100%;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px 20px;
+
+    box-sizing: border-box;
+
+    background:
+        radial-gradient(circle at 10% 10%,
+            rgba(34, 197, 94, 0.18),
+            transparent 28%),
+        radial-gradient(circle at 90% 90%,
+            rgba(16, 185, 129, 0.18),
+            transparent 30%),
+        linear-gradient(135deg,
+            #f0fdf4,
+            #ecfdf5,
+            #f8fafc);
+}
+
+
+/* =========================================================
+   BACKGROUND
+   ========================================================= */
+
+.login-background {
+    position: absolute;
+
+    inset: 0;
+
+    overflow: hidden;
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   MOVING GRADIENT ORBS
+   ========================================================= */
+
+.gradient-orb {
+    position: absolute;
+
+    border-radius: 50%;
+
+    filter: blur(5px);
+
+    opacity: 0.5;
+
+    animation:
+        orbMovement 12s ease-in-out infinite;
+}
+
+
+.orb-one {
+    width: 420px;
+    height: 420px;
+
+    left: -160px;
+    top: -150px;
+
+    background:
+        radial-gradient(circle,
+            rgba(34, 197, 94, 0.38),
+            transparent 70%);
+}
+
+
+.orb-two {
+    width: 480px;
+    height: 480px;
+
+    right: -190px;
+    bottom: -190px;
+
+    background:
+        radial-gradient(circle,
+            rgba(16, 185, 129, 0.35),
+            transparent 70%);
+
+    animation-delay: -3s;
+}
+
+
+.orb-three {
+    width: 280px;
+    height: 280px;
+
+    right: 15%;
+    top: 4%;
+
+    background:
+        radial-gradient(circle,
+            rgba(132, 204, 22, 0.20),
+            transparent 70%);
+
+    animation-delay: -6s;
+}
+
+
+.orb-four {
+    width: 230px;
+    height: 230px;
+
+    left: 18%;
+    bottom: 4%;
+
+    background:
+        radial-gradient(circle,
+            rgba(45, 212, 191, 0.18),
+            transparent 70%);
+
+    animation-delay: -9s;
+}
+
+
+@keyframes orbMovement {
+
+    0%,
+    100% {
+        transform:
+            translate(0, 0) scale(1);
+    }
+
+    25% {
+        transform:
+            translate(30px, -25px) scale(1.06);
+    }
+
+    50% {
+        transform:
+            translate(-15px, 30px) scale(0.94);
+    }
+
+    75% {
+        transform:
+            translate(25px, 15px) scale(1.04);
+    }
+}
+
+
+/* =========================================================
+   GRID
+   ========================================================= */
+
+.grid-overlay {
+    position: absolute;
+
+    inset: 0;
+
+    background-image:
+        linear-gradient(rgba(22, 101, 52, 0.035) 1px,
+            transparent 1px),
+        linear-gradient(90deg,
+            rgba(22, 101, 52, 0.035) 1px,
+            transparent 1px);
+
+    background-size: 45px 45px;
+
+    animation:
+        gridMove 18s linear infinite;
+
+    mask-image:
+        linear-gradient(to bottom,
+            transparent,
+            black 15%,
+            black 85%,
+            transparent);
+}
+
+
+@keyframes gridMove {
+
+    from {
+        background-position:
+            0 0,
+            0 0;
+    }
+
+    to {
+        background-position:
+            45px 45px,
+            45px 45px;
+    }
+}
+
+
+/* =========================================================
+   PARTICLES
+   ========================================================= */
+
+.particle {
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+
+    border-radius: 50%;
+
+    background: rgba(34, 197, 94, 0.55);
+
+    box-shadow:
+        0 0 12px rgba(34, 197, 94, 0.45);
+
+    animation:
+        particleFloat 7s ease-in-out infinite;
+}
+
+
+.particle-1 {
+    left: 12%;
+    top: 30%;
+}
+
+.particle-2 {
+    left: 20%;
+    top: 65%;
+    animation-delay: -2s;
+}
+
+.particle-3 {
+    left: 34%;
+    top: 15%;
+    animation-delay: -4s;
+}
+
+.particle-4 {
+    right: 18%;
+    top: 32%;
+    animation-delay: -1s;
+}
+
+.particle-5 {
+    right: 28%;
+    top: 70%;
+    animation-delay: -3s;
+}
+
+.particle-6 {
+    right: 8%;
+    top: 48%;
+    animation-delay: -5s;
+}
+
+.particle-7 {
+    left: 7%;
+    top: 75%;
+    animation-delay: -6s;
+}
+
+.particle-8 {
+    right: 40%;
+    top: 12%;
+    animation-delay: -2.5s;
+}
+
+.particle-9 {
+    left: 45%;
+    bottom: 8%;
+    animation-delay: -4.5s;
+}
+
+.particle-10 {
+    right: 12%;
+    bottom: 28%;
+    animation-delay: -1.5s;
+}
+
+
+@keyframes particleFloat {
+
+    0%,
+    100% {
+        transform:
+            translateY(0) scale(1);
+
+        opacity: 0.35;
+    }
+
+    50% {
+        transform:
+            translateY(-25px) scale(1.5);
+
+        opacity: 0.9;
+    }
+}
+
+
+/* =========================================================
+   FLOATING FOOD
+   ========================================================= */
+
+.floating-food {
+    position: absolute;
+
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 62px;
+    height: 62px;
+
+    border-radius: 20px;
+
+    background:
+        rgba(255, 255, 255, 0.48);
+
+    border:
+        1px solid rgba(255, 255, 255, 0.8);
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 18px 45px rgba(22, 101, 52, 0.10);
+
+    font-size: 29px;
+
+    animation:
+        foodFloat 6s ease-in-out infinite;
+}
+
+
+.food-one {
+    left: 8%;
+    top: 20%;
+}
+
+
+.food-two {
+    right: 9%;
+    top: 20%;
+
+    animation-delay: -1.5s;
+}
+
+
+.food-three {
+    left: 11%;
+    bottom: 17%;
+
+    animation-delay: -3s;
+}
+
+
+.food-four {
+    right: 11%;
+    bottom: 18%;
+
+    animation-delay: -4.5s;
+}
+
+
+.food-five {
+    left: 22%;
+    top: 8%;
+
+    width: 45px;
+    height: 45px;
+
+    font-size: 21px;
+
+    animation-delay: -2s;
+}
+
+
+.food-six {
+    right: 23%;
+    bottom: 8%;
+
+    width: 48px;
+    height: 48px;
+
+    font-size: 22px;
+
+    animation-delay: -5s;
+}
+
+
+.food-seven {
+    left: 5%;
+    top: 48%;
+
+    width: 43px;
+    height: 43px;
+
+    font-size: 20px;
+
+    animation-delay: -3.5s;
+}
+
+
+@keyframes foodFloat {
+
+    0%,
+    100% {
+        transform:
+            translateY(0) rotate(-4deg);
+    }
+
+    25% {
+        transform:
+            translateY(-13px) rotate(3deg);
+    }
+
+    50% {
+        transform:
+            translateY(-25px) rotate(5deg);
+    }
+
+    75% {
+        transform:
+            translateY(-10px) rotate(-2deg);
+    }
+}
+
+
+/* =========================================================
+   LOGIN CARD
+   ========================================================= */
+
+.login-card {
+    position: relative;
+
+    z-index: 10;
+
+    width: min(470px, 100%);
+
+    padding: 42px 42px 30px;
+
+    box-sizing: border-box;
+
+    border-radius: 30px;
+
+    background:
+        linear-gradient(145deg,
+            rgba(255, 255, 255, 0.91),
+            rgba(255, 255, 255, 0.67));
+
+    border:
+        1px solid rgba(255, 255, 255, 0.95);
+
+    backdrop-filter: blur(25px);
+
+    -webkit-backdrop-filter: blur(25px);
+
+    box-shadow:
+        0 35px 90px rgba(20, 83, 45, 0.15),
+        0 10px 35px rgba(20, 83, 45, 0.08);
+
+    text-align: center;
+
+    overflow: hidden;
+
+    animation:
+        loginAppear 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+
+/* Animated glowing border */
+
+.login-card::before {
+    content: "";
+
+    position: absolute;
+
+    inset: -2px;
+
+    border-radius: 32px;
+
+    background:
+        conic-gradient(from 0deg,
+            transparent,
+            rgba(34, 197, 94, 0.6),
+            transparent,
+            rgba(16, 185, 129, 0.5),
+            transparent);
+
+    animation:
+        borderRotate 7s linear infinite;
+
+    z-index: -2;
+}
+
+
+.login-card::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 2px;
+
+    border-radius: 28px;
+
+    background:
+        linear-gradient(145deg,
+            rgba(255, 255, 255, 0.93),
+            rgba(255, 255, 255, 0.72));
+
+    z-index: -1;
+}
+
+
+@keyframes borderRotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes loginAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(35px) scale(0.92);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0) scale(1);
+    }
+}
+
+
+/* =========================================================
+   CARD SHINE
+   ========================================================= */
+
+.card-shine {
+    position: absolute;
+
+    top: -100%;
+    left: -70%;
+
+    width: 50%;
+    height: 300%;
+
+    background:
+        linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.35),
+            transparent);
+
+    transform: rotate(20deg);
+
+    animation:
+        cardShine 6s ease-in-out infinite;
+
+    pointer-events: none;
+}
+
+
+@keyframes cardShine {
+
+    0% {
+        left: -80%;
+    }
+
+    35%,
+    100% {
+        left: 150%;
+    }
+}
+
+
+/* =========================================================
+   BADGE
+   ========================================================= */
+
+.login-badge {
+    position: relative;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    padding: 8px 14px;
+
+    border-radius: 999px;
+
+    background:
+        rgba(220, 252, 231, 0.75);
+
+    border:
+        1px solid rgba(134, 239, 172, 0.55);
+
+    color: #166534;
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 0.12em;
+
+    animation:
+        badgeAppear 1s 0.25s both;
+}
+
+
+.badge-dot {
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: #22c55e;
+
+    box-shadow:
+        0 0 0 5px rgba(34, 197, 94, 0.10),
+        0 0 14px rgba(34, 197, 94, 0.55);
+
+    animation:
+        badgePulse 1.8s ease-in-out infinite;
+}
+
+
+@keyframes badgePulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.35);
+        opacity: 0.55;
+    }
+}
+
+
+@keyframes badgeAppear {
+
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================================
+   LOGO WRAPPER
+   ========================================================= */
+
+.login-logo-wrapper {
+    position: relative;
+
+    width: 110px;
+    height: 110px;
+
+    margin: 21px auto 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================================
+   LOGO
+   ========================================================= */
+
+.login-logo {
+    position: relative;
+
+    z-index: 5;
+
+    width: 76px;
+    height: 76px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 25px;
+
+    background:
+        linear-gradient(135deg,
+            #dcfce7,
+            #bbf7d0);
+
+    border:
+        1px solid rgba(34, 197, 94, 0.20);
+
+    box-shadow:
+        0 15px 35px rgba(34, 197, 94, 0.17),
+        0 0 35px rgba(34, 197, 94, 0.12);
+
+    font-size: 39px;
+
+    animation:
+        logoBreath 3s ease-in-out infinite;
+}
+
+
+@keyframes logoBreath {
+
+    0%,
+    100% {
+        transform:
+            scale(1) rotate(0deg);
+
+        box-shadow:
+            0 15px 35px rgba(34, 197, 94, 0.17),
+            0 0 25px rgba(34, 197, 94, 0.10);
+    }
+
+    50% {
+        transform:
+            scale(1.06) rotate(2deg);
+
+        box-shadow:
+            0 20px 45px rgba(34, 197, 94, 0.22),
+            0 0 45px rgba(34, 197, 94, 0.18);
+    }
+}
+
+
+/* =========================================================
+   LOGO ORBITS
+   ========================================================= */
+
+.logo-orbit {
+    position: absolute;
+
+    border:
+        1px dashed rgba(34, 197, 94, 0.28);
+
+    border-radius: 50%;
+
+    animation:
+        orbitRotate 8s linear infinite;
+}
+
+
+.orbit-one {
+    width: 96px;
+    height: 96px;
+}
+
+
+.orbit-two {
+    width: 108px;
+    height: 108px;
+
+    border-color:
+        rgba(16, 185, 129, 0.17);
+
+    animation-direction: reverse;
+
+    animation-duration: 11s;
+}
+
+
+@keyframes orbitRotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.orbit-dot {
+    position: absolute;
+
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: #22c55e;
+
+    box-shadow:
+        0 0 12px rgba(34, 197, 94, 0.6);
+}
+
+
+.dot-one {
+    top: 3px;
+    left: 50%;
+
+    animation:
+        orbitDot 4s linear infinite;
+}
+
+
+.dot-two {
+    bottom: 4px;
+    right: 4px;
+
+    width: 5px;
+    height: 5px;
+
+    background: #10b981;
+
+    animation:
+        orbitDot 5s linear infinite reverse;
+}
+
+
+@keyframes orbitDot {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* =========================================================
+   HEADING
+   ========================================================= */
+
+.login-card h1 {
+    position: relative;
+
+    margin: 0;
+
+    color: #123b2a;
+
+    font-size: clamp(28px, 5vw, 38px);
+
+    line-height: 1.15;
+
+    font-weight: 800;
+
+    letter-spacing: -0.04em;
+
+    animation:
+        textAppear 0.8s 0.35s both;
+}
+
+
+.login-card h1 span {
+    display: block;
+
+    margin-top: 3px;
+
+    background:
+        linear-gradient(90deg,
+            #166534,
+            #16a34a,
+            #059669,
+            #16a34a,
+            #166534);
+
+    background-size: 250% auto;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    animation:
+        textGradient 5s linear infinite;
+}
+
+
+@keyframes textGradient {
+
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: 250% center;
+    }
+}
+
+
+@keyframes textAppear {
+
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================================
+   DESCRIPTION
+   ========================================================= */
+
+.login-description {
+    max-width: 390px;
+
+    margin: 14px auto 27px;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+    animation:
+        textAppear 0.8s 0.5s both;
+}
+
+
+/* =========================================================
+   FORM
+   ========================================================= */
+
+.login-card form {
+    position: relative;
+
+    z-index: 10;
+
+    text-align: left;
+}
+
+
+.login-card label {
+    display: block;
+
+    margin-bottom: 9px;
+
+    color: #1e293b;
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+.login-input-wrapper {
+    position: relative;
+}
+
+
+.input-icon {
+    position: absolute;
+
+    left: 15px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    font-size: 18px;
+
+    z-index: 3;
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+.login-input-wrapper:focus-within .input-icon {
+    transform:
+        translateY(-50%) scale(1.15) rotate(-5deg);
+}
+
+
+.login-input-wrapper input {
+    position: relative;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 15px 16px 15px 46px;
+
+    border-radius: 14px;
+
+    border: 1px solid #d1d5db;
+
+    outline: none;
+
+    background:
+        rgba(255, 255, 255, 0.80);
+
+    color: #172033;
+
+    font-size: 15px;
+
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+
+.login-input-wrapper input::placeholder {
+    color: #94a3b8;
+}
+
+
+.login-input-wrapper input:hover {
+    border-color: #86efac;
+
+    background: #ffffff;
+}
+
+
+.login-input-wrapper input:focus {
+    border-color: #22c55e;
+
+    background: #ffffff;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 0 0 4px rgba(34, 197, 94, 0.10),
+        0 10px 28px rgba(34, 197, 94, 0.10);
+}
+
+
+.input-glow {
+    position: absolute;
+
+    left: 10%;
+    right: 10%;
+    bottom: -3px;
+
+    height: 3px;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(90deg,
+            transparent,
+            #22c55e,
+            transparent);
+
+    opacity: 0;
+
+    filter: blur(3px);
+
+    transition:
+        opacity 0.3s ease;
+}
+
+
+.login-input-wrapper:focus-within .input-glow {
+    opacity: 1;
+
+    animation:
+        inputGlow 1.5s ease-in-out infinite;
+}
+
+
+@keyframes inputGlow {
+
+    0%,
+    100% {
+        transform: scaleX(0.6);
+    }
+
+    50% {
+        transform: scaleX(1);
+    }
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.login-error {
+    margin: 9px 0 0;
+
+    color: #dc2626;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    animation:
+        errorAppear 0.25s ease both;
+}
+
+
+@keyframes errorAppear {
+
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.login-button {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+
+    margin-top: 18px;
+
+    padding: 15px 18px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    color: white;
+
+    background:
+        linear-gradient(100deg,
+            #15803d,
+            #16a34a,
+            #059669,
+            #15803d);
+
+    background-size: 300% 100%;
+
+    box-shadow:
+        0 12px 25px rgba(22, 163, 74, 0.23);
+
+    font-size: 14px;
+
+    font-weight: 750;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+    animation:
+        buttonGradient 5s ease infinite;
+}
+
+
+.button-shine {
+    position: absolute;
+
+    top: 0;
+    left: -120%;
+
+    width: 70%;
+    height: 100%;
+
+    background:
+        linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.35),
+            transparent);
+
+    transform: skewX(-20deg);
+}
+
+
+.login-button:hover .button-shine {
+    animation:
+        buttonShine 0.8s ease;
+}
+
+
+@keyframes buttonShine {
+
+    from {
+        left: -120%;
+    }
+
+    to {
+        left: 140%;
+    }
+}
+
+
+.login-button:hover {
+    transform:
+        translateY(-3px) scale(1.01);
+
+    box-shadow:
+        0 18px 38px rgba(22, 163, 74, 0.30);
+}
+
+
+.login-button:active {
+    transform:
+        translateY(0) scale(0.99);
+}
+
+
+.button-content {
+    position: relative;
+    z-index: 2;
+}
+
+
+.button-arrow {
+    position: relative;
+
+    z-index: 2;
+
+    font-size: 20px;
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+.login-button:hover .button-arrow {
+    transform: translateX(6px);
+}
+
+
+@keyframes buttonGradient {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* =========================================================
+   FEATURES
+   ========================================================= */
+
+.login-features {
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    margin-top: 27px;
+
+    padding-top: 23px;
+
+    border-top:
+        1px solid rgba(148, 163, 184, 0.20);
+}
+
+
+.login-feature {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #475569;
+
+    transition:
+        transform 0.3s ease,
+        color 0.3s ease;
+}
+
+
+.login-feature:hover {
+    transform: translateY(-4px);
+
+    color: #166534;
+}
+
+
+.login-feature span {
+    font-size: 17px;
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+.login-feature:hover span {
+    transform:
+        scale(1.2) rotate(5deg);
+}
+
+
+.login-feature small {
+    font-size: 10px;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+
+.feature-divider {
+    width: 1px;
+    height: 22px;
+
+    background:
+        rgba(148, 163, 184, 0.3);
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.login-footer {
+    margin: 20px 0 0;
+
+    color: #94a3b8;
+
+    font-size: 10px;
+
+    letter-spacing: 0.04em;
+
+    animation:
+        footerPulse 4s ease-in-out infinite;
+}
+
+
+@keyframes footerPulse {
+
+    0%,
+    100% {
+        opacity: 0.65;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    .floating-food {
+        opacity: 0.45;
+        transform: scale(0.8);
+    }
+
+    .food-one {
+        left: 2%;
+    }
+
+    .food-two {
+        right: 2%;
+    }
+
+    .food-three {
+        left: 3%;
+    }
+
+    .food-four {
+        right: 3%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .login-page {
+        padding: 20px 12px;
+    }
+
+    .login-card {
+        padding: 32px 22px 27px;
+
+        border-radius: 25px;
+    }
+
+    .food-five,
+    .food-six,
+    .food-seven {
+        display: none;
+    }
+
+    .login-card h1 {
+        font-size: 29px;
+    }
+
+    .login-description {
+        font-size: 13px;
+    }
+
+    .login-features {
+        gap: 10px;
+    }
+
+    .login-feature small {
+        font-size: 9px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+    .login-card {
+        padding:
+            27px 17px 23px;
+    }
+
+    .login-card h1 {
+        font-size: 26px;
+    }
+
+    .login-features {
+        gap: 7px;
+    }
+
+    .login-feature {
+        gap: 3px;
+    }
+
+    .login-feature span {
+        font-size: 15px;
+    }
+
+}
+
+/* =========================================================
+   DASHBOARD PREMIUM ANIMATION
+   ========================================================= */
+
+.dashboard {
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   ANIMATED DASHBOARD BACKGROUND
+   ========================================================= */
+
+.dashboard::before {
+    content: "";
+
+    position: fixed;
+
+    width: 500px;
+    height: 500px;
+
+    top: 80px;
+    left: -250px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(34, 197, 94, 0.10),
+            transparent 70%);
+
+    filter: blur(20px);
+
+    pointer-events: none;
+
+    animation:
+        dashboardOrb 12s ease-in-out infinite;
+}
+
+
+.dashboard::after {
+    content: "";
+
+    position: fixed;
+
+    width: 500px;
+    height: 500px;
+
+    right: -250px;
+    bottom: -150px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(16, 185, 129, 0.09),
+            transparent 70%);
+
+    filter: blur(20px);
+
+    pointer-events: none;
+
+    animation:
+        dashboardOrb 15s ease-in-out infinite reverse;
+}
+
+
+@keyframes dashboardOrb {
+
+    0%,
+    100% {
+        transform:
+            translate(0, 0) scale(1);
+    }
+
+    50% {
+        transform:
+            translate(45px, -35px) scale(1.12);
+    }
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.dashboard-hero {
+    position: relative;
+
+    animation:
+        dashboardHeroAppear 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+
+@keyframes dashboardHeroAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+
+/* =========================================================
+   HERO BADGE
+   ========================================================= */
+
+.hero-badge {
+    animation:
+        badgeFloat 3s ease-in-out infinite;
+}
+
+
+.hero-badge span {
+    display: inline-block;
+
+    animation:
+        starSpin 4s linear infinite;
+}
+
+
+@keyframes starSpin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes badgeFloat {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+}
+
+
+/* =========================================================
+   HERO HEADING
+   ========================================================= */
+
+.dashboard-hero h1 {
+    animation:
+        heroTextAppear 0.9s 0.15s both;
+}
+
+
+.dashboard-hero h1 span {
+    display: inline-block;
+
+    background:
+        linear-gradient(90deg,
+            #166534,
+            #16a34a,
+            #059669,
+            #16a34a,
+            #166534);
+
+    background-size: 250% auto;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    animation:
+        heroGradient 5s linear infinite;
+}
+
+
+@keyframes heroGradient {
+
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: 250% center;
+    }
+}
+
+
+@keyframes heroTextAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+
+/* =========================================================
+   HERO DESCRIPTION
+   ========================================================= */
+
+.dashboard-hero p {
+    animation:
+        heroTextAppear 0.8s 0.3s both;
+}
+
+
+/* =========================================================
+   HERO HIGHLIGHTS
+   ========================================================= */
+
+.hero-highlights {
+    animation:
+        highlightsAppear 0.8s 0.45s both;
+}
+
+
+@keyframes highlightsAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+
+.hero-highlight {
+    position: relative;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.hero-highlight::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: -120%;
+
+    width: 80%;
+    height: 100%;
+
+    background:
+        linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.45),
+            transparent);
+
+    transform: skewX(-20deg);
+
+    transition:
+        left 0.6s ease;
+}
+
+
+.hero-highlight:hover::before {
+    left: 140%;
+}
+
+
+.hero-highlight:hover {
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 14px 30px rgba(22, 101, 52, 0.10);
+}
+
+
+.hero-highlight>span {
+    transition:
+        transform 0.3s ease;
+}
+
+
+.hero-highlight:hover>span {
+    transform:
+        scale(1.15) rotate(5deg);
+}
+
+
+/* =========================================================
+   BENTO VISUAL
+   ========================================================= */
+
+.hero-bento-visual {
+    animation:
+        bentoAppear 1s 0.35s both;
+}
+
+
+@keyframes bentoAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateX(30px) scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateX(0) scale(1);
+    }
+}
+
+
+/* =========================================================
+   MAIN DASHBOARD SECTION
+   ========================================================= */
+
+.dashboard-grid {
+    animation:
+        contentAppear 0.8s 0.2s both;
+}
+
+
+@keyframes contentAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+
+/* =========================================================
+   INPUT SECTION
+   ========================================================= */
+
+.input-section {
+    animation:
+        inputSectionAppear 0.7s 0.25s both;
+}
+
+
+@keyframes inputSectionAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(20px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0) scale(1);
+    }
+}
+
+
+/* =========================================================
+   FOOD INPUT CARD
+   ========================================================= */
+
+.food-input-card {
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+
+.food-input-card:hover {
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0 20px 45px rgba(22, 101, 52, 0.10);
+}
+
+
+/* =========================================================
+   FOOD CARDS
+   ========================================================= */
+
+.food-card {
+    transition:
+        transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+.food-card:hover {
+    transform:
+        translateY(-7px) scale(1.02);
+
+    box-shadow:
+        0 16px 35px rgba(22, 101, 52, 0.12);
+}
+
+
+.food-card.selected {
+    animation:
+        selectedFoodPulse 2s ease-in-out infinite;
+}
+
+
+@keyframes selectedFoodPulse {
+
+    0%,
+    100% {
+        box-shadow:
+            0 10px 30px rgba(34, 197, 94, 0.12);
+    }
+
+    50% {
+        box-shadow:
+            0 14px 38px rgba(34, 197, 94, 0.23);
+    }
+}
+
+
+/* =========================================================
+   FOOD ICON
+   ========================================================= */
+
+.food-card-icon {
+    transition:
+        transform 0.35s ease;
+}
+
+
+.food-card:hover .food-card-icon {
+    transform:
+        scale(1.18) rotate(4deg);
+}
+
+
+/* =========================================================
+   RESULT / EMPTY PANELS
+   ========================================================= */
+
+.step-placeholder,
+.empty-result,
+.loading-result,
+.error-message {
+    animation:
+        panelAppear 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+
+@keyframes panelAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(20px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0) scale(1);
+    }
+}
+
+
+/* =========================================================
+   PLACEHOLDER ICON
+   ========================================================= */
+
+.placeholder-icon,
+.empty-food-visual {
+    animation:
+        foodIconFloat 3s ease-in-out infinite;
+}
+
+
+@keyframes foodIconFloat {
+
+    0%,
+    100% {
+        transform:
+            translateY(0) rotate(-3deg);
+    }
+
+    50% {
+        transform:
+            translateY(-9px) rotate(3deg);
+    }
+}
+
+
+/* =========================================================
+   EMPTY FEATURES
+   ========================================================= */
+
+.empty-features>div {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.empty-features>div:hover {
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 12px 28px rgba(22, 101, 52, 0.08);
+}
+
+
+.empty-features>div span {
+    display: inline-block;
+
+    transition:
+        transform 0.3s ease;
+}
+
+
+.empty-features>div:hover span {
+    transform:
+        scale(1.18) rotate(5deg);
+}
+
+
+/* =========================================================
+   LOADING ANIMATION
+   ========================================================= */
+
+.loading-spinner {
+    animation:
+        loadingRotate 1.2s linear infinite;
+}
+
+
+@keyframes loadingRotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.loading-result h2 {
+    animation:
+        loadingTextPulse 2s ease-in-out infinite;
+}
+
+
+@keyframes loadingTextPulse {
+
+    0%,
+    100% {
+        opacity: 0.65;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+
+/* =========================================================
+   PREDICTION RESULTS
+   ========================================================= */
+
+.prediction-results>* {
+    animation:
+        resultCardAppear 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+
+.prediction-results>*:nth-child(1) {
+    animation-delay: 0.05s;
+}
+
+
+.prediction-results>*:nth-child(2) {
+    animation-delay: 0.15s;
+}
+
+
+.prediction-results>*:nth-child(3) {
+    animation-delay: 0.25s;
+}
+
+
+.prediction-results>*:nth-child(4) {
+    animation-delay: 0.35s;
+}
+
+
+@keyframes resultCardAppear {
+
+    from {
+        opacity: 0;
+
+        transform:
+            translateY(20px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+
+        transform:
+            translateY(0) scale(1);
+    }
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.error-message {
+    animation:
+        errorShake 0.5s ease both;
+}
+
+
+@keyframes errorShake {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-6px);
+    }
+
+    40% {
+        transform: translateX(6px);
+    }
+
+    60% {
+        transform: translateX(-4px);
+    }
+
+    80% {
+        transform: translateX(4px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+/* =========================================================
+   REDUCE MOTION FOR USERS WHO REQUEST IT
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .dashboard *,
+    .dashboard::before,
+    .dashboard::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* =========================================================
+   SMART FOOD AI - NEW DASHBOARD DESIGN
+   ========================================================= */
+
+.dashboard {
+    position: relative;
+    min-height: 100vh;
+    padding: 28px 42px 60px;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 10% 10%,
+            rgba(34, 197, 94, 0.10),
+            transparent 30%),
+        radial-gradient(circle at 90% 20%,
+            rgba(16, 185, 129, 0.08),
+            transparent 28%),
+        #f7fbf8;
+}
+
+
+/* =========================================================
+   FLOATING FOOD
+   ========================================================= */
+
+.dashboard-floating-elements {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.dashboard-float {
+    position: absolute;
+    font-size: 28px;
+    opacity: 0.18;
+    animation: dashboardFloat 7s ease-in-out infinite;
+}
+
+.float-food-1 {
+    top: 12%;
+    left: 4%;
+}
+
+.float-food-2 {
+    top: 28%;
+    right: 5%;
+    animation-delay: 1s;
+}
+
+.float-food-3 {
+    top: 55%;
+    left: 2%;
+    animation-delay: 2s;
+}
+
+.float-food-4 {
+    top: 72%;
+    right: 4%;
+    animation-delay: 3s;
+}
+
+.float-food-5 {
+    top: 88%;
+    left: 10%;
+    animation-delay: 4s;
+}
+
+@keyframes dashboardFloat {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-18px) rotate(8deg);
+    }
+}
+
+
+/* =========================================================
+   WELCOME HERO
+   ========================================================= */
+
+.dashboard-welcome {
+    position: relative;
+    z-index: 1;
+
+    display: grid;
+    grid-template-columns: 1.35fr 0.65fr;
+    gap: 30px;
+
+    max-width: 1400px;
+    margin: 0 auto 38px;
+
+    padding: 42px;
+
+    border: 1px solid rgba(22, 101, 52, 0.10);
+    border-radius: 30px;
+
+    background:
+        linear-gradient(135deg,
+            rgba(255, 255, 255, 0.96),
+            rgba(240, 253, 244, 0.92));
+
+    box-shadow:
+        0 20px 60px rgba(22, 101, 52, 0.08);
+
+    overflow: hidden;
+
+    animation:
+        dashboardEnter 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.dashboard-welcome::before {
+    content: "";
+
+    position: absolute;
+
+    width: 350px;
+    height: 350px;
+
+    right: -120px;
+    top: -160px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(34, 197, 94, 0.18),
+            transparent 70%);
+
+    pointer-events: none;
+}
+
+.dashboard-welcome::after {
+    content: "";
+
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    left: -120px;
+    bottom: -140px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(16, 185, 129, 0.12),
+            transparent 70%);
+
+    pointer-events: none;
+}
+
+@keyframes dashboardEnter {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================================
+   WELCOME CONTENT
+   ========================================================= */
+
+.welcome-content {
+    position: relative;
+    z-index: 2;
+}
+
+.welcome-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 22px;
+}
+
+.dashboard-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 13px;
+
+    border-radius: 999px;
+
+    background: rgba(34, 197, 94, 0.09);
+
+    color: #166534;
+
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+
+    background: #22c55e;
+
+    box-shadow:
+        0 0 0 5px rgba(34, 197, 94, 0.12);
+
+    animation: statusPulse 2s infinite;
+}
+
+@keyframes statusPulse {
+
+    0%,
+    100% {
+        box-shadow:
+            0 0 0 4px rgba(34, 197, 94, 0.10);
+    }
+
+    50% {
+        box-shadow:
+            0 0 0 8px rgba(34, 197, 94, 0.04);
+    }
+}
+
+.welcome-user {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.welcome-user strong {
+    color: #166534;
+    margin-left: 5px;
+}
+
+
+/* =========================================================
+   MAIN TITLE
+   ========================================================= */
+
+.dashboard-title {
+    margin: 0;
+
+    font-size: clamp(42px, 5vw, 68px);
+    line-height: 0.98;
+
+    font-weight: 900;
+
+    letter-spacing: -3px;
+
+    color: #102a43;
+}
+
+.dashboard-title span {
+    display: block;
+
+    background:
+        linear-gradient(90deg,
+            #166534,
+            #16a34a,
+            #059669);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.dashboard-subtitle {
+    max-width: 700px;
+
+    margin: 22px 0 28px;
+
+    color: #64748b;
+
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   DASHBOARD STATS
+   ========================================================= */
+
+.dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 13px;
+
+    max-width: 720px;
+}
+
+.dashboard-stat-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 14px;
+
+    border: 1px solid rgba(22, 101, 52, 0.08);
+    border-radius: 16px;
+
+    background: rgba(255, 255, 255, 0.75);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.dashboard-stat-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 14px 30px rgba(22, 101, 52, 0.10);
+}
+
+.stat-icon {
+    width: 42px;
+    height: 42px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: #ecfdf3;
+
+    font-size: 21px;
+}
+
+.dashboard-stat-card strong {
+    display: block;
+
+    color: #183b56;
+
+    font-size: 13px;
+}
+
+.dashboard-stat-card span {
+    display: block;
+
+    margin-top: 3px;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   AI VISUAL
+   ========================================================= */
+
+.dashboard-ai-visual {
+    position: relative;
+
+    min-height: 320px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ai-glow {
+    position: absolute;
+
+    width: 260px;
+    height: 260px;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(circle,
+            rgba(34, 197, 94, 0.18),
+            transparent 68%);
+
+    filter: blur(10px);
+
+    animation: aiGlow 4s ease-in-out infinite;
+}
+
+@keyframes aiGlow {
+
+    0%,
+    100% {
+        transform: scale(0.95);
+        opacity: 0.65;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+.ai-circle {
+    position: absolute;
+
+    border: 1px solid rgba(34, 197, 94, 0.25);
+
+    border-radius: 50%;
+}
+
+.ai-circle-one {
+    width: 250px;
+    height: 250px;
+
+    animation:
+        aiRotate 15s linear infinite;
+}
+
+.ai-circle-two {
+    width: 180px;
+    height: 180px;
+
+    border-style: dashed;
+
+    animation:
+        aiRotate 10s linear infinite reverse;
+}
+
+@keyframes aiRotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ai-center {
+    position: relative;
+    z-index: 3;
+
+    width: 125px;
+    height: 125px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(145deg,
+            #ffffff,
+            #ecfdf3);
+
+    border: 1px solid rgba(34, 197, 94, 0.20);
+
+    box-shadow:
+        0 15px 45px rgba(22, 101, 52, 0.15);
+
+    animation:
+        aiBreath 3s ease-in-out infinite;
+}
+
+@keyframes aiBreath {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.04);
+    }
+}
+
+.ai-brain {
+    font-size: 34px;
+}
+
+.ai-center strong {
+    color: #166534;
+
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.ai-center small {
+    color: #94a3b8;
+
+    font-size: 7px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+}
+
+.ai-orbit-item {
+    position: absolute;
+    z-index: 4;
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 10px 25px rgba(15, 23, 42, 0.10);
+
+    font-size: 22px;
+
+    animation:
+        orbitFloat 3s ease-in-out infinite;
+}
+
+.orbit-food-a {
+    top: 35px;
+    left: 20%;
+}
+
+.orbit-food-b {
+    right: 12%;
+    top: 48%;
+    animation-delay: 0.8s;
+}
+
+.orbit-food-c {
+    bottom: 35px;
+    left: 25%;
+    animation-delay: 1.6s;
+}
+
+@keyframes orbitFloat {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-9px);
+    }
+}
+
+
+/* =========================================================
+   ANALYSIS HEADING
+   ========================================================= */
+
+.analysis-heading {
+    position: relative;
+    z-index: 2;
+
+    max-width: 1400px;
+
+    margin: 0 auto 22px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    gap: 25px;
+}
+
+.section-label {
+    display: inline-block;
+
+    margin-bottom: 7px;
+
+    color: #16a34a;
+
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.analysis-heading h2 {
+    margin: 0;
+
+    color: #102a43;
+
+    font-size: 30px;
+    font-weight: 850;
+    letter-spacing: -0.8px;
+}
+
+.analysis-heading p {
+    margin: 7px 0 0;
+
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   STEP INDICATOR
+   ========================================================= */
+
+.analysis-step-indicator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 9px 13px;
+
+    border-radius: 15px;
+
+    background: #ffffff;
+
+    border: 1px solid rgba(15, 23, 42, 0.06);
+
+    box-shadow:
+        0 8px 25px rgba(15, 23, 42, 0.05);
+}
+
+.analysis-step {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.analysis-step span {
+    width: 27px;
+    height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #f1f5f9;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+.analysis-step.active {
+    color: #166534;
+}
+
+.analysis-step.active span {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.step-line {
+    width: 30px;
+    height: 1px;
+
+    background: #e2e8f0;
+}
+
+
+/* =========================================================
+   MAIN GRID
+   ========================================================= */
+
+.dashboard-grid {
+    position: relative;
+    z-index: 2;
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 0.95fr) minmax(0, 1.05fr);
+
+    gap: 24px;
+
+    align-items: start;
+}
+
+
+/* =========================================================
+   INPUT SECTION
+   ========================================================= */
+
+.input-section {
+    min-width: 0;
+
+    padding: 24px;
+
+    border-radius: 25px;
+
+    background: #ffffff;
+
+    border: 1px solid rgba(15, 23, 42, 0.06);
+
+    box-shadow:
+        0 15px 45px rgba(15, 23, 42, 0.06);
+}
+
+.section-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+
+    padding-bottom: 18px;
+
+    border-bottom: 1px solid #eef2f7;
+}
+
+.section-card-header span {
+    color: #16a34a;
+
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.section-card-header h3 {
+    margin: 4px 0 0;
+
+    color: #102a43;
+
+    font-size: 22px;
+}
+
+.header-icon {
+    width: 46px;
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+
+    background: #ecfdf3;
+
+    font-size: 22px;
+}
+
+
+/* =========================================================
+   FOOD FORM WIDTH FIX
+   ========================================================= */
+
+.input-section .food-input-card {
+    width: 100%;
+    box-shadow: none;
+    border: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.input-section .food-card-grid {
+    width: 100%;
+}
+
+
+/* =========================================================
+   RESULTS SECTION
+   ========================================================= */
+
+.results-section {
+    min-width: 0;
+}
+
+
+/* =========================================================
+   PLACEHOLDER
+   ========================================================= */
+
+.modern-placeholder,
+.modern-ready-card {
+    min-height: 520px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    text-align: center;
+
+    border-radius: 25px;
+
+    background:
+        linear-gradient(145deg,
+            #ffffff,
+            #f5fbf7);
+
+    border: 1px solid rgba(22, 101, 52, 0.07);
+
+    box-shadow:
+        0 15px 45px rgba(15, 23, 42, 0.05);
+}
+
+.placeholder-orb,
+.ready-icon {
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 22px;
+
+    border-radius: 30px;
+
+    background:
+        linear-gradient(145deg,
+            #dcfce7,
+            #f0fdf4);
+
+    box-shadow:
+        0 15px 40px rgba(34, 197, 94, 0.12);
+
+    font-size: 45px;
+
+    animation:
+        dashboardFoodFloat 3s ease-in-out infinite;
+}
+
+@keyframes dashboardFoodFloat {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(-2deg);
+    }
+
+    50% {
+        transform: translateY(-10px) rotate(2deg);
+    }
+}
+
+.placeholder-label {
+    color: #16a34a;
+
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1.7px;
+}
+
+.modern-placeholder h2,
+.modern-ready-card h2 {
+    margin: 9px 0 10px;
+
+    color: #102a43;
+
+    font-size: 27px;
+}
+
+.modern-placeholder p,
+.modern-ready-card p {
+    max-width: 460px;
+
+    margin: 0;
+
+    color: #64748b;
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.placeholder-points {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 9px;
+
+    margin-top: 24px;
+}
+
+.placeholder-points span {
+    padding: 8px 12px;
+
+    border-radius: 999px;
+
+    background: #f0fdf4;
+
+    color: #166534;
+
+    font-size: 11px;
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   READY FEATURES
+   ========================================================= */
+
+.ready-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 100%;
+    max-width: 500px;
+
+    gap: 10px;
+
+    margin-top: 28px;
+}
+
+.ready-features>div {
+    padding: 15px 10px;
+
+    border-radius: 15px;
+
+    background: #ffffff;
+
+    border: 1px solid #eef2f7;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.ready-features>div:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 12px 25px rgba(15, 23, 42, 0.07);
+}
+
+.ready-features span {
+    display: block;
+
+    margin-bottom: 6px;
+
+    font-size: 20px;
+}
+
+.ready-features strong {
+    display: block;
+
+    color: #183b56;
+
+    font-size: 11px;
+}
+
+.ready-features small {
+    display: block;
+
+    margin-top: 3px;
+
+    color: #94a3b8;
+
+    font-size: 9px;
+}
+
+
+/* =========================================================
+   LOADING
+   ========================================================= */
+
+.modern-loading {
+    min-height: 520px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    text-align: center;
+
+    border-radius: 25px;
+
+    background: #ffffff;
+
+    border: 1px solid rgba(15, 23, 42, 0.06);
+
+    box-shadow:
+        0 15px 45px rgba(15, 23, 42, 0.06);
+}
+
+.loading-ai-ring {
+    width: 105px;
+    height: 105px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 25px;
+
+    border-radius: 50%;
+
+    border:
+        3px solid #dcfce7;
+
+    border-top-color: #16a34a;
+
+    animation:
+        loadingSpin 1s linear infinite;
+}
+
+.loading-ai-ring div {
+    animation:
+        loadingCounterSpin 1s linear infinite;
+
+    font-size: 38px;
+}
+
+@keyframes loadingSpin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loadingCounterSpin {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.loading-label {
+    color: #16a34a;
+
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.modern-loading h2 {
+    margin: 9px 0;
+
+    color: #102a43;
+
+    font-size: 24px;
+}
+
+.modern-loading p {
+    max-width: 430px;
+
+    color: #64748b;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.loading-progress {
+    width: min(320px, 80%);
+
+    height: 5px;
+
+    margin-top: 20px;
+
+    overflow: hidden;
+
+    border-radius: 999px;
+
+    background: #ecfdf3;
+}
+
+.loading-progress span {
+    display: block;
+
+    width: 45%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    background:
+        linear-gradient(90deg,
+            #16a34a,
+            #34d399);
+
+    animation:
+        loadingProgress 1.5s ease-in-out infinite;
+}
+
+@keyframes loadingProgress {
+    0% {
+        transform: translateX(-120%);
+    }
+
+    100% {
+        transform: translateX(300%);
+    }
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.modern-error {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+
+    padding: 25px;
+
+    border-radius: 22px;
+
+    background: #fff7f7;
+
+    border: 1px solid #fecaca;
+
+    animation:
+        errorAppear 0.4s ease;
+}
+
+@keyframes errorAppear {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.error-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 15px;
+
+    background: #fee2e2;
+
+    font-size: 23px;
+}
+
+.modern-error>div:last-child>span {
+    color: #dc2626;
+
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.modern-error h3 {
+    margin: 4px 0 7px;
+
+    color: #991b1b;
+}
+
+.modern-error p {
+    margin: 0 0 5px;
+
+    color: #7f1d1d;
+
+    font-size: 13px;
+}
+
+.modern-error small {
+    color: #b91c1c;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   RESULT HEADER
+   ========================================================= */
+
+.prediction-results {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.result-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 21px 24px;
+
+    border-radius: 20px;
+
+    background:
+        linear-gradient(135deg,
+            #ffffff,
+            #f0fdf4);
+
+    border:
+        1px solid rgba(34, 197, 94, 0.10);
+}
+
+.result-header span {
+    color: #16a34a;
+
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+}
+
+.result-header h2 {
+    margin: 5px 0 0;
+
+    color: #102a43;
+
+    font-size: 22px;
+}
+
+.result-success-icon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #dcfce7;
+
+    color: #16a34a;
+
+    font-size: 22px;
+    font-weight: 900;
+}
+
+
+/* =========================================================
+   BOTTOM INFORMATION
+   ========================================================= */
+
+.dashboard-bottom-info {
+    position: relative;
+    z-index: 2;
+
+    max-width: 1400px;
+
+    margin: 38px auto 0;
+
+    padding: 30px;
+
+    border-radius: 24px;
+
+    background:
+        linear-gradient(135deg,
+            #102a43,
+            #163f59);
+
+    color: #ffffff;
+
+    overflow: hidden;
+}
+
+.dashboard-bottom-info::after {
+    content: "";
+
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    right: -100px;
+    top: -120px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(34, 197, 94, 0.12);
+}
+
+.bottom-info-content {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 35px;
+}
+
+.bottom-info-content .section-label {
+    color: #86efac;
+}
+
+.bottom-info-content h2 {
+    max-width: 480px;
+
+    margin: 5px 0 0;
+
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.bottom-steps {
+    display: flex;
+
+    gap: 12px;
+}
+
+.bottom-step {
+    min-width: 145px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 13px;
+
+    border:
+        1px solid rgba(255, 255, 255, 0.10);
+
+    border-radius: 14px;
+
+    background:
+        rgba(255, 255, 255, 0.05);
+}
+
+.bottom-step>span {
+    color: #86efac;
+
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.bottom-step strong {
+    display: block;
+
+    color: #ffffff;
+
+    font-size: 12px;
+}
+
+.bottom-step small {
+    display: block;
+
+    margin-top: 2px;
+
+    color: #a8b8c8;
+
+    font-size: 9px;
+}
+
+
+/* =========================================================
+   STEP ONE
+   ========================================================= */
+
+.step-one-layout {
+    grid-template-columns: 1fr;
+}
+
+.step-one-layout .input-section {
+    width: 100%;
+}
+
+.step-one-layout .results-section {
+    display: none;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1100px) {
+
+    .dashboard {
+        padding: 22px 25px 45px;
+    }
+
+    .dashboard-welcome {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-ai-visual {
+        min-height: 260px;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .step-one-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .step-one-layout .results-section {
+        display: none;
+    }
+
+    .bottom-info-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .dashboard {
+        padding: 16px 14px 35px;
+    }
+
+    .dashboard-welcome {
+        padding: 25px 20px;
+
+        border-radius: 22px;
+    }
+
+    .welcome-top-row {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .dashboard-title {
+        font-size: 43px;
+        letter-spacing: -2px;
+    }
+
+    .dashboard-subtitle {
+        font-size: 14px;
+    }
+
+    .dashboard-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-ai-visual {
+        min-height: 220px;
+    }
+
+    .ai-circle-one {
+        width: 190px;
+        height: 190px;
+    }
+
+    .ai-circle-two {
+        width: 140px;
+        height: 140px;
+    }
+
+    .analysis-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .analysis-step-indicator {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .input-section {
+        padding: 17px;
+        border-radius: 20px;
+    }
+
+    .modern-placeholder,
+    .modern-ready-card,
+    .modern-loading {
+        min-height: 430px;
+        padding: 25px 18px;
+    }
+
+    .ready-features {
+        grid-template-columns: 1fr;
+    }
+
+    .bottom-steps {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .bottom-step {
+        width: 100%;
+    }
+
+    .dashboard-bottom-info {
+        padding: 24px 20px;
+    }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .dashboard *,
+    .dashboard::before,
+    .dashboard::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

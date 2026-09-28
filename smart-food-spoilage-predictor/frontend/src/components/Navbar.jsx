@@ -1,10 +1,16 @@
-function Navbar({ currentPage, onNavigate }) {
+function Navbar({
+    currentPage,
+    onNavigate,
+    onLogout
+}) {
     return (
         <nav className="navbar">
 
             <div
                 className="navbar-brand"
-                onClick={() => onNavigate("dashboard")}
+                onClick={() =>
+                    onNavigate("dashboard")
+                }
             >
                 <div className="brand-icon">
                     🧠
@@ -24,6 +30,8 @@ function Navbar({ currentPage, onNavigate }) {
 
             <div className="navbar-links">
 
+                {/* Dashboard */}
+
                 <button
                     className={
                         currentPage === "dashboard"
@@ -38,6 +46,8 @@ function Navbar({ currentPage, onNavigate }) {
                 </button>
 
 
+                {/* History */}
+
                 <button
                     className={
                         currentPage === "history"
@@ -49,6 +59,16 @@ function Navbar({ currentPage, onNavigate }) {
                     }
                 >
                     History
+                </button>
+
+
+                {/* Logout */}
+
+                <button
+                    className="nav-link logout-link"
+                    onClick={onLogout}
+                >
+                    Logout
                 </button>
 
             </div>
