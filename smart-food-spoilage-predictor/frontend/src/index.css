@@ -2126,10 +2126,13 @@ button {
 }
 
 @keyframes bentoPulse {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1);
         opacity: 0.8;
     }
+
     50% {
         transform: scale(1.3);
         opacity: 1;
@@ -2153,6 +2156,7 @@ button {
         opacity: 0;
         transform: translateY(6px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -2226,4 +2230,570 @@ button {
     .bento-gallery-grid {
         grid-template-columns: 1fr;
     }
-}
+}
+
+/* =========================================================
+   HISTORY PAGE
+   ========================================================= */
+
+.history-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 45px 30px 80px;
+}
+
+
+/* =========================================================
+   HISTORY HEADER
+   ========================================================= */
+
+.history-header {
+    margin-bottom: 35px;
+}
+
+.history-header h1 {
+    margin: 8px 0 10px;
+    color: #123451;
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.history-header>p:not(.eyebrow) {
+    margin: 0;
+    color: #718392;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   HISTORY TOP BAR
+   ========================================================= */
+
+.history-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 22px;
+}
+
+.history-topbar h2 {
+    margin: 0 0 5px;
+    color: #123451;
+    font-size: 25px;
+    font-weight: 750;
+}
+
+.history-topbar p {
+    margin: 0;
+    color: #718392;
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   CLEAR HISTORY BUTTON
+   ========================================================= */
+
+.clear-history-btn {
+    border: 1px solid #ffd2d2;
+    border-radius: 12px;
+    padding: 11px 18px;
+    background: #fff6f6;
+    color: #c0392b;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.clear-history-btn:hover {
+    background: #ffeaea;
+    border-color: #f3aaaa;
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   HISTORY LIST
+   ========================================================= */
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+
+/* =========================================================
+   HISTORY CARD
+   ========================================================= */
+
+.history-card {
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    width: 100%;
+    padding: 22px;
+
+    border: 1px solid #dcece4;
+    border-radius: 20px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 8px 25px rgba(30, 89, 63, 0.06);
+
+    cursor: pointer;
+
+    text-align: left;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.history-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #a8d9c0;
+
+    box-shadow:
+        0 15px 35px rgba(30, 89, 63, 0.12);
+}
+
+
+/* =========================================================
+   FOOD ICON
+   ========================================================= */
+
+.history-card-icon {
+    flex-shrink: 0;
+
+    width: 68px;
+    height: 68px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background: #e8f8ef;
+
+    font-size: 34px;
+}
+
+
+/* =========================================================
+   CARD MAIN
+   ========================================================= */
+
+.history-card-main {
+    flex: 1;
+    min-width: 0;
+}
+
+
+/* =========================================================
+   CARD TITLE
+   ========================================================= */
+
+.history-card-title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 14px;
+}
+
+.history-card-title h3 {
+    margin: 0 0 4px;
+
+    color: #123451;
+
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.history-date {
+    margin: 0;
+
+    color: #8999a5;
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   RISK BADGE
+   ========================================================= */
+
+.history-risk {
+    flex-shrink: 0;
+
+    padding: 7px 13px;
+
+    border-radius: 999px;
+
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+/* Safe */
+
+.history-risk.safe {
+    background: #e3f8ed;
+    color: #168354;
+}
+
+
+/* Warning */
+
+.history-risk.warning {
+    background: #fff4d8;
+    color: #a56a00;
+}
+
+
+/* High Risk */
+
+.history-risk.high-risk {
+    background: #ffe4e4;
+    color: #c0392b;
+}
+
+
+/* =========================================================
+   CARD DETAILS
+   ========================================================= */
+
+.history-card-details {
+    display: grid;
+
+    grid-template-columns:
+        repeat(5, minmax(120px, 1fr));
+
+    gap: 12px;
+}
+
+
+.history-detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+
+    min-width: 0;
+}
+
+
+.history-detail>span {
+    flex-shrink: 0;
+
+    font-size: 17px;
+}
+
+
+.history-detail div {
+    min-width: 0;
+}
+
+
+.history-detail small {
+    display: block;
+
+    margin-bottom: 3px;
+
+    color: #8999a5;
+
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+.history-detail strong {
+    display: block;
+
+    overflow: hidden;
+
+    color: #29465a;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   CARD ACTIONS
+   ========================================================= */
+
+.history-card-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    align-self: stretch;
+
+    min-width: 35px;
+}
+
+
+/* =========================================================
+   DELETE SINGLE HISTORY
+   ========================================================= */
+
+.history-delete-btn {
+    width: 34px;
+    height: 34px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #ffd6d6;
+    border-radius: 10px;
+
+    background: #fff6f6;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.history-delete-btn:hover {
+    background: #ffe4e4;
+    border-color: #f0aaaa;
+
+    transform: scale(1.08);
+}
+
+
+/* =========================================================
+   ARROW
+   ========================================================= */
+
+.history-card-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 34px;
+    height: 34px;
+
+    border-radius: 50%;
+
+    background: #e8f8ef;
+
+    color: #139667;
+
+    font-size: 18px;
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   BACK TO HISTORY BUTTON
+   ========================================================= */
+
+.history-back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 25px;
+
+    padding: 10px 17px;
+
+    border: 1px solid #cfe5da;
+    border-radius: 12px;
+
+    background: #ffffff;
+
+    color: #168354;
+
+    font-size: 13px;
+    font-weight: 750;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(30, 89, 63, 0.05);
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.history-back-button:hover {
+    background: #e8f8ef;
+
+    transform: translateX(-3px);
+
+    box-shadow:
+        0 8px 20px rgba(30, 89, 63, 0.10);
+}
+
+
+/* =========================================================
+   EMPTY HISTORY
+   ========================================================= */
+
+.history-empty {
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 45px;
+
+    border: 1px solid #dcece4;
+    border-radius: 22px;
+
+    background: #ffffff;
+
+    text-align: center;
+
+    box-shadow:
+        0 10px 30px rgba(30, 89, 63, 0.05);
+}
+
+.history-icon {
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    border-radius: 50%;
+
+    background: #e8f8ef;
+
+    font-size: 40px;
+}
+
+.history-empty h2 {
+    margin: 0 0 10px;
+
+    color: #123451;
+
+    font-size: 25px;
+}
+
+.history-empty p {
+    max-width: 430px;
+
+    margin: 0;
+
+    color: #718392;
+
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .history-card-details {
+        grid-template-columns:
+            repeat(2, minmax(140px, 1fr));
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .history-page {
+        padding: 30px 18px 60px;
+    }
+
+    .history-header h1 {
+        font-size: 32px;
+    }
+
+    .history-topbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .history-card {
+        gap: 14px;
+        padding: 17px;
+    }
+
+    .history-card-icon {
+        width: 52px;
+        height: 52px;
+
+        border-radius: 14px;
+
+        font-size: 27px;
+    }
+
+    .history-card-title {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .history-card-details {
+        grid-template-columns: 1fr;
+    }
+
+    .history-card-actions {
+        min-width: 32px;
+    }
+
+    .history-card-arrow {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .history-card {
+        display: grid;
+        grid-template-columns: auto 1fr;
+    }
+
+    .history-card-actions {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+
+    .history-card-title {
+        padding-right: 40px;
+    }
+
+}

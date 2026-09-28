@@ -9,6 +9,8 @@ import InteractiveBentoGallery from "../components/InteractiveBentoGallery";
 
 import { predictSpoilage } from "../services/api";
 
+const HISTORY_KEY = "food_spoilage_prediction_history";
+
 function Dashboard() {
     const [result, setResult] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -27,6 +29,57 @@ function Dashboard() {
             const data = await predictSpoilage(formData);
 
             setResult(data);
+
+            // ==========================================
+            // SAVE COMPLETE PREDICTION TO HISTORY
+            // ==========================================
+
+            const savedHistory =
+                localStorage.getItem(HISTORY_KEY);
+
+            let history = [];
+
+            if (savedHistory) {
+                try {
+                    history = JSON.parse(savedHistory);
+                } catch (error) {
+                    console.error(
+                        "Failed to read prediction history:",
+                        error
+                    );
+
+                    history = [];
+                }
+            }
+
+            const historyItem = {
+                id: Date.now(),
+
+                date: new Date().toLocaleString(),
+
+                // Complete input data
+                formData: {
+                    ...formData,
+                },
+
+                // Complete AI prediction
+                prediction: data.prediction,
+
+                // Complete explanation
+                explanation: data.explanation,
+
+                // Complete recommendations
+                recommendations: data.recommendations,
+            };
+
+            // Newest prediction comes first
+            history.unshift(historyItem);
+
+            localStorage.setItem(
+                HISTORY_KEY,
+                JSON.stringify(history)
+            );
+
         } catch (error) {
             setError(
                 error.message ||
@@ -72,29 +125,40 @@ function Dashboard() {
                             <span>🤖</span>
 
                             <div>
-                                <strong>AI Analysis</strong>
+                                <strong>
+                                    AI Analysis
+                                </strong>
+
                                 <small>
                                     Smart predictions
                                 </small>
                             </div>
                         </div>
 
+
                         <div className="hero-highlight">
                             <span>🛡️</span>
 
                             <div>
-                                <strong>Food Safety</strong>
+                                <strong>
+                                    Food Safety
+                                </strong>
+
                                 <small>
                                     Know the risk
                                 </small>
                             </div>
                         </div>
 
+
                         <div className="hero-highlight">
                             <span>🌿</span>
 
                             <div>
-                                <strong>Less Waste</strong>
+                                <strong>
+                                    Less Waste
+                                </strong>
+
                                 <small>
                                     Save food
                                 </small>
@@ -104,6 +168,7 @@ function Dashboard() {
                     </div>
 
                 </div>
+
 
                 <div className="hero-bento-visual">
                     <InteractiveBentoGallery />
@@ -140,6 +205,7 @@ function Dashboard() {
                     {currentStep === 1 &&
                         !result &&
                         !loading && (
+
                             <div className="step-placeholder">
 
                                 <div className="placeholder-icon">
@@ -165,6 +231,7 @@ function Dashboard() {
                     {currentStep === 2 &&
                         !result &&
                         !loading && (
+
                             <div className="empty-result">
 
                                 <div className="empty-food-visual">
@@ -181,6 +248,7 @@ function Dashboard() {
                                     "Predict Spoilage".
                                 </p>
 
+
                                 <div className="empty-features">
 
                                     <div>
@@ -195,6 +263,7 @@ function Dashboard() {
                                         </small>
                                     </div>
 
+
                                     <div>
                                         <span>🛡️</span>
 
@@ -207,6 +276,7 @@ function Dashboard() {
                                         </small>
                                     </div>
 
+
                                     <div>
                                         <span>🌱</span>
 
@@ -218,6 +288,7 @@ function Dashboard() {
                                             Better decisions
                                         </small>
                                     </div>
+
 
                                     <div>
                                         <span>❤️</span>
@@ -240,6 +311,7 @@ function Dashboard() {
                     {/* LOADING */}
 
                     {loading && (
+
                         <div className="loading-result">
 
                             <div className="loading-spinner">
@@ -263,6 +335,7 @@ function Dashboard() {
                     {/* ERROR */}
 
                     {error && (
+
                         <div className="error-message">
 
                             <h3>
@@ -285,6 +358,7 @@ function Dashboard() {
                     {/* PREDICTION RESULTS */}
 
                     {result && !loading && (
+
                         <div className="prediction-results">
 
                             <RiskIndicator
@@ -292,26 +366,31 @@ function Dashboard() {
                                     result.prediction
                                         ?.spoilage_risk
                                 }
+
                                 confidence={
                                     result.prediction
                                         ?.confidence
                                 }
                             />
 
+
                             <PredictionCard
                                 prediction={
                                     result.prediction
                                 }
+
                                 foodData={
                                     lastFormData
                                 }
                             />
+
 
                             <ExplanationCard
                                 explanation={
                                     result.explanation
                                 }
                             />
+
 
                             <RecommendationCard
                                 recommendations={
